@@ -1,0 +1,30 @@
+{
+  "typeScale": {
+    "displayOption2": {
+      "small": {
+        "value": "{fontSize.14}",
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": "{fontSize.16}",
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": "{fontSize.20}",
+        "type": "fontSizes"
+      },
+      "xlarge": {
+        "value": "{fontSize.22}",
+        "type": "fontSizes"
+      },
+      "2xlarge": {
+        "value": "{fontSize.24}",
+        "type": "fontSizes"
+      },
+      "3xlarge": {
+        "value": "{fontSize.32}",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

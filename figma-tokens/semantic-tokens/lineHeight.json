@@ -1,0 +1,24 @@
+{
+  "lineHeight": {
+    "body": {
+      "default": {
+        "value": "{lineHeight.24}",
+        "type": "lineHeights",
+        "description": "The default line height for body copy across the product."
+      },
+      "tight": {
+        "value": "{lineHeight.18}",
+        "type": "lineHeights"
+      }
+    },
+    "display": {
+      "value": "{lineHeight.normal}",
+      "type": "lineHeights",
+      "description": "All headlines of our type scale are set to normal aka 1.2 (unitless)"
+    },
+    "code": {
+      "value": "{lineHeight.body.default}",
+      "type": "lineHeights"
+    }
+  }
+}

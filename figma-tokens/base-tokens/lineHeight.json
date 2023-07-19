@@ -1,0 +1,24 @@
+{
+  "lineHeight": {
+    "18": {
+      "value": "18px",
+      "type": "lineHeights",
+      "description": "Used for Microcopy"
+    },
+    "22": {
+      "value": "22px",
+      "type": "lineHeights",
+      "description": "Line height of text within an Input"
+    },
+    "24": {
+      "value": "24px",
+      "type": "lineHeights",
+      "description": "Used for body copy. The default, universal line-height for text in the App."
+    },
+    "normal": {
+      "value": "1.2",
+      "type": "lineHeights",
+      "description": "Widely used CSS rule throughout our components. Typically unitless line height equals 1.2 of the type it is applied to. The name normal, related to the CSS rule \"normal\" which is how this is represented in our codebase. Because Figma doesn't understand 1.2 as a unitless lineheight, we have to perform some mathematical operations. In the transformation process we can resolve this, but it currently leaves us with pixel line height values rather than unitless values."
+    }
+  }
+}

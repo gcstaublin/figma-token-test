@@ -1,0 +1,24 @@
+{
+  "fontWeight": {
+    "300": {
+      "value": "Light",
+      "type": "fontWeights",
+      "description": "300 = Light. \nAs part of the font migration there was a technical decision to render Lexend Deca Light when the CSS value \"regular\" or \"400\" is used. The correct value is 300."
+    },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights",
+      "description": "500 = Medium"
+    },
+    "600": {
+      "value": "SemiBold",
+      "type": "fontWeights",
+      "description": "600 = Semi Bold (Demibold)"
+    },
+    "700": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "description": "700 = Bold"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "text": {
+    "body": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.body.default}",
+        "lineHeight": "{lineHeight.body.default}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.body.default}"
+      },
+      "type": "typography",
+      "description": "Default body copy. Composite token."
+    },
+    "microcopy": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.body.default}",
+        "lineHeight": "{lineHeight.body.tight}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.body.small}"
+      },
+      "type": "typography"
+    },
+    "code": {
+      "value": {
+        "fontFamily": "{fontFamily.code}",
+        "fontWeight": "{fontWeight.code.default}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.body.default}",
+        "lineHeight": "{lineHeight.body.default}"
+      },
+      "type": "typography"
+    }
+  },
+  "display": {
+    "heading1": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.display.bold}",
+        "lineHeight": "{typeScale.display.heading1} * {lineHeight.display}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.display.heading1}"
+      },
+      "type": "typography"
+    },
+    "heading2": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "lineHeight": "{typeScale.display.heading2} * {lineHeight.display}",
+        "fontSize": "{typeScale.display.heading2}",
+        "textCase": "{textTransform.none}",
+        "fontWeight": "{fontWeight.display.light}"
+      },
+      "type": "typography"
+    },
+    "heading3": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.display.medium}",
+        "lineHeight": "{typeScale.display.heading3} * {lineHeight.display}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.display.heading3}"
+      },
+      "type": "typography"
+    },
+    "heading4": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "lineHeight": "{typeScale.display.heading4} * {lineHeight.display}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.display.heading4}",
+        "fontWeight": "{fontWeight.display.default}"
+      },
+      "type": "typography"
+    },
+    "heading5": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "lineHeight": "{typeScale.display.heading5} * {lineHeight.display}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.display.heading5}",
+        "fontWeight": "{fontWeight.display.default}"
+      },
+      "type": "typography"
+    },
+    "heading6": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "lineHeight": "{typeScale.display.heading6} * {lineHeight.display}",
+        "textCase": "{textTransform.uppercase}",
+        "fontSize": "{typeScale.display.heading6}",
+        "fontWeight": "{fontWeight.display.default}"
+      },
+      "type": "typography"
+    },
+    "heading7": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.display.default}",
+        "fontSize": "{typeScale.display.heading6}",
+        "textCase": "{textTransform.none}",
+        "lineHeight": "{typeScale.display.heading6} * {lineHeight.display}"
+      },
+      "type": "typography"
+    },
+    "tagline": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.display.bold}",
+        "fontSize": "{fontSize.55}",
+        "lineHeight": "{fontSize.55} * {lineHeight.display}",
+        "textCase": "{textTransform.none}"
+      },
+      "type": "typography"
+    }
+  },
+  "form": {
+    "label": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.500}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.body.default}",
+        "lineHeight": "{lineHeight.body.default}"
+      },
+      "type": "typography"
+    },
+    "input": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "lineHeight": "{lineHeight.22}",
+        "textCase": "{textTransform.none}",
+        "fontSize": "{typeScale.body.large}",
+        "fontWeight": "{fontWeight.body.default}"
+      },
+      "type": "typography"
+    }
+  }
+}

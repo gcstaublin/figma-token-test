@@ -1,0 +1,58 @@
+{
+  "typeScale": {
+    "body": {
+      "default": {
+        "value": "{typeScale.body.medium}",
+        "type": "fontSizes",
+        "description": "Default size of body copy"
+      },
+      "small": {
+        "value": "{fontSize.12}",
+        "type": "fontSizes",
+        "description": "The size of microcopy"
+      },
+      "medium": {
+        "value": "{fontSize.14}",
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": "{fontSize.16}",
+        "type": "fontSizes",
+        "description": "The size of text within an input"
+      }
+    },
+    "display": {
+      "heading1": {
+        "value": "{fontSize.32}",
+        "type": "fontSizes"
+      },
+      "heading2": {
+        "value": "{fontSize.24}",
+        "type": "fontSizes"
+      },
+      "heading3": {
+        "value": "{fontSize.22}",
+        "type": "fontSizes"
+      },
+      "heading4": {
+        "value": "{fontSize.20}",
+        "type": "fontSizes"
+      },
+      "heading5": {
+        "value": "{fontSize.16}",
+        "type": "fontSizes"
+      },
+      "heading6": {
+        "value": "{fontSize.14}",
+        "type": "fontSizes"
+      }
+    },
+    "code": {
+      "default": {
+        "value": "{typeScale.body.default}",
+        "type": "fontSizes",
+        "description": "The default size of code text"
+      }
+    }
+  }
+}

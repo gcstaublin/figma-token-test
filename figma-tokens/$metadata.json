@@ -1,0 +1,17 @@
+{
+  "tokenSetOrder": [
+    "base-tokens/color",
+    "base-tokens/fontSize",
+    "base-tokens/fontFamily",
+    "base-tokens/textTransform",
+    "base-tokens/fontWeight",
+    "base-tokens/lineHeight",
+    "semantic-tokens/color",
+    "semantic-tokens/typography",
+    "semantic-tokens/typeScale",
+    "semantic-tokens/lineHeight",
+    "semantic-tokens/fontWeight",
+    "Working_Tokens/typeScale_Copy",
+    "Working_Tokens/lineHeight_Copy"
+  ]
+}

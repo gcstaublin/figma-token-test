@@ -1,0 +1,41 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.Obsidian}",
+        "type": "color",
+        "description": "The default color of text in the product."
+      },
+      "subtle": {
+        "value": "{color.neutral.Slinky}",
+        "type": "color",
+        "description": "The color of microcopy in the product"
+      },
+      "nonessential": {
+        "value": "#7c98b6",
+        "type": "color",
+        "description": "The color of placeholder text inside an input"
+      },
+      "disabled": {
+        "value": "#b0c1d4",
+        "type": "color",
+        "description": "The color text within a disabled interactive element"
+      },
+      "inverse": {
+        "value": "{color.neutral.Olaf}",
+        "type": "color",
+        "description": "The color of text when placed on a dark background\n"
+      },
+      "danger": {
+        "value": "{color.candy apple.default}",
+        "type": "color",
+        "description": "The color of micorcopy that indicates an error or danger message"
+      },
+      "success": {
+        "value": "{color.oz.default}",
+        "type": "color",
+        "description": "The color of micorcopy that indicates success or positive messaging"
+      }
+    }
+  }
+}

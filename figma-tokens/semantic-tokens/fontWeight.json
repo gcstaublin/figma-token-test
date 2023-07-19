@@ -1,0 +1,42 @@
+{
+  "fontWeight": {
+    "body": {
+      "default": {
+        "value": "{fontWeight.300}",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "{fontWeight.600}",
+        "type": "fontWeights"
+      }
+    },
+    "display": {
+      "light": {
+        "value": "{fontWeight.300}",
+        "type": "fontWeights",
+        "description": "Font weight of H2 variant"
+      },
+      "medium": {
+        "value": "{fontWeight.500}",
+        "type": "fontWeights",
+        "description": "Font weight of H3 variant\n"
+      },
+      "default": {
+        "value": "{fontWeight.600}",
+        "type": "fontWeights",
+        "description": "Font weight of PageHeading, H4, H5, H6, H7 variants."
+      },
+      "bold": {
+        "value": "{fontWeight.700}",
+        "type": "fontWeights",
+        "description": "Font weight of H1 variant"
+      }
+    },
+    "code": {
+      "default": {
+        "value": "{fontWeight.500}",
+        "type": "fontWeights"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "fontSize": {
+    "12": {
+      "value": "12px",
+      "type": "fontSizes",
+      "description": "Primarily used for microcopy."
+    },
+    "14": {
+      "value": "14px",
+      "type": "fontSizes",
+      "description": "Default size of body copy in product. Used across the vast majority of components."
+    },
+    "16": {
+      "value": "16px",
+      "type": "fontSizes",
+      "description": "Used in Forms and H5."
+    },
+    "20": {
+      "value": "20px",
+      "type": "fontSizes",
+      "description": "Used for H4 and Page Header components"
+    },
+    "22": {
+      "value": "22px",
+      "type": "fontSizes",
+      "description": "Used in H3"
+    },
+    "24": {
+      "value": "24px",
+      "type": "fontSizes",
+      "description": "Used in H2"
+    },
+    "32": {
+      "value": "32px",
+      "type": "fontSizes",
+      "description": "Used in H1."
+    },
+    "55": {
+      "value": "55px",
+      "type": "fontSizes",
+      "description": "Used in Tagline Heading."
+    }
+  }
+}
