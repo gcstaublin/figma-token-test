@@ -62,7 +62,8 @@
           "value": "{color.neutral.Eerie}",
           "type": "color",
           "description": "Control. Placeholder color"
-        }
+        },
+        "type": "other"
       }
     }
   }
