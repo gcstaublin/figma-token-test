@@ -68,7 +68,7 @@
     "normal": {
       "value": "1.2",
       "type": "lineHeights",
-      "description": "Widely used CSS rule throughout our components. Typically this equals 1.2, but the value could vary between browsers and useragent. It might be best for us to create leverage a token-1.2 rather than a keyword value like. In the context of Figma, it will treat 1.2 as 1.2px. To get the desired result this needs to be part of an equation {a.font.size} * {hds.lineHeight.normal}. This can only be accomplished within a composite Typography token, which will combine all the concerns of text into one token."
+      "description": "blah"
     },
     "inherit": {
       "value": "inherit",
