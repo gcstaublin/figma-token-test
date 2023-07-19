@@ -1,0 +1,69 @@
+{
+  "control": {
+    "color": {
+      "background": {
+        "default": {
+          "value": "{color.neutral.Gypsum}",
+          "type": "color",
+          "description": "Control. Background color."
+        },
+        "disabled": {
+          "value": "{color.neutral.Koala}",
+          "type": "color",
+          "description": "Control. Background Disabled color"
+        },
+        "readOnly": {
+          "value": "{control.color.background.disabled}",
+          "type": "color",
+          "description": "Control. Background ReadOnly color"
+        },
+        "onSurface": {
+          "value": "{color.neutral.Olaf}",
+          "type": "color",
+          "description": "Control. Background On Surface color"
+        }
+      },
+      "border": {
+        "idle": {
+          "value": "{color.neutral.Battleship}",
+          "type": "color",
+          "description": "Control. Border color"
+        },
+        "disabled": {
+          "value": "{control.color.background.disabled}",
+          "type": "color",
+          "description": "Control. Border Disabled color"
+        },
+        "readOnly": {
+          "value": "{control.color.background.readOnly}",
+          "type": "color",
+          "description": "Control. Border ReadOnly color"
+        }
+      },
+      "text": {
+        "value": {
+          "idle": {
+            "value": "{color.text.default}",
+            "type": "color",
+            "description": "Control. Text Value color"
+          },
+          "disabled": {
+            "value": "{color.neutral.Battleship}",
+            "type": "color",
+            "description": "Control. Text Value Disabled color"
+          },
+          "readOnly": {
+            "value": "{control.color.text.value.idle}",
+            "type": "color",
+            "description": "Control. Text Value ReadOnly color"
+          }
+        },
+        "placeholder": {
+          "value": "{color.neutral.Eerie}",
+          "type": "color",
+          "description": "Control. Placeholder color"
+        }
+      }
+    }
+  }
+}
