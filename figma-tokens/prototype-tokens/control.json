@@ -53,7 +53,7 @@
             "description": "Control. Text Value Disabled color"
           },
           "readOnly": {
-            "value": "{control.color.text.value.idle}",
+            "value": "{control.color.text.entered.idle}",
             "type": "color",
             "description": "Control. Text Value ReadOnly color"
           }
