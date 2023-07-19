@@ -41,7 +41,7 @@
         }
       },
       "text": {
-        "value": {
+        "entered": {
           "idle": {
             "value": "{color.text.default}",
             "type": "color",
