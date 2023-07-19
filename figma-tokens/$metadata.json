@@ -11,7 +11,7 @@
     "semantic-tokens/typeScale",
     "semantic-tokens/lineHeight",
     "semantic-tokens/fontWeight",
-    "Working_Tokens/typeScale_Copy",
-    "Working_Tokens/lineHeight_Copy"
+    "prototype-tokens/lineHeight_Copy",
+    "prototype-tokens/action"
   ]
 }

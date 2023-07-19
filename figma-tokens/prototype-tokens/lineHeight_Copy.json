@@ -1,0 +1,79 @@
+{
+  "lineHeight-full": {
+    "0": {
+      "value": "0px",
+      "type": "lineHeights",
+      "description": "Used in Breadcrumb arrows, Step Indicators"
+    },
+    "12": {
+      "value": "12px",
+      "type": "lineHeights",
+      "description": "?????????"
+    },
+    "14": {
+      "value": "14px",
+      "type": "lineHeights",
+      "description": "Used in Small Buttons"
+    },
+    "16": {
+      "value": "16px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "18": {
+      "value": "18px",
+      "type": "lineHeights",
+      "description": "Used for Microcopy"
+    },
+    "19": {
+      "value": "19px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "20": {
+      "value": "20px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "22": {
+      "value": "22px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "24": {
+      "value": "24px",
+      "type": "lineHeights",
+      "description": "Used for body copy. The default, universal line-height for text in the App."
+    },
+    "38": {
+      "value": "38px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "40": {
+      "value": "40px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "41": {
+      "value": "41px",
+      "type": "lineHeights",
+      "description": "Used to vertically center inside UIToggle"
+    },
+    "46": {
+      "value": "46px",
+      "type": "lineHeights",
+      "description": "Used in ?"
+    },
+    "normal": {
+      "value": "1.2",
+      "type": "lineHeights",
+      "description": "blah"
+    },
+    "inherit": {
+      "value": "inherit",
+      "type": "lineHeights",
+      "description": "Might not be a token?"
+    }
+  }
+}
