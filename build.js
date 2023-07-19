@@ -83,35 +83,44 @@ StyleDictionary.registerFilter({
   name: 'base-layer-filter',
   matcher: (token) => {
     switch (token.attributes.filePath) {
-      case 'tokens/base-tokens/color.json':
+      case 'figma-tokens/base-tokens/color.json':
         return token
-      case 'tokens/base-tokens/fontFamily.json':
+      case 'figma-tokens/base-tokens/fontFamily.json':
         return token
-      case 'tokens/base-tokens/fontSize.json':
+      case 'figma-tokens/base-tokens/fontSize.json':
         return token
-      case 'tokens/base-tokens/fontWeight.json':
+      case 'figma-tokens/base-tokens/fontWeight.json':
         return token
-      case 'tokens/base-tokens/lineHeight.json':
+      case 'figma-tokens/base-tokens/lineHeight.json':
         return token
-      case 'tokens/base-tokens/textTransform.json':
+      case 'figma-tokens/base-tokens/space.json':
+        return token
+      case 'figma-tokens/base-tokens/textTransform.json':
         return token
       default:
-        console.log('No more files');
+        console.log('All out of base layer files');
     }
   }
 });
 
 
-// StyleDictionary.registerFilter({
-//   name: 'semantic-layer-filter',
-//   matcher: (token) => {
-//     console.log(token.attributes)
-//     switch(token.attributes.filePath) {
-//       case 'tokens/semantic-tokens/typography.json' :
-//         return token
-//     }
-//   }
-// });
+StyleDictionary.registerFilter({
+  name: 'semantic-layer-filter',
+  matcher: (token) => {
+    switch (token.attributes.filePath) {
+      case 'figma-tokens/semantic-tokens/color.json':
+        return token
+      case 'figma-tokens/semantic-tokens/fontWeight.json':
+        return token
+      case 'figma-tokens/semantic-tokens/lineHeight.json':
+        return token
+      case 'figma-tokens/semantic-tokens/typeScale.json':
+        return token
+      default:
+        console.log('All out of semantic layer files');
+    }
+  }
+});
 
 
 
@@ -183,6 +192,15 @@ StyleDictionary.registerFilter({
 });
 
 
+StyleDictionary.registerFilter({
+  name: 'space-filter',
+  matcher: (token) => {
+    // console.log(token.attributes)
+    return token.attributes.category === 'space';
+  }
+});
+
+
 
 
 
@@ -209,7 +227,7 @@ const sd = StyleDictionary.extend({
     css: {
       prefix: prefix,
       transformGroup: 'custom-css',
-      buildPath: buildFolderAll,
+      buildPath: buildFolder,
       files: [{
         destination: 'css/all-variables.css',
         format: 'css/variables',
@@ -221,18 +239,18 @@ const sd = StyleDictionary.extend({
 
 
 
-    // "baseTS": {
-    //   prefix: prefix,
-    //   "transformGroup": "custom-ts",
-    //   buildPath: buildFolderLayers,
-    //   "files": [
-    //     {
-    //       "format": "javascript/es6",
-    //       "destination": "typescript/base-variables.ts",
-    //       filter: 'base-layer-filter'
-    //     },
-    //   ]
-    // },
+    "baseTS": {
+      prefix: prefix,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayers,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/base-variables.ts",
+          filter: 'base-layer-filter'
+        },
+      ]
+    },
 
 
     "semanticTS": {
@@ -342,6 +360,20 @@ const sd = StyleDictionary.extend({
     },
 
 
+    "spaceTS": {
+      prefix: prefix,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolder,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/space-variables.ts",
+          filter: 'space-filter'
+        },
+      ]
+    },
+
+
     "bodyTypographyTS": {
       prefix: prefix,
       "transformGroup": "custom-ts",
@@ -364,6 +396,32 @@ const sd = StyleDictionary.extend({
         {
           "format": "javascript/es6",
           "destination": "typescript/typography-display-variables.ts",
+          filter: 'display-typography-filter'
+        },
+      ]
+    },
+
+    "bodyTypographyLayersTS": {
+      prefix: prefix,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayers,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/semantic-typography-body-variables.ts",
+          filter: 'body-typography-filter'
+        },
+      ]
+    },
+
+    "displayTypographyLayersTS": {
+      prefix: prefix,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayers,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/semantic-typography-display-variables.ts",
           filter: 'display-typography-filter'
         },
       ]
