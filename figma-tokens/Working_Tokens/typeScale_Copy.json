@@ -24,6 +24,11 @@
       "3xlarge": {
         "value": "{fontSize.32}",
         "type": "fontSizes"
+      },
+      "new": {
+        "value": "100px",
+        "type": "fontSizes",
+        "description": "A test token"
       }
     }
   }
