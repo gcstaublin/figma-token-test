@@ -1,0 +1,103 @@
+{
+  "action": {
+    "color": {
+      "text": {
+        "default": {
+          "idle": {
+            "value": "{color.calypso.dark}",
+            "type": "color",
+            "description": "Default action. Idle."
+          },
+          "hover": {
+            "value": "#007a8c",
+            "type": "color",
+            "description": "Default action. Hover."
+          },
+          "active": {
+            "value": "{color.calypso.medium}",
+            "type": "color",
+            "description": "Default action. Active."
+          }
+        },
+        "visited": {
+          "value": "#000",
+          "type": "color",
+          "description": "Default action. Visited."
+        },
+        "disabled": {
+          "value": "{color.text.disabled}",
+          "type": "color",
+          "description": "Default action. Disabled."
+        },
+        "danger": {
+          "idle": {
+            "value": "{color.candy apple.default}",
+            "type": "color",
+            "description": "Danger action. Idle."
+          },
+          "hover": {
+            "value": "{color.candy apple.dark}",
+            "type": "color",
+            "description": "Danger action. Hover."
+          },
+          "active": {
+            "value": "{color.candy apple.dark}",
+            "type": "color",
+            "description": "Danger action. Active."
+          }
+        },
+        "onSurface": {
+          "Idle": {
+            "value": "{color.Obsidian}",
+            "type": "color",
+            "description": "On Surface action. Idle."
+          },
+          "Hover": {
+            "value": "{action.color.text.onSurface.Idle}",
+            "type": "color",
+            "description": "On Surface action. Hover."
+          },
+          "active": {
+            "value": "{action.color.text.onSurface.Idle}",
+            "type": "color",
+            "description": "On Surface action. Active."
+          }
+        },
+        "inverse": {
+          "idle": {
+            "value": "{color.neutral.Olaf}",
+            "type": "color",
+            "description": "Inverse Action. Idle."
+          },
+          "hover": {
+            "value": "{color.calypso.medium}",
+            "type": "color",
+            "description": "Inverse Action. Hover."
+          },
+          "active": {
+            "value": "{color.neutral.Koala}",
+            "type": "color",
+            "description": "Inverse Action. Active."
+          }
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{color.neutral.Eerie}",
+          "type": "color",
+          "description": "Default action. Icon color"
+        },
+        "onSurface": {
+          "value": "{action.color.text.onSurface.Idle}",
+          "type": "color",
+          "description": "On Surface action. Icon color"
+        },
+        "inverse": {
+          "value": "{action.color.text.inverse.idle}",
+          "type": "color",
+          "description": "Inverse Action. Icon color."
+        }
+      }
+    }
+  }
+}

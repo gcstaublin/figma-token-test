@@ -87,19 +87,9 @@
       "value": {
         "fontFamily": "{fontFamily.default}",
         "lineHeight": "{typeScale.display.heading6} * {lineHeight.display}",
-        "textCase": "{textTransform.uppercase}",
+        "textCase": "{textTransform.none}",
         "fontSize": "{typeScale.display.heading6}",
         "fontWeight": "{fontWeight.display.default}"
-      },
-      "type": "typography"
-    },
-    "heading7": {
-      "value": {
-        "fontFamily": "{fontFamily.default}",
-        "fontWeight": "{fontWeight.display.default}",
-        "fontSize": "{typeScale.display.heading6}",
-        "textCase": "{textTransform.none}",
-        "lineHeight": "{typeScale.display.heading6} * {lineHeight.display}"
       },
       "type": "typography"
     },
