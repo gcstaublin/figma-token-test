@@ -6,6 +6,7 @@
     "base-tokens/textTransform",
     "base-tokens/fontWeight",
     "base-tokens/lineHeight",
+    "base-tokens/space",
     "semantic-tokens/color",
     "semantic-tokens/typography",
     "semantic-tokens/typeScale",
