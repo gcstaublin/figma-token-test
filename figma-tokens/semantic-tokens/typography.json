@@ -103,27 +103,5 @@
       },
       "type": "typography"
     }
-  },
-  "form": {
-    "label": {
-      "value": {
-        "fontFamily": "{fontFamily.default}",
-        "fontWeight": "{fontWeight.500}",
-        "textCase": "{textTransform.none}",
-        "fontSize": "{typeScale.body.default}",
-        "lineHeight": "{lineHeight.body.default}"
-      },
-      "type": "typography"
-    },
-    "input": {
-      "value": {
-        "fontFamily": "{fontFamily.default}",
-        "lineHeight": "{lineHeight.22}",
-        "textCase": "{textTransform.none}",
-        "fontSize": "{typeScale.body.large}",
-        "fontWeight": "{fontWeight.body.default}"
-      },
-      "type": "typography"
-    }
   }
 }

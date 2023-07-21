@@ -2,7 +2,7 @@
   "color": {
     "text": {
       "default": {
-        "value": "{color.Obsidian}",
+        "value": "{color.obsidian}",
         "type": "color",
         "description": "The default color of text in the product."
       },

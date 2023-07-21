@@ -47,25 +47,25 @@
           }
         },
         "onSurface": {
-          "Idle": {
-            "value": "{color.Obsidian}",
+          "idle": {
+            "value": "{color.obsidian}",
             "type": "color",
             "description": "On Surface action. Idle."
           },
-          "Hover": {
-            "value": "{action.color.text.onSurface.Idle}",
+          "hover": {
+            "value": "{action.color.text.onSurface.idle}",
             "type": "color",
             "description": "On Surface action. Hover."
           },
           "active": {
-            "value": "{action.color.text.onSurface.Idle}",
+            "value": "{action.color.text.onSurface.idle}",
             "type": "color",
             "description": "On Surface action. Active."
           }
         },
         "inverse": {
           "idle": {
-            "value": "{color.neutral.Olaf}",
+            "value": "{color.neutral.olaf}",
             "type": "color",
             "description": "Inverse Action. Idle."
           },
@@ -75,7 +75,7 @@
             "description": "Inverse Action. Hover."
           },
           "active": {
-            "value": "{color.neutral.Koala}",
+            "value": "{color.neutral.koala}",
             "type": "color",
             "description": "Inverse Action. Active."
           }
@@ -83,12 +83,12 @@
       },
       "icon": {
         "default": {
-          "value": "{color.neutral.Eerie}",
+          "value": "{color.neutral.eerie}",
           "type": "color",
           "description": "Default action. Icon color"
         },
         "onSurface": {
-          "value": "{action.color.text.onSurface.Idle}",
+          "value": "{action.color.text.onSurface.idle}",
           "type": "color",
           "description": "On Surface action. Icon color"
         },
