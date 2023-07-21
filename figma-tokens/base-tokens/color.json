@@ -173,57 +173,57 @@
       }
     },
     "neutral": {
-      "Flat Earth": {
+      "flat earth": {
         "value": "#253342",
         "type": "color",
         "description": "rgb(37, 51, 66)"
       },
-      "Pantera": {
+      "pantera": {
         "value": "#2D3E50",
         "type": "color",
         "description": "rgb(45, 62, 80)"
       },
-      "Heffalump": {
+      "heffalump": {
         "value": "#425B76",
         "type": "color",
         "description": "rgb(66, 91, 118)"
       },
-      "Slinky": {
+      "slinky": {
         "value": "#516F90",
         "type": "color",
         "description": "rgb(81, 111, 144)"
       },
-      "Eerie": {
+      "eerie": {
         "value": "#7C98B6",
         "type": "color",
         "description": "rgb(124, 152, 182)"
       },
-      "Flint": {
+      "flint": {
         "value": "#99ACC2",
         "type": "color",
         "description": "rgb(153, 172, 194)"
       },
-      "Battleship": {
+      "battleship": {
         "value": "#CBD6E2",
         "type": "color",
         "description": "rgb(203, 214, 226)"
       },
-      "Great White": {
+      "great white": {
         "value": "#DFE3EB",
         "type": "color",
         "description": "rgb(223, 227, 235)"
       },
-      "Koala": {
+      "koala": {
         "value": "#EAF0F6",
         "type": "color",
         "description": "rgb(234, 240, 246)"
       },
-      "Gypsum": {
+      "gypsum": {
         "value": "#F5F8FA",
         "type": "color",
         "description": "rgb(245, 248, 250)"
       },
-      "Olaf": {
+      "olaf": {
         "value": "#ffffff",
         "type": "color",
         "description": "rgb(255, 255, 255)"
@@ -234,7 +234,7 @@
         "description": "rgb(0, 0, 0)"
       }
     },
-    "Obsidian": {
+    "obsidian": {
       "value": "#33475b",
       "type": "color",
       "description": "rgb(51, 71, 91)"

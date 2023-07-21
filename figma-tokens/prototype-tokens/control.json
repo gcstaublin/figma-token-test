@@ -3,12 +3,12 @@
     "color": {
       "background": {
         "default": {
-          "value": "{color.neutral.Gypsum}",
+          "value": "{color.neutral.gypsum}",
           "type": "color",
           "description": "Control. Background color."
         },
         "disabled": {
-          "value": "{color.neutral.Koala}",
+          "value": "{color.neutral.koala}",
           "type": "color",
           "description": "Control. Background Disabled color"
         },
@@ -18,14 +18,14 @@
           "description": "Control. Background ReadOnly color"
         },
         "onSurface": {
-          "value": "{color.neutral.Olaf}",
+          "value": "{color.neutral.olaf}",
           "type": "color",
           "description": "Control. Background On Surface color"
         }
       },
       "border": {
         "idle": {
-          "value": "{color.neutral.Battleship}",
+          "value": "{color.neutral.battleship}",
           "type": "color",
           "description": "Control. Border color"
         },
@@ -48,7 +48,7 @@
             "description": "Control. Text Value color"
           },
           "disabled": {
-            "value": "{color.neutral.Battleship}",
+            "value": "{color.neutral.battleship}",
             "type": "color",
             "description": "Control. Text Value Disabled color"
           },
@@ -59,7 +59,7 @@
           }
         },
         "placeholder": {
-          "value": "{color.neutral.Eerie}",
+          "value": "{color.neutral.eerie}",
           "type": "color",
           "description": "Control. Placeholder color"
         }
