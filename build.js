@@ -207,7 +207,7 @@ StyleDictionary.registerFilter({
 // Build Configs
 // ------------------------------
 const sd = StyleDictionary.extend({
-  source: ['figma-tokens/**/*.json'],
+  source: ['figma-tokens/base-tokens/*.json', 'figma-tokens/semantic-tokens/*.json' ],
   platforms: {
     SCSS: {
       prefix: prefix,
