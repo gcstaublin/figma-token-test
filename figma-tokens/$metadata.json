@@ -14,6 +14,7 @@
     "semantic-tokens/fontWeight",
     "prototype-tokens/lineHeight_Copy",
     "prototype-tokens/action",
-    "prototype-tokens/control"
+    "prototype-tokens/control",
+    "prototype-tokens/alert"
   ]
 }
