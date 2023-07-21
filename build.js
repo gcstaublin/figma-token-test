@@ -282,7 +282,7 @@ const sd = StyleDictionary.extend({
     },
 
 
-    "semanticTS": {
+    "semanticPrefixTS": {
       prefix: semantic,
       "transformGroup": "custom-ts",
       buildPath: buildFolderLayersPrefix,
