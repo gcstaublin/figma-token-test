@@ -18,6 +18,7 @@ const buildFolder = "dist/";
 const buildFolderAll = "dist/all/";
 const buildFolderCategory = "dist/categories/";
 const buildFolderLayers = "dist/layers/";
+const buildFolderLayersPrefix = "dist/layersWithPrefix/";
 
 
 // sd-transforms, 2nd parameter for options can be added
@@ -267,6 +268,34 @@ const sd = StyleDictionary.extend({
     },
 
 
+    "basePrefixTS": {
+      prefix: base,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayersPrefix,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/base-variables.ts",
+          filter: 'base-layer-filter'
+        },
+      ]
+    },
+
+
+    "semanticTS": {
+      prefix: semantic,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayersPrefix,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/semantic-variables.ts",
+          filter: 'semantic-layer-filter'
+        },
+      ]
+    },
+
+
     "ts": {
       prefix: prefix,
       "transformGroup": "custom-ts",
@@ -418,6 +447,32 @@ const sd = StyleDictionary.extend({
       prefix: prefix,
       "transformGroup": "custom-ts",
       buildPath: buildFolderLayers,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/semantic-typography-display-variables.ts",
+          filter: 'display-typography-filter'
+        },
+      ]
+    },
+
+    "bodyTypographyLayersPrefixTS": {
+      prefix: semantic,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayersPrefix,
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "typescript/semantic-typography-body-variables.ts",
+          filter: 'body-typography-filter'
+        },
+      ]
+    },
+
+    "displayTypographyLayersPrefixTS": {
+      prefix: semantic,
+      "transformGroup": "custom-ts",
+      buildPath: buildFolderLayersPrefix,
       "files": [
         {
           "format": "javascript/es6",
