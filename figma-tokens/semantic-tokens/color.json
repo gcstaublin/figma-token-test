@@ -24,7 +24,7 @@
       "inverse": {
         "value": "{color.neutral.Olaf}",
         "type": "color",
-        "description": "The color of text when placed on a dark background\n"
+        "description": "The color of text when placed on a dark background"
       },
       "danger": {
         "value": "{color.candy apple.default}",
