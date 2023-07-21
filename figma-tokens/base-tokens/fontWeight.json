@@ -3,7 +3,7 @@
     "300": {
       "value": "Light",
       "type": "fontWeights",
-      "description": "300 = Light. \nAs part of the font migration there was a technical decision to render Lexend Deca Light when the CSS value \"regular\" or \"400\" is used. The correct value is 300."
+      "description": "300 = Light."
     },
     "500": {
       "value": "Medium",
