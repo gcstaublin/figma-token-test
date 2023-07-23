@@ -15,6 +15,7 @@
     "prototype-tokens/lineHeight_Copy",
     "prototype-tokens/action",
     "prototype-tokens/control",
-    "prototype-tokens/alert"
+    "prototype-tokens/alert",
+    "prototype-tokens/backgroundColorRoles"
   ]
 }
