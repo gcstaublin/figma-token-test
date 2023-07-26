@@ -1,12 +1,12 @@
 {
   "fontFamily": {
     "code": {
-      "value": "Source Code Pro, {fontFamily.monospace.fallback}",
+      "value": "Source Code Pro, Consolas, Monaco, Courier New, monospace",
       "type": "fontFamilies",
       "description": "Font used for code"
     },
     "default": {
-      "value": "Lexend Deca, {fontFamily.body.fallback}",
+      "value": "Lexend Deca, Helvetica, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "The default font family for the product"
     },
