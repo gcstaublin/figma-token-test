@@ -102,6 +102,17 @@
         "textCase": "{textTransform.none}"
       },
       "type": "typography"
+    },
+    "pageHeading": {
+      "value": {
+        "fontSize": "{typeScale.display.heading4}",
+        "lineHeight": "{typeScale.display.heading4} * {lineHeight.display}",
+        "fontWeight": "{fontWeight.display.default}",
+        "fontFamily": "{fontFamily.default}",
+        "textCase": "{textTransform.none}"
+      },
+      "type": "typography",
+      "description": "Page Heading"
     }
   }
 }
