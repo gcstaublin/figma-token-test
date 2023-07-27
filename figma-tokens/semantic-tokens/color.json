@@ -7,7 +7,7 @@
         "description": "The default color of text in the product."
       },
       "subtle": {
-        "value": "{color.neutral.Slinky}",
+        "value": "{color.neutral.slinky}",
         "type": "color",
         "description": "The color of microcopy in the product"
       },
@@ -22,7 +22,7 @@
         "description": "The color text within a disabled interactive element"
       },
       "inverse": {
-        "value": "{color.neutral.Olaf}",
+        "value": "{color.neutral.olaf}",
         "type": "color",
         "description": "The color of text when placed on a dark background"
       },
