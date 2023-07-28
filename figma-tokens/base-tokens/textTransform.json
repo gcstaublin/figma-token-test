@@ -9,16 +9,6 @@
       "value": "uppercase",
       "type": "textCase",
       "description": "Token will transform the text to UPPERCASE, regardless of the capitialization specified while the user typed"
-    },
-    "initial": {
-      "value": "none",
-      "type": "textCase",
-      "description": "The initial value for text is the same as applying a text-transfor of none"
-    },
-    "inherit": {
-      "value": "inherit",
-      "type": "textCase",
-      "description": "The Text Transform value will inherit from a parent element. Not possible to replicate in Figma"
     }
   }
 }
