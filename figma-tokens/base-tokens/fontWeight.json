@@ -1,22 +1,22 @@
 {
   "fontWeight": {
     "300": {
-      "value": "Light",
+      "value": "300",
       "type": "fontWeights",
       "description": "300 = Light."
     },
     "500": {
-      "value": "Medium",
+      "value": "500",
       "type": "fontWeights",
       "description": "500 = Medium"
     },
     "600": {
-      "value": "SemiBold",
+      "value": "600",
       "type": "fontWeights",
       "description": "600 = Semi Bold (Demibold)"
     },
     "700": {
-      "value": "Bold",
+      "value": "700",
       "type": "fontWeights",
       "description": "700 = Bold"
     }
