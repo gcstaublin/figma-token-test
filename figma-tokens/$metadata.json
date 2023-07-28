@@ -16,6 +16,7 @@
     "prototype-tokens/action",
     "prototype-tokens/control",
     "prototype-tokens/alert",
-    "prototype-tokens/backgroundColorRoles"
+    "prototype-tokens/backgroundColorRoles",
+    "prototype-tokens/border"
   ]
 }
