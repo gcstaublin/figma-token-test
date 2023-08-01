@@ -17,6 +17,7 @@
     "prototype-tokens/control",
     "prototype-tokens/alert",
     "prototype-tokens/backgroundColorRoles",
-    "prototype-tokens/border"
+    "prototype-tokens/border",
+    "tag"
   ]
 }
