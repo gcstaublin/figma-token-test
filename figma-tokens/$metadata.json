@@ -18,6 +18,6 @@
     "prototype-tokens/alert",
     "prototype-tokens/backgroundColorRoles",
     "prototype-tokens/border",
-    "tag"
+    "prototype-tokens/tag"
   ]
 }
