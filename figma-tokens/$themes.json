@@ -13,7 +13,7 @@
       "semantic-tokens/color": "enabled",
       "semantic-tokens/typography": "enabled",
       "semantic-tokens/typeScale": "enabled",
-      "tag": "disabled"
+      "prototype-tokens/tag": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:101:2268",
     "$figmaModeId": "101:0",
