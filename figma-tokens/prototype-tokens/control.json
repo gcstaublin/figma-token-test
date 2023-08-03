@@ -63,6 +63,16 @@
           "type": "color",
           "description": "Control. Placeholder color"
         }
+      },
+      "icon": {
+        "value": "{color.text.default}",
+        "type": "color",
+        "description": "Icon within an input"
+      },
+      "indicator": {
+        "value": "{color.calypso.default}",
+        "type": "color",
+        "description": "The dropdown icon for a dropdown or select"
       }
     }
   }
