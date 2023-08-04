@@ -1,0 +1,58 @@
+{
+  "badge": {
+    "color": {
+      "background": {
+        "candyApple": {
+          "value": "{color.candy apple.default}",
+          "type": "color"
+        },
+        "calypso": {
+          "value": "{color.calypso.default}",
+          "type": "color"
+        },
+        "koala": {
+          "value": "{color.neutral.koala}",
+          "type": "color"
+        },
+        "lorax": {
+          "value": "{color.lorax.default}",
+          "type": "color"
+        },
+        "marigold": {
+          "value": "{color.marigold.default}",
+          "type": "color"
+        },
+        "norman": {
+          "value": "{color.norman.default}",
+          "type": "color"
+        },
+        "oz": {
+          "value": "{color.oz.default}",
+          "type": "color"
+        },
+        "sorbet": {
+          "value": "{color.sorbet.default}",
+          "type": "color"
+        },
+        "thunderdome": {
+          "value": "{color.thunderdome.default}",
+          "type": "color"
+        },
+        "pantera": {
+          "value": "{color.neutral.pantera}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.text.inverse}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.text.default}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
