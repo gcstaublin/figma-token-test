@@ -1,5 +1,5 @@
 {
-  "control": {
+  "input": {
     "color": {
       "background": {
         "default": {
@@ -13,7 +13,7 @@
           "description": "Control. Background Disabled color"
         },
         "readOnly": {
-          "value": "{control.color.background.disabled}",
+          "value": "{input.color.background.disabled}",
           "type": "color",
           "description": "Control. Background ReadOnly color"
         },
@@ -30,12 +30,12 @@
           "description": "Control. Border color"
         },
         "disabled": {
-          "value": "{control.color.background.disabled}",
+          "value": "{input.color.background.disabled}",
           "type": "color",
           "description": "Control. Border Disabled color"
         },
         "readOnly": {
-          "value": "{control.color.background.readOnly}",
+          "value": "{input.color.background.readOnly}",
           "type": "color",
           "description": "Control. Border ReadOnly color"
         }
@@ -48,18 +48,18 @@
             "description": "Control. Text Value color"
           },
           "disabled": {
-            "value": "{color.neutral.battleship}",
+            "value": "{color.text.disabled}",
             "type": "color",
-            "description": "Control. Text Value Disabled color"
+            "description": "Control. Text Value Disabled color. This has been changed to the standard disabled text color"
           },
           "readOnly": {
-            "value": "{control.color.text.entered.idle}",
+            "value": "{input.color.text.entered.idle}",
             "type": "color",
             "description": "Control. Text Value ReadOnly color"
           }
         },
         "placeholder": {
-          "value": "{color.neutral.eerie}",
+          "value": "{color.text.nonessential}",
           "type": "color",
           "description": "Control. Placeholder color"
         }
