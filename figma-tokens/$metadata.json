@@ -17,8 +17,8 @@
     "prototype-tokens/alertColorRoles",
     "prototype-tokens/buttonColorRoles",
     "prototype-tokens/border",
-    "prototype-tokens/tag",
-    "prototype-tokens/badge+ribbon",
+    "prototype-tokens/NOUSE-tag",
+    "prototype-tokens/NOUSE-badge+ribbon",
     "prototype-tokens/staticUIColorRoles"
   ]
 }
