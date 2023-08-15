@@ -40,7 +40,7 @@
           "description": "Control. Border ReadOnly color"
         }
       },
-      "text": {
+      "value": {
         "entered": {
           "idle": {
             "value": "{color.text.default}",
@@ -53,7 +53,7 @@
             "description": "Control. Text Value Disabled color. This has been changed to the standard disabled text color"
           },
           "readOnly": {
-            "value": "{input.color.text.entered.idle}",
+            "value": "{input.color.value.entered.idle}",
             "type": "color",
             "description": "Control. Text Value ReadOnly color"
           }
