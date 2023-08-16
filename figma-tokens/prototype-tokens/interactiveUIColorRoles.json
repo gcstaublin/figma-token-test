@@ -1,0 +1,190 @@
+{
+  "selectableItem": {
+    "color": {
+      "background": {
+        "idle": {
+          "value": "rgba(255,255,255,0)",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.calypso.light}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{selectableItem.color.background.hover}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{selectableItem.color.background.hover}",
+          "type": "color"
+        },
+        "selectedhover": {
+          "value": "{selectableItem.color.background.hover}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{selectableItem.color.background.idle}",
+          "type": "color"
+        },
+        "selecteddisabled": {
+          "value": "{selectableItem.color.background.hover}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "idle": {
+            "value": "{color.text.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "selectedhover": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.text.disabled}",
+            "type": "color"
+          },
+          "selecteddisabled": {
+            "value": "{selectableItem.color.text.body.disabled}",
+            "type": "color"
+          }
+        },
+        "action": {
+          "idle": {
+            "value": "{action.color.text.default.idle}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{action.color.text.default.hover}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{action.color.text.default.active}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          },
+          "selectedhover": {
+            "value": "{selectableItem.color.text.action.hover}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{action.color.text.disabled}",
+            "type": "color"
+          },
+          "selecteddisabled": {
+            "value": "{selectableItem.color.text.action.disabled}",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "action": {
+          "idle": {
+            "value": "{color.calypso.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          },
+          "selectedhover": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          },
+          "selecteddisabled": {
+            "value": "{selectableItem.color.icon.action.idle}",
+            "type": "color"
+          }
+        },
+        "body": {
+          "idle": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "selectedhover": {
+            "value": "{selectableItem.color.text.body.idle}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.text.disabled}",
+            "type": "color"
+          },
+          "selecteddisabled": {
+            "value": "{selectableItem.color.icon.body.disabled}",
+            "type": "color"
+          }
+        },
+        "external": {
+          "idle": {
+            "value": "{color.neutral.eerie}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{selectableItem.color.icon.external.idle}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{selectableItem.color.icon.external.idle}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{selectableItem.color.icon.external.idle}",
+            "type": "color"
+          },
+          "selectedhover": {
+            "value": "{selectableItem.color.icon.external.idle}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{selectableItem.color.icon.external.idle}",
+            "type": "color"
+          },
+          "selecteddisabled": {
+            "value": "{selectableItem.color.icon.external.idle}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

@@ -19,6 +19,7 @@
     "prototype-tokens/border",
     "prototype-tokens/NOUSE-tag",
     "prototype-tokens/NOUSE-badge+ribbon",
-    "prototype-tokens/staticUIColorRoles"
+    "prototype-tokens/staticUIColorRoles",
+    "prototype-tokens/interactiveUIColorRoles"
   ]
 }
