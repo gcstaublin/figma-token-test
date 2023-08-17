@@ -41,29 +41,10 @@
         }
       },
       "value": {
-        "entered": {
-          "idle": {
-            "value": "{color.text.default}",
-            "type": "color",
-            "description": "Control. Text Value color"
-          },
-          "disabled": {
-            "value": "{color.text.disabled}",
-            "type": "color",
-            "description": "Control. Text Value Disabled color. This has been changed to the standard disabled text color"
-          },
-          "readOnly": {
-            "value": "{input.color.value.entered.idle}",
-            "type": "color",
-            "description": "Control. Text Value ReadOnly color"
-          }
-        },
-        "placeholder": {
-          "value": "{color.text.nonessential}",
-          "type": "color",
-          "description": "Control. Placeholder color"
-        }
-      }
+        "entered": "[object Object]",
+        "placeholder": "[object Object]"
+      },
+      "type": "other"
     }
   }
 }
