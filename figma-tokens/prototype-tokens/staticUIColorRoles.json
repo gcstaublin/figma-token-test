@@ -1,0 +1,195 @@
+{
+  "staticUI": {
+    "color": {
+      "background": {
+        "loud": {
+          "options": {
+            "candyApple": {
+              "value": "{color.candy apple.default}",
+              "type": "color"
+            },
+            "calypso": {
+              "value": "{color.calypso.default}",
+              "type": "color"
+            },
+            "koala": {
+              "value": "{color.neutral.koala}",
+              "type": "color"
+            },
+            "lorax": {
+              "value": "{color.lorax.default}",
+              "type": "color"
+            },
+            "marigold": {
+              "value": "{color.marigold.default}",
+              "type": "color"
+            },
+            "norman": {
+              "value": "{color.norman.default}",
+              "type": "color"
+            },
+            "oz": {
+              "value": "{color.oz.default}",
+              "type": "color"
+            },
+            "sorbet": {
+              "value": "{color.sorbet.default}",
+              "type": "color"
+            },
+            "thunderdome": {
+              "value": "{color.thunderdome.default}",
+              "type": "color"
+            },
+            "pantera": {
+              "value": "{color.neutral.pantera}",
+              "type": "color"
+            }
+          },
+          "roles": {
+            "free": {
+              "value": "{staticUI.color.background.loud.options.lorax}",
+              "type": "color"
+            },
+            "new": {
+              "value": "{staticUI.color.background.loud.options.oz}",
+              "type": "color"
+            },
+            "beta": {
+              "value": "{staticUI.color.background.loud.options.thunderdome}",
+              "type": "color"
+            }
+          },
+          "status": {
+            "default": {
+              "value": "{color.border.default}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{staticUI.color.background.loud.options.oz}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{staticUI.color.background.loud.options.marigold}",
+              "type": "color"
+            },
+            "danger": {
+              "value": "{staticUI.color.background.loud.options.candyApple}",
+              "type": "color"
+            },
+            "info": {
+              "value": "{staticUI.color.background.loud.options.calypso}",
+              "type": "color"
+            }
+          }
+        },
+        "subtle": {
+          "options": {
+            "calypso": {
+              "value": "{color.calypso.light}",
+              "type": "color"
+            },
+            "candyApple": {
+              "value": "{color.candy apple.light}",
+              "type": "color"
+            },
+            "sorbet": {
+              "value": "{color.sorbet.light}",
+              "type": "color"
+            },
+            "norman": {
+              "value": "{color.norman.light}",
+              "type": "color"
+            },
+            "lorax": {
+              "value": "{color.lorax.light}",
+              "type": "color"
+            },
+            "thunderdome": {
+              "value": "{color.thunderdome.light}",
+              "type": "color"
+            },
+            "marigold": {
+              "value": "{color.marigold.light}",
+              "type": "color"
+            },
+            "oz": {
+              "value": "{color.oz.light}",
+              "type": "color"
+            },
+            "olaf": {
+              "value": "{color.neutral.eerie}",
+              "type": "color"
+            }
+          },
+          "roles": {
+            "default": {
+              "value": "{color.neutral.gypsum}",
+              "type": "color",
+              "description": "Default tag\n"
+            },
+            "success": {
+              "value": "{staticUI.color.background.subtle.options.oz}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{staticUI.color.background.subtle.options.marigold}",
+              "type": "color"
+            },
+            "danger": {
+              "value": "{staticUI.color.background.subtle.options.candyApple}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "text": {
+        "onBackground": {
+          "loud": {
+            "default": {
+              "value": "{color.text.inverse}",
+              "type": "color"
+            },
+            "inverse": {
+              "value": "{color.text.default}",
+              "type": "color"
+            }
+          },
+          "subtle": {
+            "default": {
+              "value": "{color.text.default}",
+              "type": "color"
+            },
+            "inverse": {
+              "value": "{color.neutral.olaf}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "border": {
+        "subtle": {
+          "default": {
+            "value": "{color.neutral.eerie}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{color.oz.default}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{color.marigold.default}",
+            "type": "color"
+          },
+          "danger": {
+            "value": "{color.candy apple.default}",
+            "type": "color"
+          },
+          "calypso": {
+            "value": "{color.calypso.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
