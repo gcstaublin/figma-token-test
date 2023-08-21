@@ -55,7 +55,7 @@
       },
       "border": {
         "action": {
-          "value": "{color.calypso.medium}",
+          "value": "{color.border.selectable}",
           "type": "color"
         }
       }
