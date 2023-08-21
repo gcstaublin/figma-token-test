@@ -1,50 +1,26 @@
 {
-  "tag": {
-    "color": {
-      "background": {
-        "default": {
-          "value": "{color.neutral.gypsum}",
-          "type": "color",
-          "description": "Default tag\n"
-        },
-        "success": {
-          "value": "{color.oz.light}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{color.marigold.light}",
-          "type": "color"
-        },
-        "danger": {
-          "value": "{color.candy apple.light}",
-          "type": "color"
-        },
-        "status": {
-          "default": {
-            "value": "{color.neutral.battleship}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{color.oz.default}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{color.marigold.default}",
-            "type": "color"
-          },
-          "danger": {
-            "value": "{color.candy apple.default}",
-            "type": "color"
-          },
-          "info": {
-            "value": "{color.calypso.default}",
-            "type": "color"
-          }
-        }
+  "color": {
+    "background": {
+      "default": {
+        "value": "{color.neutral.gypsum}",
+        "type": "color",
+        "description": "Default tag\n"
       },
-      "border": {
+      "success": {
+        "value": "{color.oz.light}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.marigold.light}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.candy apple.light}",
+        "type": "color"
+      },
+      "status": {
         "default": {
-          "value": "{color.neutral.eerie}",
+          "value": "{color.neutral.battleship}",
           "type": "color"
         },
         "success": {
@@ -58,12 +34,34 @@
         "danger": {
           "value": "{color.candy apple.default}",
           "type": "color"
+        },
+        "info": {
+          "value": "{color.calypso.default}",
+          "type": "color"
         }
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{color.neutral.eerie}",
+        "type": "color"
       },
-      "text": {
-        "value": "{color.text.default}",
+      "success": {
+        "value": "{color.oz.default}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.marigold.default}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.candy apple.default}",
         "type": "color"
       }
+    },
+    "text": {
+      "value": "{color.text.default}",
+      "type": "color"
     }
   }
 }
