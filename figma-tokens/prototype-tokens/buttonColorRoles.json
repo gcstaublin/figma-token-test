@@ -1,0 +1,314 @@
+{
+  "button": {
+    "color": {
+      "background": {
+        "primary": {
+          "idle": {
+            "value": "{color.lorax.default}",
+            "type": "color",
+            "description": "Background color primary button idle state"
+          },
+          "hover": {
+            "value": "#ff8f73",
+            "type": "color",
+            "description": "Background color primary button hover state"
+          },
+          "pressed": {
+            "value": "{color.lorax.dark}",
+            "type": "color",
+            "description": "Background color primary button active state"
+          }
+        },
+        "neutral": {
+          "default": {
+            "idle": {
+              "value": "{color.neutral.koala}",
+              "type": "color",
+              "description": "Background color tertiary light button idle state"
+            },
+            "hover": {
+              "value": "{color.neutral.gypsum}",
+              "type": "color",
+              "description": "Background color tertiary light button hover state"
+            },
+            "pressed": {
+              "value": "{color.neutral.battleship}",
+              "type": "color",
+              "description": "Background color tertiary light button active state"
+            }
+          },
+          "dark": {
+            "idle": {
+              "value": "{color.neutral.heffalump}",
+              "type": "color",
+              "description": "Background color tertiary button idle state"
+            },
+            "hover": {
+              "value": "{color.neutral.slinky}",
+              "type": "color",
+              "description": "Background color tertiary button hover state"
+            },
+            "pressed": {
+              "value": "{color.obsidian}",
+              "type": "color",
+              "description": "Background color tertiary button active state"
+            }
+          },
+          "light": {
+            "idle": {
+              "value": "{color.neutral.olaf}",
+              "type": "color",
+              "description": "Background color tertiary extra light button idle state"
+            },
+            "hover": {
+              "value": "{color.neutral.gypsum}",
+              "type": "color",
+              "description": "Background color tertiary extra light button hover state"
+            },
+            "pressed": {
+              "value": "{color.neutral.battleship}",
+              "type": "color",
+              "description": "Background color tertiary extra light button active state"
+            }
+          }
+        },
+        "secondary": {
+          "idle": {
+            "value": "{color.neutral.olaf}",
+            "type": "color",
+            "description": "Background color secondary button idle state"
+          },
+          "hover": {
+            "value": "#fff8f6",
+            "type": "color",
+            "description": "Background color secondary button hover state"
+          },
+          "pressed": {
+            "value": "#ffebe6",
+            "type": "color",
+            "description": "Background color secondary button active state"
+          }
+        },
+        "danger": {
+          "idle": {
+            "value": "{color.candy apple.default}",
+            "type": "color",
+            "description": "Background color danger button idle state"
+          },
+          "hover": {
+            "value": "#ff5962",
+            "type": "color",
+            "description": "Background color danger button hover state"
+          },
+          "pressed": {
+            "value": "{color.candy apple.dark}",
+            "type": "color",
+            "description": "Background color danger button active state"
+          }
+        },
+        "white": {
+          "idle": {
+            "value": "{color.neutral.olaf}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba(255, 255, 255, 0.9)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(255, 255, 255, 0.8)",
+            "type": "color"
+          }
+        },
+        "ghost": {
+          "idle": {
+            "value": "rgba(255, 255, 255, 0)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba(255, 255, 255, 0.05)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(255, 255, 255, 0.10)",
+            "type": "color"
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "idle": {
+            "value": "{button.color.background.primary.idle}",
+            "type": "color",
+            "description": "Border color primary button idle state"
+          },
+          "hover": {
+            "value": "{button.color.background.primary.hover}",
+            "type": "color",
+            "description": "Border color primary button hover state"
+          },
+          "pressed": {
+            "value": "{button.color.background.primary.pressed}",
+            "type": "color",
+            "description": "Border color primary button active state"
+          }
+        },
+        "neutral": {
+          "default": {
+            "idle": {
+              "value": "{color.neutral.battleship}",
+              "type": "color",
+              "description": "Border color tertiary light button idle state"
+            },
+            "hover": {
+              "value": "{button.color.border.neutral.default.idle}",
+              "type": "color",
+              "description": "Border color tertiary light button hover state"
+            },
+            "pressed": {
+              "value": "{button.color.border.neutral.default.idle}",
+              "type": "color",
+              "description": "Border color tertiary light button active state"
+            }
+          },
+          "dark": {
+            "idle": {
+              "value": "{button.color.background.neutral.dark.idle}",
+              "type": "color",
+              "description": "Border color tertiary button idle state"
+            },
+            "hover": {
+              "value": "{button.color.background.neutral.dark.hover}",
+              "type": "color",
+              "description": "Border color tertiary button hover state"
+            },
+            "pressed": {
+              "value": "{button.color.background.neutral.dark.pressed}",
+              "type": "color",
+              "description": "Border color tertiary button active state"
+            }
+          },
+          "light": {
+            "idle": {
+              "value": "{color.neutral.battleship}",
+              "type": "color",
+              "description": "Border color tertiary extra light button idle state"
+            },
+            "hover": {
+              "value": "{button.color.border.neutral.light.idle}",
+              "type": "color",
+              "description": "Border color tertiary extra light button hover state"
+            },
+            "pressed": {
+              "value": "{color.neutral.eerie}",
+              "type": "color",
+              "description": "Border color tertiary extra light button active state"
+            }
+          }
+        },
+        "secondary": {
+          "idle": {
+            "value": "{button.color.text.onBackground.secondary.default}",
+            "type": "color",
+            "description": "Border color secondary button idle state"
+          },
+          "hover": {
+            "value": "{button.color.border.secondary.idle}",
+            "type": "color",
+            "description": "Border color secondary button hover state"
+          },
+          "pressed": {
+            "value": "{button.color.border.secondary.idle}",
+            "type": "color",
+            "description": "Border color secondary button active state"
+          }
+        },
+        "danger": {
+          "idle": {
+            "value": "{button.color.background.danger.idle}",
+            "type": "color",
+            "description": "Border color danger button idle state"
+          },
+          "hover": {
+            "value": "{button.color.background.danger.hover}",
+            "type": "color",
+            "description": "Border color danger button hover state"
+          },
+          "pressed": {
+            "value": "{button.color.background.danger.pressed}",
+            "type": "color",
+            "description": "Border color danger button active state"
+          }
+        }
+      },
+      "text": {
+        "onBackground": {
+          "primary": {
+            "default": {
+              "value": "{color.neutral.olaf}",
+              "type": "color",
+              "description": "Text color on background primary"
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "#506e91",
+              "type": "color",
+              "description": "Text color on background neutral default"
+            },
+            "dark": {
+              "value": "{color.neutral.olaf}",
+              "type": "color",
+              "description": "Text color on background neutral dark"
+            },
+            "light": {
+              "value": "{button.color.text.onBackground.neutral.default}",
+              "type": "color",
+              "description": "Text color on background neutral light"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "#ff7a59",
+              "type": "color",
+              "description": "Text color on background secondary"
+            }
+          },
+          "danger": {
+            "default": {
+              "value": "{color.neutral.olaf}",
+              "type": "color",
+              "description": "Text color on background danger"
+            }
+          },
+          "transparent": {
+            "idle": {
+              "value": "{action.color.text.default.idle}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{action.color.text.default.hover}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{action.color.text.default.pressed}",
+              "type": "color"
+            }
+          },
+          "white": {
+            "default": {
+              "value": "{color.text.default}",
+              "type": "color"
+            }
+          },
+          "ghost": {
+            "default": {
+              "value": "{color.text.inverse}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}

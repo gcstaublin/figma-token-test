@@ -17,7 +17,7 @@
         "description": "The color of placeholder text inside an input"
       },
       "disabled": {
-        "value": "{color.lorax.dark}",
+        "value": "#b0c1d4",
         "type": "color",
         "description": "The color text within a disabled interactive element"
       },
