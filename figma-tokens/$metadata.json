@@ -11,15 +11,6 @@
     "semantic-tokens/typography",
     "semantic-tokens/typeScale",
     "semantic-tokens/lineHeight",
-    "semantic-tokens/fontWeight",
-    "prototype-tokens/actionColorRoles",
-    "prototype-tokens/formColorRoles",
-    "prototype-tokens/alertColorRoles",
-    "prototype-tokens/buttonColorRoles",
-    "prototype-tokens/border",
-    "prototype-tokens/NOUSE-tag",
-    "prototype-tokens/NOUSE-badge+ribbon",
-    "prototype-tokens/staticUIColorRoles",
-    "prototype-tokens/interactiveUIColorRoles"
+    "semantic-tokens/fontWeight"
   ]
 }
