@@ -40,8 +40,8 @@
           "description": "Control. Border ReadOnly color"
         }
       },
-      "value": {
-        "entered": {
+      "text": {
+        "value": {
           "value": "{color.text.default}",
           "type": "color"
         },
