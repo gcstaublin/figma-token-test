@@ -12,14 +12,7 @@
       "base-tokens/lineHeight": "enabled",
       "semantic-tokens/color": "enabled",
       "semantic-tokens/typography": "enabled",
-      "semantic-tokens/typeScale": "enabled",
-      "prototype-tokens/actionColorRoles": "disabled",
-      "prototype-tokens/buttonColorRoles": "disabled",
-      "prototype-tokens/alertColorRoles": "disabled",
-      "prototype-tokens/border": "disabled",
-      "prototype-tokens/inteactiveUIColorRoles": "disabled",
-      "prototype-tokens/staticUIColorRoles": "disabled",
-      "prototype-tokens/formColorRoles": "disabled"
+      "semantic-tokens/typeScale": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:211:2323",
     "$figmaModeId": "211:1",

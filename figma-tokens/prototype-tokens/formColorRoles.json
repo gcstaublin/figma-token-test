@@ -53,7 +53,8 @@
           "value": "{color.text.disabled}",
           "type": "color"
         }
-      }
+      },
+      "type": "other"
     }
   }
 }
