@@ -20,12 +20,12 @@
           }
         },
         "visited": {
-          "value": "#000",
+          "value": "{color.text.default}",
           "type": "color",
           "description": "Default action. Visited."
         },
         "disabled": {
-          "value": "{color.text.disabled}",
+          "value": "#b0c1d4",
           "type": "color",
           "description": "Default action. Disabled."
         },
