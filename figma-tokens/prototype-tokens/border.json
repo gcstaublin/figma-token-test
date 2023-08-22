@@ -102,18 +102,9 @@
         }
       },
       "active": {
-        "value": "rgb(0, 208,228)",
+        "value": "#00d0e480",
         "type": "color",
-        "description": "Border color of input elements in active state",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.5",
-              "space": "hsl"
-            }
-          }
-        }
+        "description": "Border color of input elements in active state"
       }
     }
   }
