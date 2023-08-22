@@ -31,15 +31,10 @@
         "type": "borderRadius",
         "description": "Radius of notification badge (This pixel based token could likely be combined with the 50% and 100% tokens). They all accomplish the same effect. This would need more test to confirm."
       },
-      "50%": {
+      "50percent": {
         "value": "50%",
         "type": "borderRadius",
-        "description": "Radius of rounded, circular elements. (This could likely be consolidated with 100%. Both accomplish the same effect)"
-      },
-      "100%": {
-        "value": "100%",
-        "type": "borderRadius",
-        "description": "Radius of rounded, circular elements. (This could likely be consolidated with 50%. Both accomplish the same effect)"
+        "description": "Radius of rounded, circular elements."
       }
     }
   },
