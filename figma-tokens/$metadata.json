@@ -18,6 +18,7 @@
     "prototype-tokens/alertColorRoles",
     "prototype-tokens/inteactiveUIColorRoles",
     "prototype-tokens/staticUIColorRoles",
-    "prototype-tokens/formColorRoles"
+    "prototype-tokens/formColorRoles",
+    "prototype-tokens/space"
   ]
 }
