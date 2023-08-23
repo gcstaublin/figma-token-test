@@ -309,6 +309,96 @@
           }
         }
       }
+    },
+    "typography": {
+      "default": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.500}",
+          "fontSize": "{fontSize.14}",
+          "lineHeight": "{button.lineHeight.default}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.300}",
+          "fontSize": "{fontSize.12}",
+          "lineHeight": "{button.lineHeight.small}"
+        },
+        "type": "typography"
+      }
+    },
+    "radius": {
+      "default": {
+        "value": "{radius.border.3}",
+        "type": "borderRadius"
+      }
+    },
+    "space": {
+      "padding": {
+        "inline": {
+          "default": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "small": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "extraSmall": {
+            "value": "{space.0}",
+            "type": "spacing"
+          }
+        },
+        "block": {
+          "default": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "small": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "extraSmall": {
+            "value": "{space.0}",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "default": {
+          "value": "{space.0}",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{space.0}",
+          "type": "spacing"
+        },
+        "extraSmall": {
+          "value": "{space.0}",
+          "type": "spacing"
+        }
+      }
+    },
+    "width": {
+      "border": {
+        "default": {
+          "value": "{width.border.1}",
+          "type": "borderWidth"
+        }
+      }
+    },
+    "lineHeight": {
+      "default": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "small": {
+        "value": "14px",
+        "type": "lineHeights"
+      }
     }
   }
 }
