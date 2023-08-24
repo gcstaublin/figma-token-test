@@ -315,8 +315,8 @@
         "value": {
           "fontFamily": "{fontFamily.default}",
           "fontWeight": "{fontWeight.500}",
-          "fontSize": "{fontSize.14}",
-          "lineHeight": "{button.lineHeight.default}"
+          "lineHeight": "{button.lineHeight.default}",
+          "fontSize": "{button.fontSize.default}"
         },
         "type": "typography"
       },
@@ -324,8 +324,8 @@
         "value": {
           "fontFamily": "{fontFamily.default}",
           "fontWeight": "{fontWeight.300}",
-          "fontSize": "{fontSize.12}",
-          "lineHeight": "{button.lineHeight.small}"
+          "lineHeight": "{button.lineHeight.small}",
+          "fontSize": "{button.fontSize.small}"
         },
         "type": "typography"
       }
@@ -334,51 +334,65 @@
       "default": {
         "value": "{radius.border.3}",
         "type": "borderRadius"
+      },
+      "circle": {
+        "value": "{radius.border.50percent}",
+        "type": "borderRadius",
+        "description": "Border radius for circle icon buttons"
       }
     },
     "space": {
       "padding": {
         "inline": {
           "default": {
-            "value": "{space.0}",
-            "type": "spacing"
+            "value": "24px",
+            "type": "spacing",
+            "description": "Internal space (padding) for default (medium) button"
           },
           "small": {
-            "value": "{space.0}",
-            "type": "spacing"
+            "value": "{space.16}",
+            "type": "spacing",
+            "description": "Internal space (padding) for small button"
           },
           "extraSmall": {
-            "value": "{space.0}",
-            "type": "spacing"
+            "value": "{space.12}",
+            "type": "spacing",
+            "description": "Internal space (padding) for extra-small button"
           }
         },
         "block": {
           "default": {
-            "value": "{space.0}",
-            "type": "spacing"
+            "value": "11px",
+            "type": "spacing",
+            "description": "Internal space (aka padding) for default (medium) button "
           },
           "small": {
-            "value": "{space.0}",
-            "type": "spacing"
+            "value": "{space.8}",
+            "type": "spacing",
+            "description": "Internal space (padding) for small button"
           },
           "extraSmall": {
-            "value": "{space.0}",
-            "type": "spacing"
+            "value": "5px",
+            "type": "spacing",
+            "description": "Internal space (padding) for extra-small button"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "{space.0}",
-          "type": "spacing"
+          "value": "7px",
+          "type": "spacing",
+          "description": "Space between elements in default size button"
         },
         "small": {
-          "value": "{space.0}",
-          "type": "spacing"
+          "value": "{space.6}",
+          "type": "spacing",
+          "description": "Space between elements in small size button"
         },
         "extraSmall": {
-          "value": "{space.0}",
-          "type": "spacing"
+          "value": "{space.6}",
+          "type": "spacing",
+          "description": "Space between elements in extra small-size button"
         }
       }
     },
@@ -398,6 +412,54 @@
       "small": {
         "value": "14px",
         "type": "lineHeights"
+      }
+    },
+    "fontSize": {
+      "default": {
+        "value": "{fontSize.14}",
+        "type": "fontSizes",
+        "description": "Font size of default (medium) buttons"
+      },
+      "small": {
+        "value": "{fontSize.12}",
+        "type": "fontSizes",
+        "description": "Font size for small and extra small buttons"
+      }
+    }
+  },
+  "iconButton": {
+    "width": {
+      "default": {
+        "value": "40px",
+        "type": "sizing",
+        "description": "Width of a default size Icon Button"
+      },
+      "small": {
+        "value": "32px",
+        "type": "sizing",
+        "description": "Width of a small size Icon Button"
+      },
+      "extraSmall": {
+        "value": "26px",
+        "type": "sizing",
+        "description": "Width of a extra-small size Icon Button"
+      }
+    },
+    "fontSize": {
+      "default": {
+        "value": "18px",
+        "type": "fontSizes",
+        "description": "Font size of a default size Icon Button (controls size of Icon)"
+      },
+      "small": {
+        "value": "{fontSize.16}",
+        "type": "fontSizes",
+        "description": "Font size of a small size Icon Button (controls size of Icon)"
+      },
+      "extraSmall": {
+        "value": "{fontSize.12}",
+        "type": "fontSizes",
+        "description": "Font size of a extra-small size Icon Button (controls size of Icon)"
       }
     }
   }
