@@ -12,9 +12,7 @@
       "base-tokens/lineHeight": "enabled",
       "semantic-tokens/color": "enabled",
       "semantic-tokens/typography": "enabled",
-      "semantic-tokens/typeScale": "enabled",
-      "prototype-tokens/action": "disabled",
-      "prototype-tokens/button": "disabled"
+      "semantic-tokens/typeScale": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:211:2323",
     "$figmaModeId": "211:1",
