@@ -328,6 +328,15 @@
           "fontSize": "{button.fontSize.small}"
         },
         "type": "typography"
+      },
+      "extraSmall": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.300}",
+          "lineHeight": "{button.lineHeight.small}",
+          "fontSize": "{button.fontSize.small}"
+        },
+        "type": "typography"
       }
     },
     "radius": {
