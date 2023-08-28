@@ -99,10 +99,10 @@
     },
     "title": {
       "value": {
-        "fontFamily": "{display.heading3.fontFamily}",
-        "fontWeight": "{display.heading3.fontWeight}",
-        "lineHeight": "{display.heading3.lineHeight}",
-        "fontSize": "{display.heading3.fontSize}"
+        "fontFamily": "{display.heading5.fontFamily}",
+        "fontWeight": "{display.heading5.fontWeight}",
+        "lineHeight": "{display.heading5.lineHeight}",
+        "fontSize": "{display.heading5.fontSize}"
       },
       "type": "typography"
     },
