@@ -16,15 +16,15 @@
       "base-tokens/space": "enabled",
       "semantic-tokens/lineHeight": "enabled",
       "semantic-tokens/fontWeight": "enabled",
-      "prototype-tokens/action": "enabled",
-      "prototype-tokens/alertColorRoles": "enabled",
       "prototype-tokens/inteactiveUIColorRoles": "enabled",
       "prototype-tokens/staticUIColorRoles": "enabled",
       "prototype-tokens/formColorRoles": "enabled",
       "prototype-tokens/space": "enabled",
       "semantic-tokens/border": "enabled",
       "semantic-tokens/button": "enabled",
-      "base-tokens/border": "enabled"
+      "base-tokens/border": "enabled",
+      "semantic-tokens/alert": "enabled",
+      "semantic-tokens/action": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:269:2251",
     "$figmaModeId": "269:0",
@@ -325,7 +325,9 @@
       "base-tokens/textTransform": "enabled",
       "base-tokens/fontWeight": "enabled",
       "base-tokens/lineHeight": "enabled",
-      "base-tokens/space": "enabled"
+      "base-tokens/space": "enabled",
+      "semantic-tokens/alert": "disabled",
+      "semantic-tokens/action": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:269:2542",
     "$figmaModeId": "269:1",
@@ -416,7 +418,9 @@
       "semantic-tokens/typography": "enabled",
       "semantic-tokens/typeScale": "enabled",
       "semantic-tokens/lineHeight": "enabled",
-      "semantic-tokens/fontWeight": "enabled"
+      "semantic-tokens/fontWeight": "enabled",
+      "semantic-tokens/alert": "disabled",
+      "semantic-tokens/action": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:269:2599",
     "$figmaModeId": "269:2",
