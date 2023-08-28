@@ -14,12 +14,12 @@
     "semantic-tokens/lineHeight",
     "semantic-tokens/fontWeight",
     "semantic-tokens/typography",
+    "semantic-tokens/space",
     "semantic-tokens/action",
     "semantic-tokens/button",
     "semantic-tokens/alert",
     "prototype-tokens/inteactiveUIColorRoles",
     "prototype-tokens/staticUIColorRoles",
-    "prototype-tokens/formColorRoles",
-    "prototype-tokens/space"
+    "prototype-tokens/formColorRoles"
   ]
 }
