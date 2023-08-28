@@ -341,11 +341,11 @@
     },
     "radius": {
       "default": {
-        "value": "{radius.border.3}",
+        "value": "{radius.border.default}",
         "type": "borderRadius"
       },
       "circle": {
-        "value": "{radius.border.50percent}",
+        "value": "{radius.border.circle}",
         "type": "borderRadius",
         "description": "Border radius for circle icon buttons"
       }
@@ -408,7 +408,7 @@
     "width": {
       "border": {
         "default": {
-          "value": "{width.border.1}",
+          "value": "{width.border.default}",
           "type": "borderWidth"
         }
       }
@@ -421,6 +421,10 @@
       "small": {
         "value": "14px",
         "type": "lineHeights"
+      },
+      "extraSmall": {
+        "value": "{button.lineHeight.small}",
+        "type": "lineHeights"
       }
     },
     "fontSize": {
@@ -432,7 +436,12 @@
       "small": {
         "value": "{fontSize.12}",
         "type": "fontSizes",
-        "description": "Font size for small and extra small buttons"
+        "description": "Font size for small buttons"
+      },
+      "extraSmall": {
+        "value": "{button.fontSize.small}",
+        "type": "fontSizes",
+        "description": "Font size for extra small buttons"
       }
     }
   },
