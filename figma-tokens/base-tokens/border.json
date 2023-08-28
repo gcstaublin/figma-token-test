@@ -56,51 +56,5 @@
         "description": "Checkbox border width"
       }
     }
-  },
-  "color": {
-    "border": {
-      "default": {
-        "value": "{color.neutral.battleship}",
-        "type": "color",
-        "description": "Most common border color"
-      },
-      "table": {
-        "value": "{color.neutral.great white}",
-        "type": "color",
-        "description": "Border color in tables"
-      },
-      "selectable": {
-        "value": "{color.calypso.medium}",
-        "type": "color",
-        "description": "Border color of selectable buttons"
-      },
-      "dropzone": {
-        "idle": {
-          "value": "{color.neutral.slinky}",
-          "type": "color",
-          "description": "Default border color of a drop zone"
-        },
-        "hover": {
-          "value": "{color.calypso.default}",
-          "type": "color",
-          "description": "Hover border color of a drop zone"
-        },
-        "procession": {
-          "value": "{color.neutral.gypsum}",
-          "type": "color",
-          "description": "Processing border color of a drop zone"
-        },
-        "error": {
-          "value": "{color.candy apple.dark}",
-          "type": "color",
-          "description": "Error border color of a drop zone"
-        }
-      },
-      "active": {
-        "value": "#00d0e480",
-        "type": "color",
-        "description": "Border color of input elements in active state"
-      }
-    }
   }
 }

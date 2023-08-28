@@ -73,12 +73,12 @@
     },
     "minHeight": {
       "inline": {
-        "value": "43px",
+        "value": "44px",
         "type": "dimension",
         "description": "Min Height for inline Alert"
       },
       "default": {
-        "value": "59px",
+        "value": "60px",
         "type": "dimension",
         "description": "Min Height for Default Alert"
       }
@@ -86,16 +86,34 @@
     "width": {
       "border": {
         "default": {
-          "value": "1px",
+          "value": "{width.border.default}",
           "type": "borderWidth",
           "description": "Border width for a default alert"
         },
         "none": {
-          "value": "0",
+          "value": "{width.border.none}",
           "type": "borderWidth",
           "description": "Border width for a Fire Alarm"
         }
       }
+    },
+    "title": {
+      "value": {
+        "fontFamily": "{display.heading3.fontFamily}",
+        "fontWeight": "{display.heading3.fontWeight}",
+        "lineHeight": "{display.heading3.lineHeight}",
+        "fontSize": "{display.heading3.fontSize}"
+      },
+      "type": "typography"
+    },
+    "text": {
+      "value": {
+        "fontFamily": "{text.body.fontFamily}",
+        "fontWeight": "{text.body.fontWeight}",
+        "fontSize": "{text.body.fontSize}",
+        "lineHeight": "19.6px"
+      },
+      "type": "typography"
     }
   }
 }
