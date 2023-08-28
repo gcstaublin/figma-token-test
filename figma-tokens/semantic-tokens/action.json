@@ -122,6 +122,48 @@
           "type": "color"
         }
       }
+    },
+    "fontWeight": {
+      "default": {
+        "value": "{fontWeight.600}",
+        "type": "fontWeights"
+      }
+    },
+    "space": {
+      "gap": {
+        "default": {
+          "value": "0.5em",
+          "type": "spacing",
+          "description": "Space between Icon and text for links"
+        },
+        "externalIcon": {
+          "value": "0.25em",
+          "type": "spacing",
+          "description": "Space between text and external icons in links"
+        }
+      }
+    },
+    "typography": {
+      "default": {
+        "value": {
+          "fontFamily": "{text.body.fontFamily}",
+          "fontWeight": "{action.fontWeight.default}",
+          "lineHeight": "inherit",
+          "fontSize": "inherit",
+          "textDecoration": "none"
+        },
+        "type": "typography"
+      },
+      "underline": {
+        "value": {
+          "fontFamily": "{text.body.fontFamily}",
+          "fontWeight": "{action.fontWeight.default}",
+          "lineHeight": "inherit",
+          "fontSize": "inherit",
+          "textDecoration": "underline"
+        },
+        "type": "typography"
+      }
     }
   }
 }

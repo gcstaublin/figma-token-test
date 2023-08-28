@@ -111,9 +111,32 @@
         "fontFamily": "{text.body.fontFamily}",
         "fontWeight": "{text.body.fontWeight}",
         "fontSize": "{text.body.fontSize}",
-        "lineHeight": "19.6px"
+        "lineHeight": "{text.body.fontSize} * {lineHeight.oneFour}"
       },
       "type": "typography"
+    },
+    "space": {
+      "padding": {
+        "block": {
+          "default": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "inline": {
+          "default": {
+            "value": "{space.20}",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "default": {
+          "value": "{space.20}",
+          "type": "spacing",
+          "description": "Space between title and body in Alerts and FireAlarms"
+        }
+      }
     }
   }
 }
