@@ -48,7 +48,7 @@
   "radius": {
     "border": {
       "none": {
-        "value": "{radius.border.6}",
+        "value": "{radius.border.0}",
         "type": "borderRadius"
       },
       "default": {
