@@ -308,6 +308,60 @@
             }
           }
         }
+      },
+      "icon": {
+        "secondary": {
+          "default": {
+            "value": "#ff7a59",
+            "type": "color",
+            "description": "Text color on background secondary"
+          }
+        },
+        "danger": {
+          "default": {
+            "value": "{button.color.text.onBackground.danger.default}",
+            "type": "color",
+            "description": "Text color on background danger"
+          }
+        },
+        "transparent": {
+          "default": {
+            "value": "{action.color.icon.default}",
+            "type": "color"
+          }
+        },
+        "white": {
+          "default": {
+            "value": "{button.color.text.onBackground.white.default}",
+            "type": "color"
+          }
+        },
+        "ghost": {
+          "default": {
+            "value": "{button.color.text.onBackground.ghost.default}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "default": {
+            "value": "{button.color.text.onBackground.primary.default}",
+            "type": "color"
+          }
+        },
+        "neutral": {
+          "default": {
+            "value": "{button.color.text.onBackground.neutral.default}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{button.color.text.onBackground.neutral.dark}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{button.color.text.onBackground.neutral.light}",
+            "type": "color"
+          }
+        }
       }
     },
     "typography": {
