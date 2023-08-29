@@ -84,5 +84,109 @@
         }
       }
     }
+  },
+  "tile": {
+    "space": {
+      "padding": {
+        "block": {
+          "default": {
+            "value": "32px",
+            "type": "spacing"
+          },
+          "compact": {
+            "value": "{space.20}",
+            "type": "spacing"
+          }
+        },
+        "inline": {
+          "default": {
+            "value": "{tile.space.padding.block.default}",
+            "type": "spacing"
+          },
+          "compact": {
+            "value": "{tile.space.padding.block.compact}",
+            "type": "spacing"
+          }
+        }
+      },
+      "margin": {
+        "block": {
+          "flush": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "extraSmall": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "small": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "medium": {
+            "value": "24px",
+            "type": "spacing"
+          },
+          "large": {
+            "value": "32px",
+            "type": "spacing"
+          },
+          "extraLarge": {
+            "value": "64px",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "value": {
+          "width": "{width.border.default}",
+          "style": "solid",
+          "color": "{color.border.default}"
+        },
+        "type": "border"
+      }
+    }
+  },
+  "container": {
+    "radius": {
+      "border": {
+        "value": "{radius.border.default}",
+        "type": "borderRadius"
+      }
+    },
+    "color": {
+      "background": {
+        "value": "{color.neutral.olaf}",
+        "type": "color"
+      }
+    }
+  },
+  "column": {
+    "space": {
+      "padding": {
+        "block": {
+          "default": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "none": {
+            "value": "{space.0}",
+            "type": "spacing"
+          }
+        },
+        "inline": {
+          "default": {
+            "value": "24px",
+            "type": "spacing"
+          },
+          "none": {
+            "value": "{space.0}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
   }
 }
