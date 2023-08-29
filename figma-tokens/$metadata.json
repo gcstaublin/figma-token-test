@@ -17,10 +17,10 @@
     "Semantic/space",
     "Semantic/action",
     "Semantic/button",
+    "Semantic/form",
     "Semantic/alert",
     "Semantic/container",
     "Prototype/inteactiveUIColorRoles",
-    "Prototype/staticUIColorRoles",
-    "Prototype/formColorRoles"
+    "Prototype/staticUIColorRoles"
   ]
 }
