@@ -186,5 +186,21 @@
       "width.border.default": "f54def198c0b9de776564b1997396a9c2b186ee6"
     },
     "group": "Default"
+  },
+  {
+    "id": "5e325c0ba84fbd7376eaa06ca75ebc21c9197938",
+    "name": "Light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Base/color": "enabled",
+      "Base/fontSize": "enabled",
+      "Base/fontFamily": "enabled",
+      "Base/textTransform": "enabled",
+      "Base/fontWeight": "enabled",
+      "Base/lineHeight": "enabled",
+      "Base/space": "enabled",
+      "Base/border": "enabled"
+    },
+    "group": "Base"
   }
 ]
