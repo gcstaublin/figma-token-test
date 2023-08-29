@@ -18,7 +18,7 @@
     "Semantic/action",
     "Semantic/button",
     "Semantic/alert",
-    "Semantic/card",
+    "Semantic/container",
     "Prototype/inteactiveUIColorRoles",
     "Prototype/staticUIColorRoles",
     "Prototype/formColorRoles"

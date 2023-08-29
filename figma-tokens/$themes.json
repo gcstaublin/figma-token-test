@@ -44,7 +44,7 @@
       "Prototype/inteactiveUIColorRoles": "source",
       "Prototype/staticUIColorRoles": "source",
       "Prototype/formColorRoles": "source",
-      "Semantic/card": "enabled"
+      "Semantic/container": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
