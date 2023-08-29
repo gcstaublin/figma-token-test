@@ -1,0 +1,47 @@
+{
+  "card": {
+    "space": {
+      "padding": {
+        "block": {
+          "default": {
+            "value": "40px",
+            "type": "spacing"
+          }
+        },
+        "inline": {
+          "default": {
+            "value": "40px",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "inline": {
+          "default": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Space between title and body in Alerts and FireAlarms"
+          }
+        },
+        "block": {
+          "default": {
+            "value": "0",
+            "type": "spacing",
+            "description": "Block space between title and text in Alerts and Firealarm"
+          }
+        }
+      }
+    },
+    "shadow": {
+      "value": {
+        "x": "0",
+        "y": "1px",
+        "blur": "5px",
+        "spread": "0",
+        "color": "rgba(45, 62, 80, 0.12)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  }
+}

@@ -147,5 +147,39 @@
         }
       }
     }
+  },
+  "card": {
+    "space": {
+      "padding": {
+        "block": {
+          "default": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "inline": {
+          "default": {
+            "value": "{space.20}",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "inline": {
+          "default": {
+            "value": "{space.20}",
+            "type": "spacing",
+            "description": "Space between title and body in Alerts and FireAlarms"
+          }
+        },
+        "block": {
+          "default": {
+            "value": "{space.8}",
+            "type": "spacing",
+            "description": "Block space between title and text in Alerts and Firealarm"
+          }
+        }
+      }
+    }
   }
 }
