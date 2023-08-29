@@ -72,7 +72,7 @@ StyleDictionary.registerFilter({
   name: 'semantic-layer-filter',
   matcher: (token) => {
     // console.log(token.attributes)
-    if (token.attributes.filePath === 'tokens/semantic-tokens/color.json') {
+    if (token.attributes.filePath === 'tokens/Semantic/color.json') {
       console.log(token);
       // return token
     }
@@ -84,19 +84,21 @@ StyleDictionary.registerFilter({
   name: 'base-layer-filter',
   matcher: (token) => {
     switch (token.attributes.filePath) {
-      case 'figma-tokens/base-tokens/color.json':
+      case 'figma-tokens/Base/color.json':
         return token
-      case 'figma-tokens/base-tokens/fontFamily.json':
+      case 'figma-tokens/Base/border.json':
         return token
-      case 'figma-tokens/base-tokens/fontSize.json':
+      case 'figma-tokens/Base/fontFamily.json':
         return token
-      case 'figma-tokens/base-tokens/fontWeight.json':
+      case 'figma-tokens/Base/fontSize.json':
         return token
-      case 'figma-tokens/base-tokens/lineHeight.json':
+      case 'figma-tokens/Base/fontWeight.json':
         return token
-      case 'figma-tokens/base-tokens/space.json':
+      case 'figma-tokens/Base/lineHeight.json':
         return token
-      case 'figma-tokens/base-tokens/textTransform.json':
+      case 'figma-tokens/Base/space.json':
+        return token
+      case 'figma-tokens/Base/textTransform.json':
         return token
       default:
         console.log('All out of base layer files');
@@ -109,13 +111,29 @@ StyleDictionary.registerFilter({
   name: 'semantic-layer-filter',
   matcher: (token) => {
     switch (token.attributes.filePath) {
-      case 'figma-tokens/semantic-tokens/color.json':
+      case 'figma-tokens/Semantic/color.json':
         return token
-      case 'figma-tokens/semantic-tokens/fontWeight.json':
+      case 'figma-tokens/Semantic/action.json':
         return token
-      case 'figma-tokens/semantic-tokens/lineHeight.json':
+      case 'figma-tokens/Semantic/alert.json':
         return token
-      case 'figma-tokens/semantic-tokens/typeScale.json':
+      case 'figma-tokens/Semantic/border.json':
+        return token
+      case 'figma-tokens/Semantic/button.json':
+        return token
+      case 'figma-tokens/Semantic/container.json':
+        return token
+      case 'figma-tokens/Semantic/form.json':
+        return token
+      case 'figma-tokens/Semantic/space.json':
+        return token
+      case 'figma-tokens/Semantic/fontWeight.json':
+        return token
+      case 'figma-tokens/Semantic/lineHeight.json':
+        return token
+      case 'figma-tokens/Semantic/typeScale.json':
+        return token
+      case 'figma-tokens/Semantic/typography.json':
         return token
       default:
         console.log('All out of semantic layer files');
@@ -208,7 +226,7 @@ StyleDictionary.registerFilter({
 // Build Configs
 // ------------------------------
 const sd = StyleDictionary.extend({
-  source: ['figma-tokens/base-tokens/*.json', 'figma-tokens/semantic-tokens/*.json' ],
+  source: ['figma-tokens/Base/*.json', 'figma-tokens/Semantic/*.json' ],
   platforms: {
     SCSS: {
       prefix: prefix,
