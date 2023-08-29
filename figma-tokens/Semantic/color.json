@@ -36,6 +36,20 @@
         "type": "color",
         "description": "The color of micorcopy that indicates success or positive messaging"
       }
+    },
+    "surface": {
+      "default": {
+        "value": "{color.neutral.olaf}",
+        "type": "color"
+      },
+      "elevation1": {
+        "value": "{color.neutral.gypsum}",
+        "type": "color"
+      },
+      "transparent": {
+        "value": "rgba(0, 0, 0, 0)",
+        "type": "color"
+      }
     }
   }
 }
