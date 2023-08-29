@@ -43,8 +43,8 @@
       "Semantic/alert": "enabled",
       "Prototype/inteactiveUIColorRoles": "source",
       "Prototype/staticUIColorRoles": "source",
-      "Prototype/formColorRoles": "source",
-      "Semantic/container": "enabled"
+      "Semantic/container": "enabled",
+      "Semantic/form": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
