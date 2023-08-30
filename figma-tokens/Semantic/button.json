@@ -133,6 +133,10 @@
             "value": "rgba(255, 255, 255, 0.10)",
             "type": "color"
           }
+        },
+        "disabled": {
+          "value": "green",
+          "type": "color"
         }
       },
       "border": {
@@ -239,6 +243,14 @@
             "type": "color",
             "description": "Border color danger button active state"
           }
+        },
+        "transparent": {
+          "value": "rgba(0, 0, 0, 0)",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "green",
+          "type": "color"
         }
       },
       "text": {
@@ -306,6 +318,10 @@
               "value": "{color.text.inverse}",
               "type": "color"
             }
+          },
+          "disabled": {
+            "value": "green",
+            "type": "color"
           }
         }
       },
@@ -361,6 +377,10 @@
             "value": "{button.color.text.onBackground.neutral.light}",
             "type": "color"
           }
+        },
+        "disabled": {
+          "value": "green",
+          "type": "color"
         }
       }
     },
