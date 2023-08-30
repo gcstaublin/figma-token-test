@@ -41,10 +41,10 @@
       "Semantic/action": "enabled",
       "Semantic/button": "enabled",
       "Semantic/alert": "enabled",
-      "Prototype/inteactiveUIColorRoles": "source",
       "Prototype/staticUIColorRoles": "source",
       "Semantic/container": "enabled",
-      "Semantic/form": "enabled"
+      "Semantic/form": "enabled",
+      "Semantic/inteactiveUI": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
@@ -199,7 +199,8 @@
       "Base/fontWeight": "enabled",
       "Base/lineHeight": "enabled",
       "Base/space": "enabled",
-      "Base/border": "enabled"
+      "Base/border": "enabled",
+      "Semantic/inteactiveUI": "disabled"
     },
     "group": "Base"
   }

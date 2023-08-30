@@ -209,6 +209,60 @@
           "type": "color"
         }
       }
+    },
+    "typography": {
+      "item": {
+        "default": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.body.default}",
+            "lineHeight": "{lineHeight.body.default}",
+            "fontSize": "{typeScale.body.default}"
+          },
+          "type": "typography",
+          "description": "Typography to Dropdown and Select Items"
+        }
+      },
+      "title": {
+        "value": {
+          "fontFamily": "{fontFamily.default}",
+          "fontWeight": "{fontWeight.body.bold}",
+          "lineHeight": "{lineHeight.body.default}",
+          "fontSize": "{typeScale.body.default}"
+        },
+        "type": "typography",
+        "description": "Title for group selectable items in Selects"
+      }
+    },
+    "space": {
+      "padding": {
+        "inline": {
+          "default": {
+            "value": "{space.20}",
+            "type": "spacing"
+          }
+        },
+        "nested": {
+          "value": "40px",
+          "type": "spacing"
+        },
+        "block": {
+          "default": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "value": "{space.8}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "minHeight": {
+        "value": "40px",
+        "type": "sizing"
+      }
     }
   },
   "selectableBox": {
