@@ -99,19 +99,19 @@
     },
     "title": {
       "value": {
-        "fontFamily": "{display.heading5.fontFamily}",
-        "fontWeight": "{display.heading5.fontWeight}",
-        "lineHeight": "{display.heading5.lineHeight}",
-        "fontSize": "{display.heading5.fontSize}"
+        "lineHeight": "{typeScale.display.heading5} * {lineHeight.display}",
+        "fontWeight": "{fontWeight.display.default}",
+        "fontSize": "{typeScale.display.heading5}",
+        "fontFamily": "{fontFamily.default}"
       },
       "type": "typography"
     },
     "text": {
       "value": {
-        "fontFamily": "{text.body.fontFamily}",
-        "fontWeight": "{text.body.fontWeight}",
-        "fontSize": "{text.body.fontSize}",
-        "lineHeight": "{text.body.fontSize} * {lineHeight.oneFour}"
+        "lineHeight": "{typeScale.body.default}  * {lineHeight.oneFour}",
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.body.default}",
+        "fontSize": "{typeScale.body.default}"
       },
       "type": "typography"
     },

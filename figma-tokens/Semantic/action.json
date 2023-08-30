@@ -146,21 +146,31 @@
     "typography": {
       "default": {
         "value": {
-          "fontFamily": "{text.body.fontFamily}",
           "fontWeight": "{action.fontWeight.default}",
           "lineHeight": "inherit",
-          "fontSize": "inherit",
-          "textDecoration": "none"
+          "textDecoration": "none",
+          "fontFamily": "{fontFamily.default}",
+          "fontSize": "{typeScale.body.default}"
         },
         "type": "typography"
       },
       "underline": {
         "value": {
-          "fontFamily": "{text.body.fontFamily}",
           "fontWeight": "{action.fontWeight.default}",
           "lineHeight": "inherit",
-          "fontSize": "inherit",
-          "textDecoration": "underline"
+          "textDecoration": "underline",
+          "fontFamily": "{fontFamily.default}",
+          "fontSize": "{typeScale.body.default}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontWeight": "{action.fontWeight.default}",
+          "lineHeight": "inherit",
+          "textDecoration": "none",
+          "fontFamily": "{fontFamily.default}",
+          "fontSize": "{typeScale.body.small}"
         },
         "type": "typography"
       }
