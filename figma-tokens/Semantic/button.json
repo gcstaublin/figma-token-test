@@ -135,7 +135,11 @@
           }
         },
         "disabled": {
-          "value": "green",
+          "value": "{color.neutral.koala}",
+          "type": "color"
+        },
+        "transparent": {
+          "value": "rgba(0, 0, 0, 0)",
           "type": "color"
         }
       },
@@ -249,7 +253,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "green",
+          "value": "{button.color.background.disabled}",
           "type": "color"
         }
       },
@@ -320,7 +324,7 @@
             }
           },
           "disabled": {
-            "value": "green",
+            "value": "{color.text.disabled}",
             "type": "color"
           }
         }
@@ -379,7 +383,7 @@
           }
         },
         "disabled": {
-          "value": "green",
+          "value": "{button.color.text.onBackground.disabled}",
           "type": "color"
         }
       }
@@ -411,6 +415,35 @@
           "fontSize": "{button.fontSize.small}"
         },
         "type": "typography"
+      },
+      "transparent": {
+        "default": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{button.lineHeight.default}",
+            "fontSize": "{button.fontSize.default}",
+            "fontWeight": "{action.fontWeight.default}"
+          },
+          "type": "typography"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{button.lineHeight.small}",
+            "fontSize": "{button.fontSize.small}",
+            "fontWeight": "{action.fontWeight.default}"
+          },
+          "type": "typography"
+        },
+        "extra-small": {
+          "value": {
+            "fontFamily": "{fontFamily.default}",
+            "lineHeight": "{button.lineHeight.extraSmall}",
+            "fontSize": "{button.fontSize.extraSmall}",
+            "fontWeight": "{action.fontWeight.default}"
+          },
+          "type": "typography"
+        }
       }
     },
     "radius": {
@@ -441,6 +474,20 @@
             "value": "{space.12}",
             "type": "spacing",
             "description": "Internal space (padding) for extra-small button"
+          },
+          "transparent": {
+            "default": {
+              "value": "{space.12}",
+              "type": "spacing"
+            },
+            "small": {
+              "value": "{space.8}",
+              "type": "spacing"
+            },
+            "extraSmall": {
+              "value": "{space.6}",
+              "type": "spacing"
+            }
           }
         },
         "block": {
@@ -516,6 +563,25 @@
         "value": "{button.fontSize.small}",
         "type": "fontSizes",
         "description": "Font size for extra small buttons"
+      }
+    },
+    "size": {
+      "icon": {
+        "default": {
+          "value": "14px",
+          "type": "sizing",
+          "description": "(FIGMA) Icon size for buttons "
+        },
+        "small": {
+          "value": "12px",
+          "type": "sizing",
+          "description": "(FIGMA) Icon size for buttons "
+        },
+        "extraSmall": {
+          "value": "12px",
+          "type": "sizing",
+          "description": "(FIGMA) Icon size for buttons "
+        }
       }
     }
   },
