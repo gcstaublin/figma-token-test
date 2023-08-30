@@ -39,46 +39,46 @@
       "heading": {
         "extraLarge": {
           "value": {
-            "fontFamily": "{display.heading1.fontFamily}",
-            "fontWeight": "{display.heading1.fontWeight}",
-            "lineHeight": "{display.heading1.fontSize} * {lineHeight.display}",
-            "fontSize": "{display.heading1.fontSize}"
+            "lineHeight": "{typeScale.display.heading1}  * {lineHeight.display}",
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.display.bold}",
+            "fontSize": "{typeScale.display.heading1}"
           },
           "type": "typography"
         },
         "large": {
           "value": {
-            "fontFamily": "{display.heading2.fontFamily}",
-            "fontWeight": "{display.heading2.fontWeight}",
-            "lineHeight": "{display.heading2.fontSize} * {lineHeight.display}",
-            "fontSize": "{display.heading2.fontSize}"
+            "lineHeight": "{typeScale.display.heading2} * {lineHeight.display}",
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.display.light}",
+            "fontSize": "{typeScale.display.heading2}"
           },
           "type": "typography"
         },
         "medium": {
           "value": {
-            "fontFamily": "{display.heading4.fontFamily}",
-            "fontWeight": "{display.heading4.fontWeight}",
-            "lineHeight": "{display.heading4.fontSize} * {lineHeight.display}",
-            "fontSize": "{display.heading4.fontSize}"
+            "lineHeight": "{typeScale.display.heading4}  * {lineHeight.display}",
+            "fontSize": "{typeScale.display.heading4}",
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.display.default}"
           },
           "type": "typography"
         },
         "small": {
           "value": {
-            "fontFamily": "{display.heading5.fontFamily}",
-            "fontWeight": "{display.heading5.fontWeight}",
-            "lineHeight": "{display.heading5.fontSize} * {lineHeight.display}",
-            "fontSize": "{display.heading5.fontSize}"
+            "lineHeight": "{typeScale.display.heading5}  * {lineHeight.display}",
+            "fontWeight": "{fontWeight.display.default}",
+            "fontSize": "{typeScale.display.heading5}",
+            "fontFamily": "{fontFamily.default}"
           },
           "type": "typography"
         },
         "extraSmall": {
           "value": {
-            "fontFamily": "{text.body.fontFamily}",
-            "fontWeight": "{text.body.fontWeight}",
-            "fontSize": "{text.body.fontSize}",
-            "lineHeight": "{text.body.lineHeight}"
+            "fontFamily": "{fontFamily.default}",
+            "fontWeight": "{fontWeight.body.default}",
+            "lineHeight": "{lineHeight.body.default}",
+            "fontSize": "{typeScale.body.default}"
           },
           "type": "typography"
         }
