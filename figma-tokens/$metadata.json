@@ -20,7 +20,7 @@
     "Semantic/form",
     "Semantic/alert",
     "Semantic/container",
-    "Prototype/inteactiveUIColorRoles",
+    "Semantic/inteactiveUI",
     "Prototype/staticUIColorRoles"
   ]
 }
