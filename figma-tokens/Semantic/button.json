@@ -174,7 +174,7 @@
               "description": "Border color tertiary light button hover state"
             },
             "pressed": {
-              "value": "{button.color.border.neutral.default.idle}",
+              "value": "{color.neutral.eerie}",
               "type": "color",
               "description": "Border color tertiary light button active state"
             }
