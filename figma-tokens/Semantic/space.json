@@ -12,5 +12,91 @@
         "description": "Removing space between text elements"
       }
     }
+  },
+  "space": {
+    "50": {
+      "value": "{space.2}",
+      "type": "spacing"
+    },
+    "100": {
+      "value": "{space.4}",
+      "type": "spacing"
+    },
+    "150": {
+      "value": "{space.6}",
+      "type": "spacing"
+    },
+    "200": {
+      "value": "{space.8}",
+      "type": "spacing"
+    },
+    "250": {
+      "value": "{space.10}",
+      "type": "spacing"
+    },
+    "300": {
+      "value": "{space.12}",
+      "type": "spacing"
+    },
+    "350": {
+      "value": "{space.14}",
+      "type": "spacing"
+    },
+    "400": {
+      "value": "{space.16}",
+      "type": "spacing"
+    },
+    "450": {
+      "value": "{space.18}",
+      "type": "spacing"
+    },
+    "500": {
+      "value": "{space.20}",
+      "type": "spacing"
+    },
+    "600": {
+      "value": "{space.24}",
+      "type": "spacing"
+    },
+    "700": {
+      "value": "{space.28}",
+      "type": "spacing"
+    },
+    "800": {
+      "value": "{space.32}",
+      "type": "spacing"
+    },
+    "900": {
+      "value": "{space.36}",
+      "type": "spacing"
+    },
+    "1000": {
+      "value": "{space.40}",
+      "type": "spacing"
+    },
+    "1100": {
+      "value": "{space.44}",
+      "type": "spacing"
+    },
+    "1200": {
+      "value": "{space.48}",
+      "type": "spacing"
+    },
+    "1300": {
+      "value": "{space.52}",
+      "type": "spacing"
+    },
+    "1400": {
+      "value": "{space.56}",
+      "type": "spacing"
+    },
+    "1500": {
+      "value": "{space.60}",
+      "type": "spacing"
+    },
+    "none": {
+      "value": "{space.0}",
+      "type": "spacing"
+    }
   }
 }
