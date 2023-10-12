@@ -11,7 +11,6 @@
       "action.typography.default": "S:22f6c3bd95c288deb457ba603bd528d43e3565d4,",
       "action.typography.underline": "S:5807be5470a1e41df2bc7aa3f2286df5506280e6,",
       "text.body": "S:c942e0d0c9a8facd736238f0fc03537f139c59dc,",
-      "text.microcopy": "S:0eddcaea708f012a684720eb8111e6a701b78f1f,",
       "text.code": "S:2271f19b8cf9e3574d1344086b7a1ea2460c2546,",
       "display.heading1": "S:a1c1dbd8f12c66c15617bb7762b8088cae126c8e,",
       "display.heading2": "S:c0cf29c6ccb620795ae2bc0ed45951d3ea2b8355,",
@@ -20,7 +19,8 @@
       "display.heading5": "S:af2c915d0ab7d4c9081f3b1dc6458322828e4a23,",
       "display.heading6": "S:762c8d4bed3acf833bfc7ebc37ea54ea06772fbd,",
       "display.tagline": "S:eacc0e7162ee5ff391951ee50ab743eb7381b765,",
-      "display.pageHeading": "S:04af206235fe6866b3a4d242deee514683f57c12,"
+      "display.pageHeading": "S:04af206235fe6866b3a4d242deee514683f57c12,",
+      "text.bodySmall": "S:0eddcaea708f012a684720eb8111e6a701b78f1f,"
     },
     "selectedTokenSets": {
       "Base/color": "source",
