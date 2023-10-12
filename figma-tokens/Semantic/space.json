@@ -1,18 +1,4 @@
 {
-  "text": {
-    "margin": {
-      "default": {
-        "value": "{space.16}",
-        "type": "spacing",
-        "description": "Default space between text elements"
-      },
-      "zero": {
-        "value": "{space.0}",
-        "type": "spacing",
-        "description": "Removing space between text elements"
-      }
-    }
-  },
   "space": {
     "50": {
       "value": "{space.2}",
