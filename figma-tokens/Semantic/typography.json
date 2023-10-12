@@ -10,7 +10,17 @@
       "type": "typography",
       "description": "Default body copy. Composite token."
     },
-    "microcopy": {
+    "bodyLarge": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.body.default}",
+        "lineHeight": "{lineHeight.body.default}",
+        "fontSize": "{typeScale.body.large}"
+      },
+      "type": "typography",
+      "description": "Default body copy. Composite token."
+    },
+    "bodySmall": {
       "value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.body.default}",
