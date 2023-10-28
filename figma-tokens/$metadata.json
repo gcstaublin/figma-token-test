@@ -8,6 +8,7 @@
     "Base/lineHeight",
     "Base/space",
     "Base/border",
+    "Base/motion",
     "Semantic/border",
     "Semantic/color",
     "Semantic/typeScale",
@@ -21,6 +22,7 @@
     "Semantic/alert",
     "Semantic/container",
     "Semantic/interactiveUI",
+    "Semantic/motion",
     "Prototype/staticUIColorRoles"
   ]
 }
