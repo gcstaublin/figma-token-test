@@ -1,0 +1,14 @@
+{
+  "motion": {
+    "transition": {
+      "height": {
+        "type": "transition",
+        "value": {
+          "duration": "{duration-200}",
+          "delay": "0ms",
+          "timingFunction": "{timingFunctionEase}"
+        }
+      }
+    }
+  }
+}

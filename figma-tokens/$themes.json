@@ -44,7 +44,9 @@
       "Prototype/staticUIColorRoles": "source",
       "Semantic/container": "enabled",
       "Semantic/form": "enabled",
-      "Semantic/interactiveUI": "enabled"
+      "Semantic/interactiveUI": "enabled",
+      "Base/motion": "disabled",
+      "Semantic/motion": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
@@ -199,7 +201,9 @@
       "Base/fontWeight": "enabled",
       "Base/lineHeight": "enabled",
       "Base/space": "enabled",
-      "Base/border": "enabled"
+      "Base/border": "enabled",
+      "Base/motion": "disabled",
+      "Semantic/motion": "disabled"
     },
     "group": "Base"
   }
