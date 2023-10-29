@@ -1,62 +1,77 @@
 {
-  "duration-100": {
-    "value": "100ms",
-    "type": "duration"
-  },
-  "duration-150": {
-    "value": "150ms",
-    "type": "duration"
-  },
-  "duration-200": {
-    "value": "200ms",
-    "type": "duration"
-  },
-  "duration-250": {
-    "value": "250ms",
-    "type": "duration"
-  },
-  "duration-300": {
-    "value": "300ms",
-    "type": "duration"
-  },
-  "duration-350": {
-    "value": "350ms",
-    "type": "duration"
-  },
-  "timingFunctionEase": {
-    "value": [
-      0.25,
-      0.1,
-      0.25,
-      1
-    ],
-    "type": "cubicBezier"
-  },
-  "timingFunctionLinear": {
-    "value": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "type": "cubicBezier"
-  },
-  "timingFunctionEaseIn": {
-    "value": [
-      0.42,
-      0,
-      1,
-      1
-    ],
-    "type": "cubicBezier"
-  },
-  "timingFunctionEaseInOut": {
-    "value": [
-      0.42,
-      0,
-      0.58,
-      1
-    ],
-    "type": "cubicBezier"
+  "timing": {
+    "duration": {
+      "100": {
+        "value": "100ms",
+        "type": "duration"
+      },
+      "150": {
+        "value": "150ms",
+        "type": "duration"
+      },
+      "200": {
+        "value": "200ms",
+        "type": "duration"
+      },
+      "250": {
+        "value": "250ms",
+        "type": "duration"
+      },
+      "300": {
+        "value": "300ms",
+        "type": "duration"
+      },
+      "350": {
+        "value": "350ms",
+        "type": "duration"
+      }
+    },
+    "function": {
+      "ease": {
+        "value": [
+          0.25,
+          0.1,
+          0.25,
+          1
+        ],
+        "type": "cubicBezier"
+      },
+      "linear": {
+        "value": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "type": "cubicBezier"
+      },
+      "easeIn": {
+        "value": [
+          0.42,
+          0,
+          1,
+          1
+        ],
+        "type": "cubicBezier"
+      },
+      "easeOut": {
+        "value": [
+          0,
+          0,
+          0.58,
+          1
+        ],
+        "type": "cubicBezier"
+      },
+      "easeInOut": {
+        "value": [
+          0.42,
+          0,
+          0.58,
+          1
+        ],
+        "type": "cubicBezier"
+      }
+    }
   }
 }
