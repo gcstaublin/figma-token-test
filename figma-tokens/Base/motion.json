@@ -29,46 +29,46 @@
     "function": {
       "ease": {
         "value": [
-          0.25,
-          0.1,
-          0.25,
-          1
+          {},
+          {},
+          {},
+          {}
         ],
         "type": "cubicBezier"
       },
       "linear": {
         "value": [
-          0,
-          0,
-          1,
-          1
+          {},
+          {},
+          {},
+          {}
         ],
         "type": "cubicBezier"
       },
       "easeIn": {
         "value": [
-          0.42,
-          0,
-          1,
-          1
+          {},
+          {},
+          {},
+          {}
         ],
         "type": "cubicBezier"
       },
       "easeOut": {
         "value": [
-          0,
-          0,
-          0.58,
-          1
+          {},
+          {},
+          {},
+          {}
         ],
         "type": "cubicBezier"
       },
       "easeInOut": {
         "value": [
-          0.42,
-          0,
-          0.58,
-          1
+          {},
+          {},
+          {},
+          {}
         ],
         "type": "cubicBezier"
       }

@@ -1,12 +1,42 @@
 {
-  "motion": {
-    "transition": {
-      "height": {
-        "type": "transition",
-        "value": {
-          "duration": "{timing.duration.200}",
-          "delay": "0ms",
-          "timingFunction": "{timing.function.ease}"
+  "disclosure": {
+    "duration": {
+      "maxHeight": {
+        "default": {
+          "value": "{timing.duration.200}",
+          "type": "transition"
+        }
+      },
+      "opacity": {
+        "default": {
+          "value": "{timing.duration.200}",
+          "type": "transition"
+        }
+      },
+      "transform": {
+        "default": {
+          "value": "{timing.duration.200}",
+          "type": "transition"
+        }
+      }
+    },
+    "easing": {
+      "maxHeight": {
+        "default": {
+          "value": "{timing.function.ease}",
+          "type": "transition"
+        }
+      },
+      "opacity": {
+        "default": {
+          "value": "{timing.function.easeInOut}",
+          "type": "transition"
+        }
+      },
+      "transform": {
+        "default": {
+          "value": "{timing.function.easeInOut}",
+          "type": "transition"
         }
       }
     }
