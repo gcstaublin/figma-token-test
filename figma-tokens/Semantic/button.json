@@ -461,31 +461,31 @@
       "padding": {
         "inline": {
           "default": {
-            "value": "24px",
+            "value": "{space.600}",
             "type": "spacing",
             "description": "Internal space (padding) for default (medium) button"
           },
           "small": {
-            "value": "{space.16}",
+            "value": "{space.400}",
             "type": "spacing",
             "description": "Internal space (padding) for small button"
           },
           "extraSmall": {
-            "value": "{space.12}",
+            "value": "{space.300}",
             "type": "spacing",
             "description": "Internal space (padding) for extra-small button"
           },
           "transparent": {
             "default": {
-              "value": "{space.12}",
+              "value": "{space.300}",
               "type": "spacing"
             },
             "small": {
-              "value": "{space.8}",
+              "value": "{space.200}",
               "type": "spacing"
             },
             "extraSmall": {
-              "value": "{space.6}",
+              "value": "{space.150}",
               "type": "spacing"
             }
           }
@@ -497,7 +497,7 @@
             "description": "Internal space (aka padding) for default (medium) button "
           },
           "small": {
-            "value": "{space.8}",
+            "value": "{space.200}",
             "type": "spacing",
             "description": "Internal space (padding) for small button"
           },
@@ -515,12 +515,12 @@
           "description": "Space between elements in default size button"
         },
         "small": {
-          "value": "{space.6}",
+          "value": "{space.150}",
           "type": "spacing",
           "description": "Space between elements in small size button"
         },
         "extraSmall": {
-          "value": "{space.6}",
+          "value": "{space.150}",
           "type": "spacing",
           "description": "Space between elements in extra small-size button"
         }

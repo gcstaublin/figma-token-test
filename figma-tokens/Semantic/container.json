@@ -4,11 +4,11 @@
       "padding": {
         "block": {
           "default": {
-            "value": "40px",
+            "value": "{space.1000}",
             "type": "spacing"
           },
           "compact": {
-            "value": "24px",
+            "value": "{space.600}",
             "type": "spacing"
           }
         },
@@ -90,11 +90,11 @@
       "padding": {
         "block": {
           "default": {
-            "value": "32px",
+            "value": "{space.800}",
             "type": "spacing"
           },
           "compact": {
-            "value": "{space.20}",
+            "value": "{space.500}",
             "type": "spacing"
           }
         },
@@ -112,23 +112,23 @@
       "margin": {
         "block": {
           "flush": {
-            "value": "0",
+            "value": "{space.none}",
             "type": "spacing"
           },
           "extraSmall": {
-            "value": "{space.8}",
+            "value": "{space.200}",
             "type": "spacing"
           },
           "small": {
-            "value": "{space.12}",
+            "value": "{space.300}",
             "type": "spacing"
           },
           "medium": {
-            "value": "24px",
+            "value": "{space.600}",
             "type": "spacing"
           },
           "large": {
-            "value": "32px",
+            "value": "{space.800}",
             "type": "spacing"
           },
           "extraLarge": {
@@ -168,21 +168,21 @@
       "padding": {
         "block": {
           "default": {
-            "value": "{space.16}",
+            "value": "{space.400}",
             "type": "spacing"
           },
           "none": {
-            "value": "{space.0}",
+            "value": "{space.none}",
             "type": "spacing"
           }
         },
         "inline": {
           "default": {
-            "value": "24px",
+            "value": "{space.600}",
             "type": "spacing"
           },
           "none": {
-            "value": "{space.0}",
+            "value": "{space.none}",
             "type": "spacing"
           }
         }

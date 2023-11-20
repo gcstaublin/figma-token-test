@@ -238,23 +238,23 @@
       "padding": {
         "inline": {
           "default": {
-            "value": "{space.20}",
+            "value": "{space.500}",
             "type": "spacing"
           }
         },
         "nested": {
-          "value": "40px",
+          "value": "{space.1000}",
           "type": "spacing"
         },
         "block": {
           "default": {
-            "value": "{space.8}",
+            "value": "{space.200}",
             "type": "spacing"
           }
         }
       },
       "gap": {
-        "value": "{space.8}",
+        "value": "{space.200}",
         "type": "spacing"
       }
     },
