@@ -4,19 +4,19 @@
       "maxHeight": {
         "default": {
           "value": "{timing.duration.200}",
-          "type": "transition"
+          "type": "duration"
         }
       },
       "opacity": {
         "default": {
           "value": "{timing.duration.200}",
-          "type": "transition"
+          "type": "duration"
         }
       },
       "transform": {
         "default": {
           "value": "{timing.duration.200}",
-          "type": "transition"
+          "type": "duration"
         }
       }
     },
@@ -24,19 +24,19 @@
       "maxHeight": {
         "default": {
           "value": "{timing.function.ease}",
-          "type": "transition"
+          "type": "cubicBezier"
         }
       },
       "opacity": {
         "default": {
           "value": "{timing.function.easeInOut}",
-          "type": "transition"
+          "type": "cubicBezier"
         }
       },
       "transform": {
         "default": {
           "value": "{timing.function.easeInOut}",
-          "type": "transition"
+          "type": "cubicBezier"
         }
       }
     }
