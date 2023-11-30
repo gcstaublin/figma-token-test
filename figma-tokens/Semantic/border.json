@@ -6,10 +6,15 @@
         "type": "color",
         "description": "Most common border color"
       },
+      "subtle": {
+        "value": "{color.neutral.great white}",
+        "type": "color",
+        "description": "Border color for Tiles, MultiColumns, Tables"
+      },
       "table": {
         "value": "{color.neutral.great white}",
         "type": "color",
-        "description": "Border color in tables"
+        "description": "Deprecated in favor of subtle token"
       },
       "selectable": {
         "value": "{color.calypso.medium}",
@@ -72,6 +77,26 @@
         "value": "{width.border.1}",
         "type": "borderWidth"
       }
+    }
+  },
+  "border": {
+    "default": {
+      "value": {
+        "color": "{color.border.default}",
+        "width": "{width.border.default}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "Composite token for most container borders"
+    },
+    "subtle": {
+      "value": {
+        "color": "{color.border.subtle}",
+        "width": "{width.border.default}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "Composite border token for Tiles, Multicolumns, Tables"
     }
   }
 }
