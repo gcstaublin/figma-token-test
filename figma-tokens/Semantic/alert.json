@@ -146,6 +146,48 @@
           }
         }
       }
+    },
+    "border": {
+      "danger": {
+        "value": {
+          "color": "{alert.color.border.danger}",
+          "width": "{width.border.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "info": {
+        "value": {
+          "color": "{alert.color.border.info}",
+          "width": "{width.border.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "warning": {
+        "value": {
+          "color": "{alert.color.border.warning}",
+          "width": "{width.border.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "success": {
+        "value": {
+          "color": "{alert.color.border.success}",
+          "width": "{width.border.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "tip": {
+        "value": {
+          "color": "{alert.color.border.tip}",
+          "width": "{width.border.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
     }
   }
 }
