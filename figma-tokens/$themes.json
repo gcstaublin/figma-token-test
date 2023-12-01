@@ -41,10 +41,11 @@
       "Semantic/action": "enabled",
       "Semantic/button": "enabled",
       "Semantic/alert": "enabled",
-      "Prototype/staticUIColorRoles": "source",
       "Semantic/container": "enabled",
       "Semantic/form": "enabled",
-      "Semantic/interactiveUI": "enabled"
+      "Semantic/interactiveUI": "enabled",
+      "Base/motion": "source",
+      "Semantic/motion": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
