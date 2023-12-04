@@ -41,6 +41,11 @@
           "value": "#fdf3e1",
           "type": "color",
           "description": "Warning Fire Alarm Background Color"
+        },
+        "promo": {
+          "value": "linear-gradient(89deg, {color.lorax.default} 0%, {color.norman.default} 100% )",
+          "type": "color",
+          "description": "Background gradient for Banners"
         }
       },
       "border": {
