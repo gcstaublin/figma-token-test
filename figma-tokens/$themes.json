@@ -229,7 +229,8 @@
       "Semantic/form": "enabled",
       "Semantic/interactiveUI": "enabled",
       "Base/motion": "source",
-      "Semantic/motion": "enabled"
+      "Semantic/motion": "enabled",
+      "Semantic/disclosure": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
@@ -384,7 +385,8 @@
       "Base/fontWeight": "enabled",
       "Base/lineHeight": "enabled",
       "Base/space": "enabled",
-      "Base/border": "enabled"
+      "Base/border": "enabled",
+      "Semantic/disclosure": "disabled"
     },
     "group": "Base"
   }
