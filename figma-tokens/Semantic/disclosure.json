@@ -1,0 +1,170 @@
+{
+  "disclosure": {
+    "indicator": {
+      "size": {
+        "width": {
+          "medium": {
+            "value": "9px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "extraLarge": {
+            "value": "11px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "large": {
+            "value": "{disclosure.indicator.size.width.extraLarge}",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "small": {
+            "value": "7px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "extraSmall": {
+            "value": "5px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          }
+        },
+        "height": {
+          "medium": {
+            "value": "16px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "extraLarge": {
+            "value": "20px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "large": {
+            "value": "{disclosure.indicator.size.height.extraLarge}",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "small": {
+            "value": "12px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          },
+          "extraSmall": {
+            "value": "10px",
+            "type": "sizing",
+            "description": "Indicator svg size for Expandable Cards and Accordion"
+          }
+        }
+      }
+    },
+    "title": {
+      "space": {
+        "padding": {
+          "inline": {
+            "start": {
+              "medium": {
+                "value": "26px",
+                "type": "spacing",
+                "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
+              },
+              "extraLarge": {
+                "value": "30px",
+                "type": "spacing",
+                "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
+              },
+              "large": {
+                "value": "{disclosure.title.space.padding.inline.start.extraLarge}",
+                "type": "spacing",
+                "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
+              },
+              "small": {
+                "value": "22px",
+                "type": "spacing",
+                "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
+              },
+              "extraSmall": {
+                "value": "{space.400}",
+                "type": "spacing",
+                "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
+              }
+            }
+          },
+          "block": {
+            "end": {
+              "medium": {
+                "value": "{space.400}",
+                "type": "spacing",
+                "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
+              },
+              "extraLarge": {
+                "value": "{disclosure.title.space.padding.block.end.medium}",
+                "type": "spacing",
+                "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
+              },
+              "large": {
+                "value": "{disclosure.title.space.padding.block.end.medium}",
+                "type": "spacing",
+                "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
+              },
+              "small": {
+                "value": "{disclosure.title.space.padding.block.end.medium}",
+                "type": "spacing",
+                "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
+              },
+              "extraSmall": {
+                "value": "{space.200}",
+                "type": "spacing",
+                "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
+              }
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "space": {
+        "padding": {
+          "inline": {
+            "start": {
+              "medium": {
+                "value": "{disclosure.title.space.padding.inline.start.medium}",
+                "type": "spacing",
+                "description": "Left padding for Accordion content"
+              },
+              "extraLarge": {
+                "value": "{disclosure.title.space.padding.inline.start.extraLarge}",
+                "type": "spacing",
+                "description": "Left padding for Accordion content"
+              },
+              "large": {
+                "value": "{disclosure.title.space.padding.inline.start.large}",
+                "type": "spacing",
+                "description": "Left padding for Accordion content"
+              },
+              "small": {
+                "value": "{disclosure.title.space.padding.inline.start.small}",
+                "type": "spacing",
+                "description": "Left padding for Accordion content"
+              },
+              "extraSmall": {
+                "value": "{disclosure.title.space.padding.inline.start.extraSmall}",
+                "type": "spacing",
+                "description": "Left padding for Accordion content"
+              }
+            }
+          }
+        }
+      }
+    },
+    "space": {
+      "gap": {
+        "inline": {
+          "value": "{space.300}",
+          "type": "spacing",
+          "description": "Space between title and toolbar in Cards"
+        }
+      }
+    }
+  }
+}

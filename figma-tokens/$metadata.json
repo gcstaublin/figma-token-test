@@ -23,6 +23,7 @@
     "Semantic/container",
     "Semantic/interactiveUI",
     "Semantic/motion",
+    "Semantic/disclosure",
     "Prototype/staticUIColorRoles"
   ]
 }
