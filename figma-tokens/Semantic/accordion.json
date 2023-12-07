@@ -1,6 +1,6 @@
 {
-  "disclosure": {
-    "indicator": {
+  "accordion": {
+    "icon": {
       "size": {
         "width": {
           "medium": {
@@ -14,7 +14,7 @@
             "description": "Indicator svg size for Expandable Cards and Accordion"
           },
           "large": {
-            "value": "{disclosure.indicator.size.width.extraLarge}",
+            "value": "{accordion.icon.size.width.extraLarge}",
             "type": "sizing",
             "description": "Indicator svg size for Expandable Cards and Accordion"
           },
@@ -41,7 +41,7 @@
             "description": "Indicator svg size for Expandable Cards and Accordion"
           },
           "large": {
-            "value": "{disclosure.indicator.size.height.extraLarge}",
+            "value": "{accordion.icon.size.height.extraLarge}",
             "type": "sizing",
             "description": "Indicator svg size for Expandable Cards and Accordion"
           },
@@ -64,22 +64,22 @@
           "inline": {
             "start": {
               "medium": {
-                "value": "26px",
+                "value": "{space.600}",
                 "type": "spacing",
                 "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
               },
               "extraLarge": {
-                "value": "30px",
+                "value": "{space.700}",
                 "type": "spacing",
                 "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
               },
               "large": {
-                "value": "{disclosure.title.space.padding.inline.start.extraLarge}",
+                "value": "{accordion.title.space.padding.inline.start.extraLarge}",
                 "type": "spacing",
                 "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
               },
               "small": {
-                "value": "22px",
+                "value": "{space.500}",
                 "type": "spacing",
                 "description": "Left padding for Expandable Cards and Accordion accounts for the indicator"
               },
@@ -98,17 +98,17 @@
                 "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
               },
               "extraLarge": {
-                "value": "{disclosure.title.space.padding.block.end.medium}",
+                "value": "{accordion.title.space.padding.block.end.medium}",
                 "type": "spacing",
                 "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
               },
               "large": {
-                "value": "{disclosure.title.space.padding.block.end.medium}",
+                "value": "{accordion.title.space.padding.block.end.medium}",
                 "type": "spacing",
                 "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
               },
               "small": {
-                "value": "{disclosure.title.space.padding.block.end.medium}",
+                "value": "{accordion.title.space.padding.block.end.medium}",
                 "type": "spacing",
                 "description": "Bottom padding for Accordion title creates space beneath title and exposed content"
               },
@@ -128,27 +128,27 @@
           "inline": {
             "start": {
               "medium": {
-                "value": "{disclosure.title.space.padding.inline.start.medium}",
+                "value": "{accordion.title.space.padding.inline.start.medium}",
                 "type": "spacing",
                 "description": "Left padding for Accordion content"
               },
               "extraLarge": {
-                "value": "{disclosure.title.space.padding.inline.start.extraLarge}",
+                "value": "{accordion.title.space.padding.inline.start.extraLarge}",
                 "type": "spacing",
                 "description": "Left padding for Accordion content"
               },
               "large": {
-                "value": "{disclosure.title.space.padding.inline.start.large}",
+                "value": "{accordion.title.space.padding.inline.start.large}",
                 "type": "spacing",
                 "description": "Left padding for Accordion content"
               },
               "small": {
-                "value": "{disclosure.title.space.padding.inline.start.small}",
+                "value": "{accordion.title.space.padding.inline.start.small}",
                 "type": "spacing",
                 "description": "Left padding for Accordion content"
               },
               "extraSmall": {
-                "value": "{disclosure.title.space.padding.inline.start.extraSmall}",
+                "value": "{accordion.title.space.padding.inline.start.extraSmall}",
                 "type": "spacing",
                 "description": "Left padding for Accordion content"
               }
