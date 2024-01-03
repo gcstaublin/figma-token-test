@@ -385,8 +385,7 @@
       "Base/fontWeight": "enabled",
       "Base/lineHeight": "enabled",
       "Base/space": "enabled",
-      "Base/border": "enabled",
-      "Semantic/accordion": "disabled"
+      "Base/border": "enabled"
     },
     "group": "Base"
   }
