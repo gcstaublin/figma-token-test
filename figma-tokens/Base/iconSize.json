@@ -1,0 +1,24 @@
+{
+  "iconSize": {
+    "8": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "12": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "14": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "16": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "36": {
+      "value": "36px",
+      "type": "dimension"
+    }
+  }
+}
