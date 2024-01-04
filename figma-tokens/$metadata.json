@@ -9,6 +9,7 @@
     "Base/space",
     "Base/border",
     "Base/motion",
+    "Base/iconSize",
     "Semantic/border",
     "Semantic/color",
     "Semantic/typeScale",

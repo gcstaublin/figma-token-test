@@ -620,5 +620,100 @@
         "description": "Font size of a extra-small size Icon Button (controls size of Icon)"
       }
     }
+  },
+  "closeButton": {
+    "size": {
+      "icon": {
+        "small": {
+          "value": "{iconSize.8}",
+          "type": "dimension"
+        },
+        "medium": {
+          "value": "{iconSize.12}",
+          "type": "dimension"
+        },
+        "large": {
+          "value": "{iconSize.16}",
+          "type": "dimension"
+        },
+        "extraLarge": {
+          "value": "{iconSize.36}",
+          "type": "dimension"
+        }
+      },
+      "affordance": {
+        "small": {
+          "value": "{closeButton.size.icon.small} * 2",
+          "type": "dimension",
+          "description": "Hover, active affordance or closeButton"
+        },
+        "medium": {
+          "value": "{closeButton.size.icon.medium} * 2",
+          "type": "dimension",
+          "description": "Hover, active affordance or closeButton"
+        },
+        "large": {
+          "value": "32px",
+          "type": "dimension",
+          "description": "Hover, active affordance or closeButton"
+        },
+        "extraLarge": {
+          "value": "72px",
+          "type": "dimension",
+          "description": "Hover, active affordance or closeButton"
+        }
+      }
+    },
+    "color": {
+      "affordance": {
+        "idle": {
+          "value": "rgba(255, 255, 255, 0)",
+          "type": "color",
+          "description": "Idle state for closeButton affordance"
+        },
+        "hover": {
+          "value": "rgba(255, 255, 255, .1)",
+          "type": "color",
+          "description": "Hover state for closeButton affordance"
+        },
+        "pressed": {
+          "value": "{closeButton.color.affordance.hover}",
+          "type": "color",
+          "description": "Pressed state for closeButton affordance"
+        },
+        "focus": {
+          "value": "{closeButton.color.affordance.hover}",
+          "type": "color",
+          "description": "Focus state for closeButton affordance"
+        },
+        "disabled": {
+          "value": "{closeButton.color.affordance.idle}",
+          "type": "color",
+          "description": "Disabled state for closeButton affordance"
+        }
+      },
+      "icon": {
+        "default": {
+          "idle": {
+            "value": "{action.color.icon.default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba(124, 152, 182, 0.6)",
+            "type": "color"
+          }
+        },
+        "inverse": {
+          "idle": {
+            "value": "{action.color.icon.inverse}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba(255,255,255, 0.6)",
+            "type": "color"
+          }
+        }
+      }
+    }
   }
 }
