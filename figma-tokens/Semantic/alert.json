@@ -78,12 +78,12 @@
     },
     "minHeight": {
       "compact": {
-        "value": "44px",
+        "value": "{space.1100}",
         "type": "dimension",
         "description": "Min Height for inline Alert"
       },
       "default": {
-        "value": "60px",
+        "value": "{space.1500}",
         "type": "dimension",
         "description": "Min Height for Default Alert"
       }

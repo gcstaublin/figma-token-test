@@ -388,8 +388,7 @@
       "Base/lineHeight": "enabled",
       "Base/space": "enabled",
       "Base/border": "enabled",
-      "Base/iconSize": "enabled",
-      "Semantic/focus": "disabled"
+      "Base/iconSize": "enabled"
     },
     "group": "Base"
   }
