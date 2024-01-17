@@ -25,6 +25,7 @@
     "Semantic/interactiveUI",
     "Semantic/motion",
     "Semantic/accordion",
+    "Semantic/focus",
     "Prototype/staticUIColorRoles"
   ]
 }
