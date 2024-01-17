@@ -231,7 +231,8 @@
       "Base/motion": "source",
       "Semantic/motion": "enabled",
       "Semantic/accordion": "enabled",
-      "Base/iconSize": "source"
+      "Base/iconSize": "source",
+      "Semantic/focus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:291:2858",
     "$figmaModeId": "291:5",
@@ -387,7 +388,8 @@
       "Base/lineHeight": "enabled",
       "Base/space": "enabled",
       "Base/border": "enabled",
-      "Base/iconSize": "enabled"
+      "Base/iconSize": "enabled",
+      "Semantic/focus": "disabled"
     },
     "group": "Base"
   }

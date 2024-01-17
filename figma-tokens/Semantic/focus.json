@@ -1,0 +1,18 @@
+{
+  "focus": {
+    "width": {
+      "default": {
+        "value": "2px",
+        "type": "dimension",
+        "description": "Width of focus ring"
+      }
+    },
+    "offset": {
+      "default": {
+        "value": "3px",
+        "type": "dimension",
+        "description": "Offset of focus ring"
+      }
+    }
+  }
+}
