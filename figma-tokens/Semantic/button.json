@@ -640,28 +640,6 @@
           "value": "{iconSize.36}",
           "type": "dimension"
         }
-      },
-      "affordance": {
-        "small": {
-          "value": "{closeButton.size.icon.small} * 2",
-          "type": "dimension",
-          "description": "Hover, active affordance or closeButton"
-        },
-        "medium": {
-          "value": "{closeButton.size.icon.medium} * 2",
-          "type": "dimension",
-          "description": "Hover, active affordance or closeButton"
-        },
-        "large": {
-          "value": "32px",
-          "type": "dimension",
-          "description": "Hover, active affordance or closeButton"
-        },
-        "extraLarge": {
-          "value": "72px",
-          "type": "dimension",
-          "description": "Hover, active affordance or closeButton"
-        }
       }
     },
     "color": {
