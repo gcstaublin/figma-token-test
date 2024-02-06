@@ -665,7 +665,7 @@
       }
     },
     "color": {
-      "affordance": {
+      "background": {
         "idle": {
           "value": "rgba(255, 255, 255, 0)",
           "type": "color",
@@ -677,17 +677,17 @@
           "description": "Hover state for closeButton affordance"
         },
         "pressed": {
-          "value": "{closeButton.color.affordance.hover}",
+          "value": "{closeButton.color.background.hover}",
           "type": "color",
           "description": "Pressed state for closeButton affordance"
         },
         "focus": {
-          "value": "{closeButton.color.affordance.hover}",
+          "value": "{closeButton.color.background.hover}",
           "type": "color",
           "description": "Focus state for closeButton affordance"
         },
         "disabled": {
-          "value": "{closeButton.color.affordance.idle}",
+          "value": "{closeButton.color.background.idle}",
           "type": "color",
           "description": "Disabled state for closeButton affordance"
         }
@@ -712,6 +712,26 @@
             "value": "rgba(255,255,255, 0.6)",
             "type": "color"
           }
+        }
+      }
+    },
+    "space": {
+      "padding": {
+        "small": {
+          "value": "{space.100}",
+          "type": "dimension"
+        },
+        "medium": {
+          "value": "{space.150}",
+          "type": "dimension"
+        },
+        "large": {
+          "value": "{space.200}",
+          "type": "dimension"
+        },
+        "extraLarge": {
+          "value": "{space.450}",
+          "type": "dimension"
         }
       }
     }
