@@ -6,98 +6,98 @@
           "idle": {
             "value": "{color.calypso.dark}",
             "type": "color",
-            "description": "Default action. Idle."
+            "description": "DEPRECATED. Default action. Idle."
           },
           "hover": {
             "value": "#007a8c",
             "type": "color",
-            "description": "Default action. Hover."
+            "description": "DEPRECATED.Default action. Hover."
           },
           "pressed": {
             "value": "{color.calypso.medium}",
             "type": "color",
-            "description": "Default action. Active."
+            "description": "DEPRECATED.Default action. Active."
           },
           "visited": {
             "value": "{action.color.text.default.idle}",
             "type": "color",
-            "description": "Default action. Visited."
+            "description": "DEPRECATED.Default action. Visited."
           }
         },
         "visited": {
           "value": "{color.text.default}",
           "type": "color",
-          "description": "Default action. Visited."
+          "description": "DEPRECATED.Default action. Visited."
         },
         "disabled": {
           "value": "{color.text.disabled}",
           "type": "color",
-          "description": "Default action. Disabled."
+          "description": "DEPRECATED.Default action. Disabled."
         },
         "danger": {
           "idle": {
             "value": "{color.candy apple.default}",
             "type": "color",
-            "description": "Danger action. Idle."
+            "description": "DEPRECATED.Danger action. Idle."
           },
           "hover": {
             "value": "{color.candy apple.dark}",
             "type": "color",
-            "description": "Danger action. Hover."
+            "description": "DEPRECATED.Danger action. Hover."
           },
           "pressed": {
             "value": "{color.candy apple.dark}",
             "type": "color",
-            "description": "Danger action. Active."
+            "description": "DEPRECATED.Danger action. Active."
           },
           "visited": {
             "value": "{action.color.text.danger.idle}",
             "type": "color",
-            "description": "Danger action. Visited."
+            "description": "DEPRECATED.Danger action. Visited."
           }
         },
         "onSurface": {
           "idle": {
             "value": "{color.obsidian}",
             "type": "color",
-            "description": "On Surface action. Idle."
+            "description": "DEPRECATED.On Surface action. Idle."
           },
           "hover": {
             "value": "{action.color.text.onSurface.idle}",
             "type": "color",
-            "description": "On Surface action. Hover."
+            "description": "DEPRECATED.On Surface action. Hover."
           },
           "pressed": {
             "value": "{action.color.text.onSurface.idle}",
             "type": "color",
-            "description": "On Surface action. Active."
+            "description": "DEPRECATED.On Surface action. Active."
           },
           "visited": {
             "value": "{action.color.text.onSurface.idle}",
             "type": "color",
-            "description": "On Surface action. Visited."
+            "description": "DEPRECATED.On Surface action. Visited."
           }
         },
         "inverse": {
           "idle": {
             "value": "{color.neutral.olaf}",
             "type": "color",
-            "description": "Inverse Action. Idle."
+            "description": "DEPRECATED.Inverse Action. Idle."
           },
           "hover": {
             "value": "{color.calypso.medium}",
             "type": "color",
-            "description": "Inverse Action. Hover."
+            "description": "DEPRECATED. Inverse Action. Hover."
           },
           "pressed": {
             "value": "{color.neutral.koala}",
             "type": "color",
-            "description": "Inverse Action. Active."
+            "description": "DEPRECATED. Inverse Action. Active."
           },
           "visited": {
             "value": "{action.color.text.inverse.idle}",
             "type": "color",
-            "description": "Inverse Action. Visited"
+            "description": "DEPRECATED. Inverse Action. Visited"
           }
         }
       },
@@ -105,17 +105,17 @@
         "default": {
           "value": "{color.neutral.eerie}",
           "type": "color",
-          "description": "Default action. Icon color"
+          "description": "DEPRECATED. Default action. Icon color"
         },
         "onSurface": {
           "value": "{action.color.text.onSurface.idle}",
           "type": "color",
-          "description": "On Surface action. Icon color"
+          "description": "DEPRECATED.On Surface action. Icon color"
         },
         "inverse": {
           "value": "{action.color.text.inverse.idle}",
           "type": "color",
-          "description": "Inverse Action. Icon color."
+          "description": "DEPRECATED.Inverse Action. Icon color."
         },
         "external": {
           "value": "{action.color.icon.default}",
