@@ -26,6 +26,7 @@
     "Semantic/motion",
     "Semantic/accordion",
     "Semantic/focus",
+    "Semantic/iconSize",
     "Prototype/staticUIColorRoles"
   ]
 }
