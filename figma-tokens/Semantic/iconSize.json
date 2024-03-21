@@ -1,0 +1,36 @@
+{
+  "iconSize": {
+    "300": {
+      "value": "{iconSize.12}",
+      "type": "dimension"
+    },
+    "350": {
+      "value": "{iconSize.14}",
+      "type": "dimension"
+    },
+    "400": {
+      "value": "{iconSize.16}",
+      "type": "dimension"
+    },
+    "450": {
+      "value": "{iconSize.18}",
+      "type": "dimension"
+    },
+    "500": {
+      "value": "{iconSize.20}",
+      "type": "dimension"
+    },
+    "600": {
+      "value": "{iconSize.24}",
+      "type": "dimension"
+    },
+    "700": {
+      "value": "{iconSize.28}",
+      "type": "dimension"
+    },
+    "800": {
+      "value": "{iconSize.32}",
+      "type": "dimension"
+    }
+  }
+}
