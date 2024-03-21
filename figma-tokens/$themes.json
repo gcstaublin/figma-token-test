@@ -232,7 +232,8 @@
       "Semantic/motion": "enabled",
       "Semantic/accordion": "enabled",
       "Base/iconSize": "source",
-      "Semantic/focus": "enabled"
+      "Semantic/focus": "enabled",
+      "Semantic/iconSize": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:28:8",
     "$figmaModeId": "28:0",
