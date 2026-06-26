@@ -4,51 +4,61 @@
       "default": {
         "value": "{color.obsidian}",
         "type": "color",
-        "description": "The default color of text in the product."
+        "description": "The default color of text in the product.",
+        "figmaId": "VariableID:15:49"
       },
       "subtle": {
         "value": "{color.neutral.flat earth}",
         "type": "color",
-        "description": "The color of microcopy in the product"
+        "description": "The color of microcopy in the product",
+        "figmaId": "VariableID:15:50"
       },
       "nonessential": {
         "value": "#7c98b6",
         "type": "color",
-        "description": "The color of placeholder text inside an input"
+        "description": "The color of placeholder text inside an input",
+        "figmaId": "VariableID:15:51"
       },
       "disabled": {
         "value": "#b0c1d4",
         "type": "color",
-        "description": "The color text within a disabled interactive element"
+        "description": "The color text within a disabled interactive element",
+        "figmaId": "VariableID:15:52"
       },
       "inverse": {
         "value": "{color.neutral.olaf}",
         "type": "color",
-        "description": "The color of text when placed on a dark background"
+        "description": "The color of text when placed on a dark background",
+        "figmaId": "VariableID:15:53"
       },
       "danger": {
         "value": "{color.candy apple.default}",
         "type": "color",
-        "description": "The color of microcopy that indicates an error or danger message"
+        "description": "The color of microcopy that indicates an error or danger message",
+        "figmaId": "VariableID:15:54"
       },
       "success": {
         "value": "{color.oz.dark}",
         "type": "color",
-        "description": "The color of microcopy that indicates success or positive messaging"
+        "description": "The color of microcopy that indicates success or positive messaging",
+        "figmaId": "VariableID:15:55"
       }
     },
     "surface": {
       "default": {
         "value": "{color.neutral.olaf}",
-        "type": "color"
+        "type": "color",
+        "figmaId": "VariableID:15:56"
       },
       "elevation1": {
         "value": "{color.neutral.gypsum}",
-        "type": "color"
+        "type": "color",
+        "figmaId": "VariableID:15:57"
       },
       "transparent": {
         "value": "#00000000",
-        "type": "color"
+        "type": "color",
+        "figmaId": "VariableID:15:58"
       }
     }
   }
