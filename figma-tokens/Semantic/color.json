@@ -7,7 +7,7 @@
         "description": "The default color of text in the product."
       },
       "subtle": {
-        "value": "{color.neutral.slinky}",
+        "value": "{color.neutral.flat earth}",
         "type": "color",
         "description": "The color of microcopy in the product"
       },
@@ -29,12 +29,12 @@
       "danger": {
         "value": "{color.candy apple.default}",
         "type": "color",
-        "description": "The color of micorcopy that indicates an error or danger message"
+        "description": "The color of microcopy that indicates an error or danger message"
       },
       "success": {
-        "value": "{color.oz.default}",
+        "value": "{color.oz.dark}",
         "type": "color",
-        "description": "The color of micorcopy that indicates success or positive messaging"
+        "description": "The color of microcopy that indicates success or positive messaging"
       }
     },
     "surface": {
@@ -47,7 +47,7 @@
         "type": "color"
       },
       "transparent": {
-        "value": "rgba(0, 0, 0, 0)",
+        "value": "#00000000",
         "type": "color"
       }
     }
