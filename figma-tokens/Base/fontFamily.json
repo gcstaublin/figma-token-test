@@ -1,27 +1,27 @@
 {
   "fontFamily": {
     "code": {
-      "value": "Source Code Pro, Consolas, Monaco, Courier New, monospace",
-      "type": "fontFamilies",
-      "description": "Font used for code"
+      "$value": "Source Code Pro, Consolas, Monaco, Courier New, monospace",
+      "$type": "fontFamilies",
+      "$description": "Font used for code"
     },
     "default": {
-      "value": "Lexend Deca, Helvetica, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": "The default font family for the product"
+      "$value": "Lexend Deca, Helvetica, Arial, sans-serif",
+      "$type": "fontFamilies",
+      "$description": "The default font family for the product"
     },
     "body": {
       "fallback": {
-        "value": "Helvetica, Arial, sans-serif",
-        "type": "fontFamilies",
-        "description": "The default fallback stack for body copy in product."
+        "$value": "Helvetica, Arial, sans-serif",
+        "$type": "fontFamilies",
+        "$description": "The default fallback stack for body copy in product."
       }
     },
     "monospace": {
       "fallback": {
-        "value": "Consolas, Monaco, Courier New, monospace",
-        "type": "fontFamilies",
-        "description": "The fallback stack for code font"
+        "$value": "Consolas, Monaco, Courier New, monospace",
+        "$type": "fontFamilies",
+        "$description": "The fallback stack for code font"
       }
     }
   }

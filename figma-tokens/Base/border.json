@@ -2,58 +2,58 @@
   "radius": {
     "border": {
       "0": {
-        "value": "0",
-        "type": "borderRadius",
-        "description": "No border radius"
+        "$value": "0",
+        "$type": "borderRadius",
+        "$description": "No border radius"
       },
       "3": {
-        "value": "3px",
-        "type": "borderRadius",
-        "description": "Border radius of most elements in product"
+        "$value": "3px",
+        "$type": "borderRadius",
+        "$description": "Border radius of most elements in product"
       },
       "6": {
-        "value": "6px",
-        "type": "borderRadius",
-        "description": "Border radius of less rounded sides of a ribbon"
+        "$value": "6px",
+        "$type": "borderRadius",
+        "$description": "Border radius of less rounded sides of a ribbon"
       },
       "20": {
-        "value": "20px",
-        "type": "borderRadius",
-        "description": "Radius of more rounded side of a ribbon"
+        "$value": "20px",
+        "$type": "borderRadius",
+        "$description": "Radius of more rounded side of a ribbon"
       },
       "24": {
-        "value": "24px",
-        "type": "borderRadius",
-        "description": "Border radius of an active indicator in Tabs"
+        "$value": "24px",
+        "$type": "borderRadius",
+        "$description": "Border radius of an active indicator in Tabs"
       },
       "500": {
-        "value": "500px",
-        "type": "borderRadius",
-        "description": "Radius of notification badge (This pixel based token could likely be combined with the 50% and 100% tokens). They all accomplish the same effect. This would need more test to confirm."
+        "$value": "500px",
+        "$type": "borderRadius",
+        "$description": "Radius of notification badge (This pixel based token could likely be combined with the 50% and 100% tokens). They all accomplish the same effect. This would need more test to confirm."
       },
       "50percent": {
-        "value": "50%",
-        "type": "borderRadius",
-        "description": "Radius of rounded, circular elements."
+        "$value": "50%",
+        "$type": "borderRadius",
+        "$description": "Radius of rounded, circular elements."
       }
     }
   },
   "width": {
     "border": {
       "0": {
-        "value": "0",
-        "type": "borderWidth",
-        "description": "No border"
+        "$value": "0",
+        "$type": "borderWidth",
+        "$description": "No border"
       },
       "1": {
-        "value": "1px",
-        "type": "borderWidth",
-        "description": "Most borders in the product"
+        "$value": "1px",
+        "$type": "borderWidth",
+        "$description": "Most borders in the product"
       },
       "2": {
-        "value": "2px",
-        "type": "borderWidth",
-        "description": "Checkbox border width"
+        "$value": "2px",
+        "$type": "borderWidth",
+        "$description": "Checkbox border width"
       }
     }
   }

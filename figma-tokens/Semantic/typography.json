@@ -1,117 +1,117 @@
 {
   "text": {
     "body": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.body.default}",
         "lineHeight": "{lineHeight.body.default}",
         "fontSize": "{typeScale.body.default}"
       },
-      "type": "typography",
-      "description": "Default body copy. Composite token."
+      "$type": "typography",
+      "$description": "Default body copy. Composite token."
     },
     "bodyLarge": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.body.default}",
         "lineHeight": "{lineHeight.body.default}",
         "fontSize": "{typeScale.body.large}"
       },
-      "type": "typography",
-      "description": "Large body copy. Composite token."
+      "$type": "typography",
+      "$description": "Large body copy. Composite token."
     },
     "bodySmall": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.body.default}",
         "lineHeight": "{lineHeight.body.tight}",
         "fontSize": "{typeScale.body.small}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "code": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.code}",
         "fontWeight": "{fontWeight.code.default}",
         "fontSize": "{typeScale.body.default}",
         "lineHeight": "{lineHeight.body.default}"
       },
-      "type": "typography"
+      "$type": "typography"
     }
   },
   "display": {
     "heading1": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.display.bold}",
         "lineHeight": "{typeScale.display.heading1} * {lineHeight.display}",
         "fontSize": "{typeScale.display.heading1}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "heading2": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "lineHeight": "{typeScale.display.heading2} * {lineHeight.display}",
         "fontSize": "{typeScale.display.heading2}",
         "fontWeight": "{fontWeight.display.light}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "heading3": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.display.medium}",
         "lineHeight": "{typeScale.display.heading3} * {lineHeight.display}",
         "fontSize": "{typeScale.display.heading3}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "heading4": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "lineHeight": "{typeScale.display.heading4} * {lineHeight.display}",
         "fontSize": "{typeScale.display.heading4}",
         "fontWeight": "{fontWeight.display.default}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "heading5": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "lineHeight": "{typeScale.display.heading5} * {lineHeight.display}",
         "fontSize": "{typeScale.display.heading5}",
         "fontWeight": "{fontWeight.display.default}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "heading6": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "lineHeight": "{typeScale.display.heading6} * {lineHeight.display}",
         "fontSize": "{typeScale.display.heading6}",
         "fontWeight": "{fontWeight.display.default}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "tagline": {
-      "value": {
+      "$value": {
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.display.bold}",
         "fontSize": "{fontSize.55}",
         "lineHeight": "{fontSize.55} * {lineHeight.display}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "pageHeading": {
-      "value": {
+      "$value": {
         "fontSize": "{typeScale.display.heading4}",
         "lineHeight": "{typeScale.display.heading4} * {lineHeight.display}",
         "fontWeight": "{fontWeight.display.default}",
         "fontFamily": "{fontFamily.default}"
       },
-      "type": "typography",
-      "description": "Page Heading"
+      "$type": "typography",
+      "$description": "Page Heading"
     }
   }
 }

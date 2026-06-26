@@ -4,28 +4,28 @@
       "padding": {
         "block": {
           "default": {
-            "value": "{space.1000}",
-            "type": "spacing"
+            "$value": "{space.1000}",
+            "$type": "spacing"
           },
           "compact": {
-            "value": "{space.600}",
-            "type": "spacing"
+            "$value": "{space.600}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "default": {
-            "value": "{card.space.padding.block.default}",
-            "type": "spacing"
+            "$value": "{card.space.padding.block.default}",
+            "$type": "spacing"
           },
           "compact": {
-            "value": "{card.space.padding.block.compact}",
-            "type": "spacing"
+            "$value": "{card.space.padding.block.compact}",
+            "$type": "spacing"
           }
         }
       }
     },
     "shadow": {
-      "value": {
+      "$value": {
         "x": "0",
         "y": "1px",
         "blur": "5px",
@@ -33,54 +33,54 @@
         "color": "rgba(45, 62, 80, 0.12)",
         "type": "dropShadow"
       },
-      "type": "boxShadow"
+      "$type": "boxShadow"
     },
     "typography": {
       "heading": {
         "extraLarge": {
-          "value": {
+          "$value": {
             "lineHeight": "{typeScale.display.heading1}  * {lineHeight.display}",
             "fontFamily": "{fontFamily.default}",
             "fontWeight": "{fontWeight.display.bold}",
             "fontSize": "{typeScale.display.heading1}"
           },
-          "type": "typography"
+          "$type": "typography"
         },
         "large": {
-          "value": {
+          "$value": {
             "lineHeight": "{typeScale.display.heading2} * {lineHeight.display}",
             "fontFamily": "{fontFamily.default}",
             "fontWeight": "{fontWeight.display.light}",
             "fontSize": "{typeScale.display.heading2}"
           },
-          "type": "typography"
+          "$type": "typography"
         },
         "medium": {
-          "value": {
+          "$value": {
             "lineHeight": "{typeScale.display.heading4}  * {lineHeight.display}",
             "fontSize": "{typeScale.display.heading4}",
             "fontFamily": "{fontFamily.default}",
             "fontWeight": "{fontWeight.display.default}"
           },
-          "type": "typography"
+          "$type": "typography"
         },
         "small": {
-          "value": {
+          "$value": {
             "lineHeight": "{typeScale.display.heading5}  * {lineHeight.display}",
             "fontWeight": "{fontWeight.display.default}",
             "fontSize": "{typeScale.display.heading5}",
             "fontFamily": "{fontFamily.default}"
           },
-          "type": "typography"
+          "$type": "typography"
         },
         "extraSmall": {
-          "value": {
+          "$value": {
             "fontFamily": "{fontFamily.default}",
             "fontWeight": "{fontWeight.body.default}",
             "lineHeight": "{lineHeight.body.default}",
             "fontSize": "{typeScale.body.default}"
           },
-          "type": "typography"
+          "$type": "typography"
         }
       }
     }
@@ -90,76 +90,76 @@
       "padding": {
         "block": {
           "default": {
-            "value": "{space.800}",
-            "type": "spacing"
+            "$value": "{space.800}",
+            "$type": "spacing"
           },
           "compact": {
-            "value": "{space.500}",
-            "type": "spacing"
+            "$value": "{space.500}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "default": {
-            "value": "{tile.space.padding.block.default}",
-            "type": "spacing"
+            "$value": "{tile.space.padding.block.default}",
+            "$type": "spacing"
           },
           "compact": {
-            "value": "{tile.space.padding.block.compact}",
-            "type": "spacing"
+            "$value": "{tile.space.padding.block.compact}",
+            "$type": "spacing"
           }
         }
       },
       "margin": {
         "block": {
           "flush": {
-            "value": "{space.none}",
-            "type": "spacing"
+            "$value": "{space.none}",
+            "$type": "spacing"
           },
           "extraSmall": {
-            "value": "{space.200}",
-            "type": "spacing"
+            "$value": "{space.200}",
+            "$type": "spacing"
           },
           "small": {
-            "value": "{space.300}",
-            "type": "spacing"
+            "$value": "{space.300}",
+            "$type": "spacing"
           },
           "medium": {
-            "value": "{space.600}",
-            "type": "spacing"
+            "$value": "{space.600}",
+            "$type": "spacing"
           },
           "large": {
-            "value": "{space.800}",
-            "type": "spacing"
+            "$value": "{space.800}",
+            "$type": "spacing"
           },
           "extraLarge": {
-            "value": "64px",
-            "type": "spacing"
+            "$value": "64px",
+            "$type": "spacing"
           }
         }
       }
     },
     "border": {
       "default": {
-        "value": {
+        "$value": {
           "width": "{width.border.default}",
           "style": "solid",
           "color": "{color.border.default}"
         },
-        "type": "border"
+        "$type": "border"
       }
     }
   },
   "container": {
     "radius": {
       "border": {
-        "value": "{radius.border.default}",
-        "type": "borderRadius"
+        "$value": "{radius.border.default}",
+        "$type": "borderRadius"
       }
     },
     "color": {
       "background": {
-        "value": "{color.neutral.olaf}",
-        "type": "color"
+        "$value": "{color.neutral.olaf}",
+        "$type": "color"
       }
     }
   },
@@ -168,22 +168,22 @@
       "padding": {
         "block": {
           "default": {
-            "value": "{space.400}",
-            "type": "spacing"
+            "$value": "{space.400}",
+            "$type": "spacing"
           },
           "none": {
-            "value": "{space.none}",
-            "type": "spacing"
+            "$value": "{space.none}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "default": {
-            "value": "{space.600}",
-            "type": "spacing"
+            "$value": "{space.600}",
+            "$type": "spacing"
           },
           "none": {
-            "value": "{space.none}",
-            "type": "spacing"
+            "$value": "{space.none}",
+            "$type": "spacing"
           }
         }
       }

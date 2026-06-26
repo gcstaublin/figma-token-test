@@ -1,24 +1,24 @@
 {
   "fontWeight": {
     "300": {
-      "value": "300",
-      "type": "fontWeights",
-      "description": "300 = Light."
+      "$value": "300",
+      "$type": "fontWeights",
+      "$description": "300 = Light."
     },
     "500": {
-      "value": "500",
-      "type": "fontWeights",
-      "description": "500 = Medium"
+      "$value": "500",
+      "$type": "fontWeights",
+      "$description": "500 = Medium"
     },
     "600": {
-      "value": "600",
-      "type": "fontWeights",
-      "description": "600 = Semi Bold (Demibold)"
+      "$value": "600",
+      "$type": "fontWeights",
+      "$description": "600 = Semi Bold (Demibold)"
     },
     "700": {
-      "value": "700",
-      "type": "fontWeights",
-      "description": "700 = Bold"
+      "$value": "700",
+      "$type": "fontWeights",
+      "$description": "700 = Bold"
     }
   }
 }

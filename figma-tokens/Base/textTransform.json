@@ -1,14 +1,14 @@
 {
   "textTransform": {
     "none": {
-      "value": "none",
-      "type": "textCase",
-      "description": "Text will render as typed"
+      "$value": "none",
+      "$type": "textCase",
+      "$description": "Text will render as typed"
     },
     "uppercase": {
-      "value": "uppercase",
-      "type": "textCase",
-      "description": "Token will transform the text to UPPERCASE, regardless of the capitialization specified while the user typed"
+      "$value": "uppercase",
+      "$type": "textCase",
+      "$description": "Token will transform the text to UPPERCASE, regardless of the capitialization specified while the user typed"
     }
   }
 }

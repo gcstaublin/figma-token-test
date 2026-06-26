@@ -4,175 +4,175 @@
       "text": {
         "default": {
           "idle": {
-            "value": "{color.calypso.dark}",
-            "type": "color",
-            "description": "DEPRECATED. Default action. Idle."
+            "$value": "{color.calypso.dark}",
+            "$type": "color",
+            "$description": "DEPRECATED. Default action. Idle."
           },
           "hover": {
-            "value": "#007a8c",
-            "type": "color",
-            "description": "DEPRECATED.Default action. Hover."
+            "$value": "#007a8c",
+            "$type": "color",
+            "$description": "DEPRECATED.Default action. Hover."
           },
           "pressed": {
-            "value": "{color.calypso.medium}",
-            "type": "color",
-            "description": "DEPRECATED.Default action. Active."
+            "$value": "{color.calypso.medium}",
+            "$type": "color",
+            "$description": "DEPRECATED.Default action. Active."
           },
           "visited": {
-            "value": "{action.color.text.default.idle}",
-            "type": "color",
-            "description": "DEPRECATED.Default action. Visited."
+            "$value": "{action.color.text.default.idle}",
+            "$type": "color",
+            "$description": "DEPRECATED.Default action. Visited."
           }
         },
         "visited": {
-          "value": "{color.text.default}",
-          "type": "color",
-          "description": "DEPRECATED.Default action. Visited."
+          "$value": "{color.text.default}",
+          "$type": "color",
+          "$description": "DEPRECATED.Default action. Visited."
         },
         "disabled": {
-          "value": "{color.text.disabled}",
-          "type": "color",
-          "description": "DEPRECATED.Default action. Disabled."
+          "$value": "{color.text.disabled}",
+          "$type": "color",
+          "$description": "DEPRECATED.Default action. Disabled."
         },
         "danger": {
           "idle": {
-            "value": "{color.candy apple.default}",
-            "type": "color",
-            "description": "DEPRECATED.Danger action. Idle."
+            "$value": "{color.candy apple.default}",
+            "$type": "color",
+            "$description": "DEPRECATED.Danger action. Idle."
           },
           "hover": {
-            "value": "{color.candy apple.dark}",
-            "type": "color",
-            "description": "DEPRECATED.Danger action. Hover."
+            "$value": "{color.candy apple.dark}",
+            "$type": "color",
+            "$description": "DEPRECATED.Danger action. Hover."
           },
           "pressed": {
-            "value": "{color.candy apple.dark}",
-            "type": "color",
-            "description": "DEPRECATED.Danger action. Active."
+            "$value": "{color.candy apple.dark}",
+            "$type": "color",
+            "$description": "DEPRECATED.Danger action. Active."
           },
           "visited": {
-            "value": "{action.color.text.danger.idle}",
-            "type": "color",
-            "description": "DEPRECATED.Danger action. Visited."
+            "$value": "{action.color.text.danger.idle}",
+            "$type": "color",
+            "$description": "DEPRECATED.Danger action. Visited."
           }
         },
         "onSurface": {
           "idle": {
-            "value": "{color.obsidian}",
-            "type": "color",
-            "description": "DEPRECATED.On Surface action. Idle."
+            "$value": "{color.obsidian}",
+            "$type": "color",
+            "$description": "DEPRECATED.On Surface action. Idle."
           },
           "hover": {
-            "value": "{action.color.text.onSurface.idle}",
-            "type": "color",
-            "description": "DEPRECATED.On Surface action. Hover."
+            "$value": "{action.color.text.onSurface.idle}",
+            "$type": "color",
+            "$description": "DEPRECATED.On Surface action. Hover."
           },
           "pressed": {
-            "value": "{action.color.text.onSurface.idle}",
-            "type": "color",
-            "description": "DEPRECATED.On Surface action. Active."
+            "$value": "{action.color.text.onSurface.idle}",
+            "$type": "color",
+            "$description": "DEPRECATED.On Surface action. Active."
           },
           "visited": {
-            "value": "{action.color.text.onSurface.idle}",
-            "type": "color",
-            "description": "DEPRECATED.On Surface action. Visited."
+            "$value": "{action.color.text.onSurface.idle}",
+            "$type": "color",
+            "$description": "DEPRECATED.On Surface action. Visited."
           }
         },
         "inverse": {
           "idle": {
-            "value": "{color.neutral.olaf}",
-            "type": "color",
-            "description": "DEPRECATED.Inverse Action. Idle."
+            "$value": "{color.neutral.olaf}",
+            "$type": "color",
+            "$description": "DEPRECATED.Inverse Action. Idle."
           },
           "hover": {
-            "value": "{color.calypso.medium}",
-            "type": "color",
-            "description": "DEPRECATED. Inverse Action. Hover."
+            "$value": "{color.calypso.medium}",
+            "$type": "color",
+            "$description": "DEPRECATED. Inverse Action. Hover."
           },
           "pressed": {
-            "value": "{color.neutral.koala}",
-            "type": "color",
-            "description": "DEPRECATED. Inverse Action. Active."
+            "$value": "{color.neutral.koala}",
+            "$type": "color",
+            "$description": "DEPRECATED. Inverse Action. Active."
           },
           "visited": {
-            "value": "{action.color.text.inverse.idle}",
-            "type": "color",
-            "description": "DEPRECATED. Inverse Action. Visited"
+            "$value": "{action.color.text.inverse.idle}",
+            "$type": "color",
+            "$description": "DEPRECATED. Inverse Action. Visited"
           }
         }
       },
       "icon": {
         "default": {
-          "value": "{color.neutral.eerie}",
-          "type": "color",
-          "description": "DEPRECATED. Default action. Icon color"
+          "$value": "{color.neutral.eerie}",
+          "$type": "color",
+          "$description": "DEPRECATED. Default action. Icon color"
         },
         "onSurface": {
-          "value": "{action.color.text.onSurface.idle}",
-          "type": "color",
-          "description": "DEPRECATED.On Surface action. Icon color"
+          "$value": "{action.color.text.onSurface.idle}",
+          "$type": "color",
+          "$description": "DEPRECATED.On Surface action. Icon color"
         },
         "inverse": {
-          "value": "{action.color.text.inverse.idle}",
-          "type": "color",
-          "description": "DEPRECATED.Inverse Action. Icon color."
+          "$value": "{action.color.text.inverse.idle}",
+          "$type": "color",
+          "$description": "DEPRECATED.Inverse Action. Icon color."
         },
         "external": {
-          "value": "{action.color.icon.default}",
-          "type": "color"
+          "$value": "{action.color.icon.default}",
+          "$type": "color"
         }
       }
     },
     "fontWeight": {
       "default": {
-        "value": "{fontWeight.600}",
-        "type": "fontWeights"
+        "$value": "{fontWeight.600}",
+        "$type": "fontWeights"
       }
     },
     "space": {
       "gap": {
         "default": {
-          "value": "0.5em",
-          "type": "spacing",
-          "description": "Space between Icon and text for links"
+          "$value": "0.5em",
+          "$type": "spacing",
+          "$description": "Space between Icon and text for links"
         },
         "externalIcon": {
-          "value": "0.25em",
-          "type": "spacing",
-          "description": "Space between text and external icons in links"
+          "$value": "0.25em",
+          "$type": "spacing",
+          "$description": "Space between text and external icons in links"
         }
       }
     },
     "typography": {
       "default": {
-        "value": {
+        "$value": {
           "fontWeight": "{action.fontWeight.default}",
           "lineHeight": "inherit",
           "textDecoration": "none",
           "fontFamily": "{fontFamily.default}",
           "fontSize": "{typeScale.body.default}"
         },
-        "type": "typography"
+        "$type": "typography"
       },
       "underline": {
-        "value": {
+        "$value": {
           "fontWeight": "{action.fontWeight.default}",
           "lineHeight": "inherit",
           "textDecoration": "underline",
           "fontFamily": "{fontFamily.default}",
           "fontSize": "{typeScale.body.default}"
         },
-        "type": "typography"
+        "$type": "typography"
       },
       "small": {
-        "value": {
+        "$value": {
           "fontWeight": "{action.fontWeight.default}",
           "lineHeight": "inherit",
           "textDecoration": "none",
           "fontFamily": "{fontFamily.default}",
           "fontSize": "{typeScale.body.small}"
         },
-        "type": "typography"
+        "$type": "typography"
       }
     }
   },
@@ -181,75 +181,75 @@
       "fg": {
         "default": {
           "idle": {
-            "value": "{color.calypso.dark}",
-            "type": "color",
-            "description": "Default action. Idle."
+            "$value": "{color.calypso.dark}",
+            "$type": "color",
+            "$description": "Default action. Idle."
           },
           "hover": {
-            "value": "#007a8c",
-            "type": "color",
-            "description": "Default action. Hover."
+            "$value": "#007a8c",
+            "$type": "color",
+            "$description": "Default action. Hover."
           },
           "pressed": {
-            "value": "{color.calypso.medium}",
-            "type": "color",
-            "description": "Default action. Active."
+            "$value": "{color.calypso.medium}",
+            "$type": "color",
+            "$description": "Default action. Active."
           }
         },
         "disabled": {
-          "value": "{color.text.disabled}",
-          "type": "color",
-          "description": "Default action. Disabled."
+          "$value": "{color.text.disabled}",
+          "$type": "color",
+          "$description": "Default action. Disabled."
         },
         "danger": {
           "idle": {
-            "value": "{color.candy apple.default}",
-            "type": "color",
-            "description": "Danger action. Idle."
+            "$value": "{color.candy apple.default}",
+            "$type": "color",
+            "$description": "Danger action. Idle."
           },
           "hover": {
-            "value": "{color.candy apple.dark}",
-            "type": "color",
-            "description": "Danger action. Hover."
+            "$value": "{color.candy apple.dark}",
+            "$type": "color",
+            "$description": "Danger action. Hover."
           },
           "pressed": {
-            "value": "{color.candy apple.dark}",
-            "type": "color",
-            "description": "Danger action. Active."
+            "$value": "{color.candy apple.dark}",
+            "$type": "color",
+            "$description": "Danger action. Active."
           }
         },
         "onSurface": {
           "idle": {
-            "value": "{color.obsidian}",
-            "type": "color",
-            "description": "On Surface action. Idle."
+            "$value": "{color.obsidian}",
+            "$type": "color",
+            "$description": "On Surface action. Idle."
           },
           "hover": {
-            "value": "{action.color.text.onSurface.idle}",
-            "type": "color",
-            "description": "On Surface action. Hover."
+            "$value": "{action.color.text.onSurface.idle}",
+            "$type": "color",
+            "$description": "On Surface action. Hover."
           },
           "pressed": {
-            "value": "{action.color.text.onSurface.idle}",
-            "type": "color",
-            "description": "On Surface action. Active."
+            "$value": "{action.color.text.onSurface.idle}",
+            "$type": "color",
+            "$description": "On Surface action. Active."
           }
         },
         "inverse": {
           "idle": {
-            "value": "{color.neutral.olaf}",
-            "type": "color",
-            "description": "Inverse Action. Idle."
+            "$value": "{color.neutral.olaf}",
+            "$type": "color",
+            "$description": "Inverse Action. Idle."
           },
           "hover": {
-            "value": "{color.calypso.medium}",
-            "type": "color",
-            "description": "Inverse Action. Hover."
+            "$value": "{color.calypso.medium}",
+            "$type": "color",
+            "$description": "Inverse Action. Hover."
           },
           "pressed": {
-            "value": "{color.neutral.koala}",
-            "type": "color",
-            "description": "Inverse Action. Active."
+            "$value": "{color.neutral.koala}",
+            "$type": "color",
+            "$description": "Inverse Action. Active."
           }
         }
       }
@@ -257,14 +257,14 @@
     "space": {
       "gap": {
         "default": {
-          "value": "0.5em",
-          "type": "spacing",
-          "description": "Space between Icon and text for links"
+          "$value": "0.5em",
+          "$type": "spacing",
+          "$description": "Space between Icon and text for links"
         },
         "externalIcon": {
-          "value": "0.25em",
-          "type": "spacing",
-          "description": "Space between text and external icons in links"
+          "$value": "0.25em",
+          "$type": "spacing",
+          "$description": "Space between text and external icons in links"
         }
       }
     }
