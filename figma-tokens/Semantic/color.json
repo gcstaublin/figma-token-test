@@ -2,63 +2,63 @@
   "color": {
     "text": {
       "default": {
-        "value": "{color.obsidian}",
-        "type": "color",
-        "description": "The default color of text in the product.",
-        "figmaId": "VariableID:15:49"
+        "$value": "{color.obsidian}",
+        "$type": "color",
+        "$description": "The default color of text in the product.",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:49" } }
       },
       "subtle": {
-        "value": "{color.neutral.flat earth}",
-        "type": "color",
-        "description": "The color of microcopy in the product",
-        "figmaId": "VariableID:15:50"
+        "$value": "{color.neutral.flat earth}",
+        "$type": "color",
+        "$description": "The color of microcopy in the product",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:50" } }
       },
       "nonessential": {
-        "value": "#7c98b6",
-        "type": "color",
-        "description": "The color of placeholder text inside an input",
-        "figmaId": "VariableID:15:51"
+        "$value": { "colorSpace": "srgb", "components": [0.4863, 0.5961, 0.7137], "alpha": 1, "hex": "#7c98b6" },
+        "$type": "color",
+        "$description": "The color of placeholder text inside an input",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:51" } }
       },
       "disabled": {
-        "value": "#b0c1d4",
-        "type": "color",
-        "description": "The color text within a disabled interactive element",
-        "figmaId": "VariableID:15:52"
+        "$value": { "colorSpace": "srgb", "components": [0.6902, 0.7569, 0.8314], "alpha": 1, "hex": "#b0c1d4" },
+        "$type": "color",
+        "$description": "The color text within a disabled interactive element",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:52" } }
       },
       "inverse": {
-        "value": "{color.neutral.olaf}",
-        "type": "color",
-        "description": "The color of text when placed on a dark background",
-        "figmaId": "VariableID:15:53"
+        "$value": "{color.neutral.olaf}",
+        "$type": "color",
+        "$description": "The color of text when placed on a dark background",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:53" } }
       },
       "danger": {
-        "value": "{color.candy apple.default}",
-        "type": "color",
-        "description": "The color of microcopy that indicates an error or danger message",
-        "figmaId": "VariableID:15:54"
+        "$value": "{color.candy apple.default}",
+        "$type": "color",
+        "$description": "The color of microcopy that indicates an error or danger message",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:54" } }
       },
       "success": {
-        "value": "{color.oz.dark}",
-        "type": "color",
-        "description": "The color of microcopy that indicates success or positive messaging",
-        "figmaId": "VariableID:15:55"
+        "$value": "{color.oz.dark}",
+        "$type": "color",
+        "$description": "The color of microcopy that indicates success or positive messaging",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:55" } }
       }
     },
     "surface": {
       "default": {
-        "value": "{color.neutral.olaf}",
-        "type": "color",
-        "figmaId": "VariableID:15:56"
+        "$value": "{color.neutral.olaf}",
+        "$type": "color",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:56" } }
       },
       "elevation1": {
-        "value": "{color.neutral.gypsum}",
-        "type": "color",
-        "figmaId": "VariableID:15:57"
+        "$value": "{color.neutral.gypsum}",
+        "$type": "color",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:57" } }
       },
       "transparent": {
-        "value": "#00000000",
-        "type": "color",
-        "figmaId": "VariableID:15:58"
+        "$value": { "colorSpace": "srgb", "components": [0, 0, 0], "alpha": 0, "hex": "#000000" },
+        "$type": "color",
+        "$extensions": { "com.figma": { "variableId": "VariableID:15:58" } }
       }
     }
   }
