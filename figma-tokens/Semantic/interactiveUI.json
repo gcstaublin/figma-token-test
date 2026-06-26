@@ -3,60 +3,60 @@
     "color": {
       "background": {
         "transparent": {
-          "value": "rgba(255, 255, 255, 0)",
-          "type": "color"
+          "$value": "rgba(255, 255, 255, 0)",
+          "$type": "color"
         },
         "action": {
-          "value": "{color.calypso.light}",
-          "type": "color"
+          "$value": "{color.calypso.light}",
+          "$type": "color"
         },
         "noninteractive": {
-          "value": "{color.neutral.koala}",
-          "type": "color"
+          "$value": "{color.neutral.koala}",
+          "$type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "{color.text.default}",
-          "type": "color"
+          "$value": "{color.text.default}",
+          "$type": "color"
         },
         "disabled": {
-          "value": "{color.text.disabled}",
-          "type": "color"
+          "$value": "{color.text.disabled}",
+          "$type": "color"
         }
       },
       "action": {
         "idle": {
-          "value": "{action.color.text.default.idle}",
-          "type": "color"
+          "$value": "{action.color.text.default.idle}",
+          "$type": "color"
         },
         "hover": {
-          "value": "{action.color.text.default.hover}",
-          "type": "color"
+          "$value": "{action.color.text.default.hover}",
+          "$type": "color"
         },
         "pressed": {
-          "value": "{action.color.text.default.pressed}",
-          "type": "color"
+          "$value": "{action.color.text.default.pressed}",
+          "$type": "color"
         }
       },
       "icon": {
         "default": {
-          "value": "{interactiveUI.color.action.idle}",
-          "type": "color"
+          "$value": "{interactiveUI.color.action.idle}",
+          "$type": "color"
         },
         "external": {
-          "value": "{color.neutral.eerie}",
-          "type": "color"
+          "$value": "{color.neutral.eerie}",
+          "$type": "color"
         },
         "body": {
-          "value": "{interactiveUI.color.text.default}",
-          "type": "color"
+          "$value": "{interactiveUI.color.text.default}",
+          "$type": "color"
         }
       },
       "border": {
         "action": {
-          "value": "{color.border.selectable}",
-          "type": "color"
+          "$value": "{color.border.selectable}",
+          "$type": "color"
         }
       }
     }
@@ -65,203 +65,203 @@
     "color": {
       "background": {
         "idle": {
-          "value": "{interactiveUI.color.background.transparent}",
-          "type": "color"
+          "$value": "{interactiveUI.color.background.transparent}",
+          "$type": "color"
         },
         "hover": {
-          "value": "{interactiveUI.color.background.action}",
-          "type": "color"
+          "$value": "{interactiveUI.color.background.action}",
+          "$type": "color"
         },
         "pressed": {
-          "value": "{selectableItem.color.background.hover}",
-          "type": "color"
+          "$value": "{selectableItem.color.background.hover}",
+          "$type": "color"
         },
         "selected": {
-          "value": "{selectableItem.color.background.hover}",
-          "type": "color"
+          "$value": "{selectableItem.color.background.hover}",
+          "$type": "color"
         },
         "disabled": {
-          "value": "{selectableItem.color.background.idle}",
-          "type": "color"
+          "$value": "{selectableItem.color.background.idle}",
+          "$type": "color"
         },
         "selecteddisabled": {
-          "value": "{selectableItem.color.background.hover}",
-          "type": "color"
+          "$value": "{selectableItem.color.background.hover}",
+          "$type": "color"
         }
       },
       "text": {
         "body": {
           "idle": {
-            "value": "{interactiveUI.color.text.default}",
-            "type": "color"
+            "$value": "{interactiveUI.color.text.default}",
+            "$type": "color"
           },
           "hover": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "pressed": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "selected": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "disabled": {
-            "value": "{interactiveUI.color.text.disabled}",
-            "type": "color"
+            "$value": "{interactiveUI.color.text.disabled}",
+            "$type": "color"
           },
           "selecteddisabled": {
-            "value": "{selectableItem.color.text.body.disabled}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.disabled}",
+            "$type": "color"
           }
         },
         "action": {
           "idle": {
-            "value": "{action.color.text.default.idle}",
-            "type": "color"
+            "$value": "{action.color.text.default.idle}",
+            "$type": "color"
           },
           "hover": {
-            "value": "{action.color.text.default.hover}",
-            "type": "color"
+            "$value": "{action.color.text.default.hover}",
+            "$type": "color"
           },
           "pressed": {
-            "value": "{action.color.text.default.pressed}",
-            "type": "color"
+            "$value": "{action.color.text.default.pressed}",
+            "$type": "color"
           },
           "selected": {
-            "value": "{selectableItem.color.icon.action.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.action.idle}",
+            "$type": "color"
           },
           "disabled": {
-            "value": "{interactiveUI.color.text.disabled}",
-            "type": "color"
+            "$value": "{interactiveUI.color.text.disabled}",
+            "$type": "color"
           },
           "selecteddisabled": {
-            "value": "{selectableItem.color.text.action.disabled}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.action.disabled}",
+            "$type": "color"
           }
         }
       },
       "icon": {
         "action": {
           "idle": {
-            "value": "{interactiveUI.color.icon.default}",
-            "type": "color"
+            "$value": "{interactiveUI.color.icon.default}",
+            "$type": "color"
           },
           "hover": {
-            "value": "{selectableItem.color.icon.action.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.action.idle}",
+            "$type": "color"
           },
           "pressed": {
-            "value": "{selectableItem.color.icon.action.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.action.idle}",
+            "$type": "color"
           },
           "selected": {
-            "value": "{selectableItem.color.icon.action.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.action.idle}",
+            "$type": "color"
           },
           "disabled": {
-            "value": "{selectableItem.color.icon.action.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.action.idle}",
+            "$type": "color"
           },
           "selecteddisabled": {
-            "value": "{selectableItem.color.icon.action.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.action.idle}",
+            "$type": "color"
           }
         },
         "body": {
           "idle": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "hover": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "pressed": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "selected": {
-            "value": "{selectableItem.color.text.body.idle}",
-            "type": "color"
+            "$value": "{selectableItem.color.text.body.idle}",
+            "$type": "color"
           },
           "disabled": {
-            "value": "{interactiveUI.color.text.disabled}",
-            "type": "color"
+            "$value": "{interactiveUI.color.text.disabled}",
+            "$type": "color"
           },
           "selecteddisabled": {
-            "value": "{selectableItem.color.icon.body.disabled}",
-            "type": "color"
+            "$value": "{selectableItem.color.icon.body.disabled}",
+            "$type": "color"
           }
         },
         "external": {
           "idle": {
-            "value": "{interactiveUI.color.icon.external}",
-            "type": "color"
+            "$value": "{interactiveUI.color.icon.external}",
+            "$type": "color"
           }
         }
       },
       "indicator": {
         "selected": {
-          "value": "{color.calypso.default}",
-          "type": "color"
+          "$value": "{color.calypso.default}",
+          "$type": "color"
         }
       }
     },
     "typography": {
       "item": {
         "default": {
-          "value": {
+          "$value": {
             "fontFamily": "{fontFamily.default}",
             "fontWeight": "{fontWeight.body.default}",
             "lineHeight": "{lineHeight.body.default}",
             "fontSize": "{typeScale.body.default}"
           },
-          "type": "typography",
-          "description": "Typography to Dropdown and Select Items"
+          "$type": "typography",
+          "$description": "Typography to Dropdown and Select Items"
         }
       },
       "title": {
-        "value": {
+        "$value": {
           "fontFamily": "{fontFamily.default}",
           "fontWeight": "{fontWeight.body.bold}",
           "lineHeight": "{lineHeight.body.default}",
           "fontSize": "{typeScale.body.default}"
         },
-        "type": "typography",
-        "description": "Title for group selectable items in Selects"
+        "$type": "typography",
+        "$description": "Title for group selectable items in Selects"
       }
     },
     "space": {
       "padding": {
         "inline": {
           "default": {
-            "value": "{space.500}",
-            "type": "spacing"
+            "$value": "{space.500}",
+            "$type": "spacing"
           }
         },
         "nested": {
-          "value": "{space.1000}",
-          "type": "spacing"
+          "$value": "{space.1000}",
+          "$type": "spacing"
         },
         "block": {
           "default": {
-            "value": "{space.200}",
-            "type": "spacing"
+            "$value": "{space.200}",
+            "$type": "spacing"
           }
         }
       },
       "gap": {
-        "value": "{space.200}",
-        "type": "spacing"
+        "$value": "{space.200}",
+        "$type": "spacing"
       }
     },
     "size": {
       "minHeight": {
-        "value": "40px",
-        "type": "sizing"
+        "$value": "40px",
+        "$type": "sizing"
       }
     }
   },
@@ -269,30 +269,30 @@
     "color": {
       "background": {
         "idle": {
-          "value": "{interactiveUI.color.background.transparent}",
-          "type": "color"
+          "$value": "{interactiveUI.color.background.transparent}",
+          "$type": "color"
         },
         "hover": {
-          "value": "{selectableBox.color.background.idle}",
-          "type": "color"
+          "$value": "{selectableBox.color.background.idle}",
+          "$type": "color"
         },
         "pressed": {
-          "value": "{interactiveUI.color.background.action}",
-          "type": "color"
+          "$value": "{interactiveUI.color.background.action}",
+          "$type": "color"
         }
       },
       "border": {
         "idle": {
-          "value": "{interactiveUI.color.border.action}",
-          "type": "color"
+          "$value": "{interactiveUI.color.border.action}",
+          "$type": "color"
         },
         "hover": {
-          "value": "{selectableBox.color.border.idle}",
-          "type": "color"
+          "$value": "{selectableBox.color.border.idle}",
+          "$type": "color"
         },
         "pressed": {
-          "value": "{selectableBox.color.border.idle}",
-          "type": "color"
+          "$value": "{selectableBox.color.border.idle}",
+          "$type": "color"
         }
       }
     }

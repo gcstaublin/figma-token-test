@@ -3,201 +3,201 @@
     "color": {
       "background": {
         "danger": {
-          "value": "{color.candy apple.light}",
-          "type": "color",
-          "description": "Danger Alert Background"
+          "$value": "{color.candy apple.light}",
+          "$type": "color",
+          "$description": "Danger Alert Background"
         },
         "info": {
-          "value": "{color.calypso.light}",
-          "type": "color",
-          "description": "Info Alert Background"
+          "$value": "{color.calypso.light}",
+          "$type": "color",
+          "$description": "Info Alert Background"
         },
         "warning": {
-          "value": "{color.marigold.light}",
-          "type": "color",
-          "description": "Warning Alert Background"
+          "$value": "{color.marigold.light}",
+          "$type": "color",
+          "$description": "Warning Alert Background"
         },
         "success": {
-          "value": "{color.oz.light}",
-          "type": "color",
-          "description": "Success Alert Background"
+          "$value": "{color.oz.light}",
+          "$type": "color",
+          "$description": "Success Alert Background"
         },
         "tip": {
-          "value": "{color.neutral.olaf}",
-          "type": "color",
-          "description": "Tip Alert Background"
+          "$value": "{color.neutral.olaf}",
+          "$type": "color",
+          "$description": "Tip Alert Background"
         },
         "dangerLoud": {
-          "value": "{color.lorax.light}",
-          "type": "color",
-          "description": "Danger Fire Alarm Background color"
+          "$value": "{color.lorax.light}",
+          "$type": "color",
+          "$description": "Danger Fire Alarm Background color"
         },
         "infoLoud": {
-          "value": "{alert.color.background.info}",
-          "type": "color",
-          "description": "Info Fire Alarm Background Color"
+          "$value": "{alert.color.background.info}",
+          "$type": "color",
+          "$description": "Info Fire Alarm Background Color"
         },
         "warningLoud": {
-          "value": "#fdf3e1",
-          "type": "color",
-          "description": "Warning Fire Alarm Background Color"
+          "$value": "#fdf3e1",
+          "$type": "color",
+          "$description": "Warning Fire Alarm Background Color"
         },
         "promo": {
-          "value": "linear-gradient(89deg, {color.lorax.default} 0%, {color.norman.default} 100% )",
-          "type": "color",
-          "description": "Background gradient for Banners"
+          "$value": "linear-gradient(89deg, {color.lorax.default} 0%, {color.norman.default} 100% )",
+          "$type": "color",
+          "$description": "Background gradient for Banners"
         }
       },
       "border": {
         "danger": {
-          "value": "{color.candy apple.medium}",
-          "type": "color",
-          "description": "Danger Alert Border"
+          "$value": "{color.candy apple.medium}",
+          "$type": "color",
+          "$description": "Danger Alert Border"
         },
         "info": {
-          "value": "{color.calypso.medium}",
-          "type": "color",
-          "description": "Info Alert Border"
+          "$value": "{color.calypso.medium}",
+          "$type": "color",
+          "$description": "Info Alert Border"
         },
         "warning": {
-          "value": "{color.marigold.medium}",
-          "type": "color",
-          "description": "Warning Alert Background"
+          "$value": "{color.marigold.medium}",
+          "$type": "color",
+          "$description": "Warning Alert Background"
         },
         "success": {
-          "value": "{color.oz.medium}",
-          "type": "color",
-          "description": "Success Alert Border"
+          "$value": "{color.oz.medium}",
+          "$type": "color",
+          "$description": "Success Alert Border"
         },
         "tip": {
-          "value": "{color.calypso.medium}",
-          "type": "color",
-          "description": "Tip Alert Border"
+          "$value": "{color.calypso.medium}",
+          "$type": "color",
+          "$description": "Tip Alert Border"
         }
       }
     },
     "minHeight": {
       "compact": {
-        "value": "{space.1100}",
-        "type": "dimension",
-        "description": "Min Height for inline Alert"
+        "$value": "{space.1100}",
+        "$type": "dimension",
+        "$description": "Min Height for inline Alert"
       },
       "default": {
-        "value": "{space.1500}",
-        "type": "dimension",
-        "description": "Min Height for Default Alert"
+        "$value": "{space.1500}",
+        "$type": "dimension",
+        "$description": "Min Height for Default Alert"
       }
     },
     "width": {
       "border": {
         "default": {
-          "value": "{width.border.default}",
-          "type": "borderWidth",
-          "description": "Border width for a default alert"
+          "$value": "{width.border.default}",
+          "$type": "borderWidth",
+          "$description": "Border width for a default alert"
         },
         "none": {
-          "value": "{width.border.none}",
-          "type": "borderWidth",
-          "description": "Border width for a Fire Alarm"
+          "$value": "{width.border.none}",
+          "$type": "borderWidth",
+          "$description": "Border width for a Fire Alarm"
         }
       }
     },
     "title": {
-      "value": {
+      "$value": {
         "lineHeight": "{typeScale.display.heading5} * {lineHeight.display}",
         "fontWeight": "{fontWeight.display.default}",
         "fontSize": "{typeScale.display.heading5}",
         "fontFamily": "{fontFamily.default}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "text": {
-      "value": {
+      "$value": {
         "lineHeight": "{typeScale.body.default}  * {lineHeight.oneFour}",
         "fontFamily": "{fontFamily.default}",
         "fontWeight": "{fontWeight.body.default}",
         "fontSize": "{typeScale.body.default}"
       },
-      "type": "typography"
+      "$type": "typography"
     },
     "space": {
       "padding": {
         "block": {
           "default": {
-            "value": "{space.200}",
-            "type": "spacing"
+            "$value": "{space.200}",
+            "$type": "spacing"
           }
         },
         "inline": {
           "default": {
-            "value": "{space.500}",
-            "type": "spacing"
+            "$value": "{space.500}",
+            "$type": "spacing"
           }
         }
       },
       "gap": {
         "inline": {
           "default": {
-            "value": "{space.500}",
-            "type": "spacing",
-            "description": "Space between title and body in Alerts and FireAlarms"
+            "$value": "{space.500}",
+            "$type": "spacing",
+            "$description": "Space between title and body in Alerts and FireAlarms"
           }
         },
         "block": {
           "default": {
-            "value": "{space.200}",
-            "type": "spacing",
-            "description": "Block space between title and text in Alerts and Firealarm"
+            "$value": "{space.200}",
+            "$type": "spacing",
+            "$description": "Block space between title and text in Alerts and Firealarm"
           }
         }
       }
     },
     "border": {
       "danger": {
-        "value": {
+        "$value": {
           "color": "{alert.color.border.danger}",
           "width": "{width.border.default}",
           "style": "solid"
         },
-        "type": "border"
+        "$type": "border"
       },
       "info": {
-        "value": {
+        "$value": {
           "color": "{alert.color.border.info}",
           "width": "{width.border.default}",
           "style": "solid"
         },
-        "type": "border"
+        "$type": "border"
       },
       "warning": {
-        "value": {
+        "$value": {
           "color": "{alert.color.border.warning}",
           "width": "{width.border.default}",
           "style": "solid"
         },
-        "type": "border"
+        "$type": "border"
       },
       "success": {
-        "value": {
+        "$value": {
           "color": "{alert.color.border.success}",
           "width": "{width.border.default}",
           "style": "solid"
         },
-        "type": "border"
+        "$type": "border"
       },
       "tip": {
-        "value": {
+        "$value": {
           "color": "{alert.color.border.tip}",
           "width": "{width.border.default}",
           "style": "solid"
         },
-        "type": "border"
+        "$type": "border"
       }
     }
   },
   "alertFloating": {
     "shadow": {
-      "value": {
+      "$value": {
         "x": "0",
         "y": "1px",
         "blur": "4px",
@@ -205,8 +205,8 @@
         "color": "rgba(66,91,118,.06)",
         "type": "dropShadow"
       },
-      "type": "boxShadow",
-      "description": "Shadow for Floating Alerts."
+      "$type": "boxShadow",
+      "$description": "Shadow for Floating Alerts."
     }
   }
 }
