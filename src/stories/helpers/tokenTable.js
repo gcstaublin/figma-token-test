@@ -32,6 +32,37 @@ const TABLE_STYLES = `
       border-radius: 3px;
       font-size: 11px;
       white-space: nowrap;
+      cursor: pointer;
+      position: relative;
+      transition: background 0.15s;
+      user-select: none;
+    }
+    .token-table code:hover {
+      background: #e0e8ff;
+      color: #0040cc;
+    }
+    .token-table code.copied {
+      background: #d4f5e2;
+      color: #0a7a3a;
+    }
+    .token-table code::after {
+      content: attr(data-copied-label);
+      position: absolute;
+      left: 50%;
+      top: -28px;
+      transform: translateX(-50%);
+      background: #222;
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+    .token-table code.copied::after {
+      opacity: 1;
     }
     .token-preview-swatch {
       width: 32px;
@@ -75,6 +106,27 @@ const TABLE_STYLES = `
   </style>
 `;
 
+const COPY_SCRIPT = `
+<script>
+  (function () {
+    if (window.__tokenCopyAttached) return;
+    window.__tokenCopyAttached = true;
+    document.addEventListener('click', function (e) {
+      const code = e.target.closest('code[data-copy]');
+      if (!code) return;
+      const text = code.dataset.copy;
+      navigator.clipboard.writeText(text).then(function () {
+        code.classList.add('copied');
+        setTimeout(function () { code.classList.remove('copied'); }, 1200);
+      });
+    });
+  })();
+</script>`;
+
+function copyCode(text) {
+  return `<code data-copy="${text}" data-copied-label="Copied!">${text}</code>`;
+}
+
 /**
  * Renders a full token table.
  * @param {Array} tokens - flat token array from flattenTokens()
@@ -94,9 +146,9 @@ export function renderTokenTable(tokens, renderPreview, { showDescription = true
     return `
       <tr>
         <td>${preview}</td>
-        <td><code>${css}</code></td>
-        <td><code>${scss}</code></td>
-        <td><code>${ts}</code></td>
+        <td>${copyCode(css)}</td>
+        <td>${copyCode(scss)}</td>
+        <td>${copyCode(ts)}</td>
         ${showValue ? `<td class="token-value">${formatValue(token.$value)}</td>` : ''}
         ${showDescription ? `<td class="token-desc">${desc}</td>` : ''}
       </tr>`;
@@ -104,6 +156,7 @@ export function renderTokenTable(tokens, renderPreview, { showDescription = true
 
   return `
     ${TABLE_STYLES}
+    ${COPY_SCRIPT}
     <div class="token-page">
       <table class="token-table">
         <thead>
@@ -139,9 +192,9 @@ export function renderGroupedTokenTable(groups, renderPreview, options = {}) {
       return `
         <tr>
           <td>${preview}</td>
-          <td><code>${css}</code></td>
-          <td><code>${scss}</code></td>
-          <td><code>${ts}</code></td>
+          <td>${copyCode(css)}</td>
+          <td>${copyCode(scss)}</td>
+          <td>${copyCode(ts)}</td>
           <td class="token-value">${formatValue(token.$value)}</td>
           <td class="token-desc">${desc}</td>
         </tr>`;
@@ -164,7 +217,7 @@ export function renderGroupedTokenTable(groups, renderPreview, options = {}) {
       </table>`;
   }).join('');
 
-  return `${TABLE_STYLES}<div class="token-page">${sections}</div>`;
+  return `${TABLE_STYLES}${COPY_SCRIPT}<div class="token-page">${sections}</div>`;
 }
 
 function formatValue(val) {
