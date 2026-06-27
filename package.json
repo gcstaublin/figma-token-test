@@ -1,9 +1,9 @@
 {
-  "devDependencies": {
-    "@tokens-studio/sd-transforms": "^0.10.3",
-    "style-dictionary": "^3.8.0"
-  },
+  "type": "module",
   "scripts": {
     "build": "node build.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.5.0"
   }
 }
