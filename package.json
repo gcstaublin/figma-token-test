@@ -1,9 +1,21 @@
 {
   "type": "module",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js && node scripts/generateTokenData.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "style-dictionary": "^5.5.0"
+    "style-dictionary": "^5.5.0",
+    "storybook": "^10.4.6",
+    "@storybook/html-vite": "^10.4.6",
+    "@chromatic-com/storybook": "^5.2.1",
+    "@storybook/addon-vitest": "^10.4.6",
+    "@storybook/addon-a11y": "^10.4.6",
+    "@storybook/addon-docs": "^10.4.6",
+    "vitest": "^4.1.9",
+    "playwright": "^1.61.1",
+    "@vitest/browser-playwright": "^4.1.9",
+    "@vitest/coverage-v8": "^4.1.9"
   }
 }

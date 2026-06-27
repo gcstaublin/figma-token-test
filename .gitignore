@@ -2,3 +2,6 @@
 *.DS_Store
 package-lock.json
 /dist/
+
+*storybook.log
+storybook-static
