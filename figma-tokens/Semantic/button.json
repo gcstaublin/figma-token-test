@@ -4,19 +4,34 @@
       "background": {
         "primary": {
           "idle": {
-            "$value": "{color.lorax.default}",
+            "$value": "{color.obsidian}",
             "$type": "color",
-            "$description": "Background color primary button idle state"
+            "$description": "Background color primary button idle state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:116"
+              }
+            }
           },
           "hover": {
             "$value": "#ff8f73",
             "$type": "color",
-            "$description": "Background color primary button hover state"
+            "$description": "Background color primary button hover state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:117"
+              }
+            }
           },
           "pressed": {
             "$value": "{color.lorax.dark}",
             "$type": "color",
-            "$description": "Background color primary button active state"
+            "$description": "Background color primary button active state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:118"
+              }
+            }
           }
         },
         "neutral": {
@@ -24,51 +39,96 @@
             "idle": {
               "$value": "{color.neutral.koala}",
               "$type": "color",
-              "$description": "Background color tertiary light button idle state"
+              "$description": "Background color tertiary light button idle state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:119"
+                }
+              }
             },
             "hover": {
               "$value": "{color.neutral.gypsum}",
               "$type": "color",
-              "$description": "Background color tertiary light button hover state"
+              "$description": "Background color tertiary light button hover state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:120"
+                }
+              }
             },
             "pressed": {
               "$value": "{color.neutral.battleship}",
               "$type": "color",
-              "$description": "Background color tertiary light button active state"
+              "$description": "Background color tertiary light button active state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:121"
+                }
+              }
             }
           },
           "dark": {
             "idle": {
-              "$value": "{color.neutral.heffalump}",
+              "$value": "{color.sorbet.default}",
               "$type": "color",
-              "$description": "Background color tertiary button idle state"
+              "$description": "Background color tertiary button idle state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:122"
+                }
+              }
             },
             "hover": {
               "$value": "{color.neutral.slinky}",
               "$type": "color",
-              "$description": "Background color tertiary button hover state"
+              "$description": "Background color tertiary button hover state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:123"
+                }
+              }
             },
             "pressed": {
               "$value": "{color.obsidian}",
               "$type": "color",
-              "$description": "Background color tertiary button active state"
+              "$description": "Background color tertiary button active state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:124"
+                }
+              }
             }
           },
           "light": {
             "idle": {
               "$value": "{color.neutral.olaf}",
               "$type": "color",
-              "$description": "Background color tertiary extra light button idle state"
+              "$description": "Background color tertiary extra light button idle state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:125"
+                }
+              }
             },
             "hover": {
               "$value": "{color.neutral.gypsum}",
               "$type": "color",
-              "$description": "Background color tertiary extra light button hover state"
+              "$description": "Background color tertiary extra light button hover state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:126"
+                }
+              }
             },
             "pressed": {
               "$value": "{color.neutral.battleship}",
               "$type": "color",
-              "$description": "Background color tertiary extra light button active state"
+              "$description": "Background color tertiary extra light button active state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:127"
+                }
+              }
             }
           }
         },
@@ -76,71 +136,141 @@
           "idle": {
             "$value": "{color.neutral.olaf}",
             "$type": "color",
-            "$description": "Background color secondary button idle state"
+            "$description": "Background color secondary button idle state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:128"
+              }
+            }
           },
           "hover": {
             "$value": "#fff8f6",
             "$type": "color",
-            "$description": "Background color secondary button hover state"
+            "$description": "Background color secondary button hover state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:129"
+              }
+            }
           },
           "pressed": {
             "$value": "#ffebe6",
             "$type": "color",
-            "$description": "Background color secondary button active state"
+            "$description": "Background color secondary button active state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:130"
+              }
+            }
           }
         },
         "danger": {
           "idle": {
             "$value": "{color.candy apple.default}",
             "$type": "color",
-            "$description": "Background color danger button idle state"
+            "$description": "Background color danger button idle state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:131"
+              }
+            }
           },
           "hover": {
             "$value": "#ff5962",
             "$type": "color",
-            "$description": "Background color danger button hover state"
+            "$description": "Background color danger button hover state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:132"
+              }
+            }
           },
           "pressed": {
             "$value": "{color.candy apple.dark}",
             "$type": "color",
-            "$description": "Background color danger button active state"
+            "$description": "Background color danger button active state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:133"
+              }
+            }
           }
         },
         "white": {
           "idle": {
             "$value": "{color.neutral.olaf}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:134"
+              }
+            }
           },
           "hover": {
             "$value": "rgba(255, 255, 255, 0.9)",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:135"
+              }
+            }
           },
           "pressed": {
             "$value": "rgba(255, 255, 255, 0.8)",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:136"
+              }
+            }
           }
         },
         "ghost": {
           "idle": {
             "$value": "rgba(255, 255, 255, 0)",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:137"
+              }
+            }
           },
           "hover": {
             "$value": "rgba(255, 255, 255, 0.05)",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:138"
+              }
+            }
           },
           "pressed": {
-            "$value": "rgba(255, 255, 255, 0.10)",
-            "$type": "color"
+            "$value": "rgba(255, 255, 255, 0.1)",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:139"
+              }
+            }
           }
         },
         "disabled": {
           "$value": "{color.neutral.koala}",
-          "$type": "color"
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:140"
+            }
+          }
         },
         "transparent": {
           "$value": "rgba(0, 0, 0, 0)",
-          "$type": "color"
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:141"
+            }
+          }
         }
       },
       "border": {
@@ -148,17 +278,32 @@
           "idle": {
             "$value": "{button.color.background.primary.idle}",
             "$type": "color",
-            "$description": "Border color primary button idle state"
+            "$description": "Border color primary button idle state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:142"
+              }
+            }
           },
           "hover": {
             "$value": "{button.color.background.primary.hover}",
             "$type": "color",
-            "$description": "Border color primary button hover state"
+            "$description": "Border color primary button hover state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:143"
+              }
+            }
           },
           "pressed": {
             "$value": "{button.color.background.primary.pressed}",
             "$type": "color",
-            "$description": "Border color primary button active state"
+            "$description": "Border color primary button active state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:144"
+              }
+            }
           }
         },
         "neutral": {
@@ -166,51 +311,96 @@
             "idle": {
               "$value": "{color.neutral.battleship}",
               "$type": "color",
-              "$description": "Border color tertiary light button idle state"
+              "$description": "Border color tertiary light button idle state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:145"
+                }
+              }
             },
             "hover": {
               "$value": "{button.color.border.neutral.default.idle}",
               "$type": "color",
-              "$description": "Border color tertiary light button hover state"
+              "$description": "Border color tertiary light button hover state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:146"
+                }
+              }
             },
             "pressed": {
               "$value": "{color.neutral.eerie}",
               "$type": "color",
-              "$description": "Border color tertiary light button active state"
+              "$description": "Border color tertiary light button active state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:147"
+                }
+              }
             }
           },
           "dark": {
             "idle": {
               "$value": "{button.color.background.neutral.dark.idle}",
               "$type": "color",
-              "$description": "Border color tertiary button idle state"
+              "$description": "Border color tertiary button idle state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:148"
+                }
+              }
             },
             "hover": {
               "$value": "{button.color.background.neutral.dark.hover}",
               "$type": "color",
-              "$description": "Border color tertiary button hover state"
+              "$description": "Border color tertiary button hover state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:149"
+                }
+              }
             },
             "pressed": {
               "$value": "{button.color.background.neutral.dark.pressed}",
               "$type": "color",
-              "$description": "Border color tertiary button active state"
+              "$description": "Border color tertiary button active state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:150"
+                }
+              }
             }
           },
           "light": {
             "idle": {
               "$value": "{color.neutral.battleship}",
               "$type": "color",
-              "$description": "Border color tertiary extra light button idle state"
+              "$description": "Border color tertiary extra light button idle state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:151"
+                }
+              }
             },
             "hover": {
               "$value": "{button.color.border.neutral.light.idle}",
               "$type": "color",
-              "$description": "Border color tertiary extra light button hover state"
+              "$description": "Border color tertiary extra light button hover state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:152"
+                }
+              }
             },
             "pressed": {
               "$value": "{color.neutral.eerie}",
               "$type": "color",
-              "$description": "Border color tertiary extra light button active state"
+              "$description": "Border color tertiary extra light button active state",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:153"
+                }
+              }
             }
           }
         },
@@ -218,43 +408,83 @@
           "idle": {
             "$value": "{button.color.text.onBackground.secondary.default}",
             "$type": "color",
-            "$description": "Border color secondary button idle state"
+            "$description": "Border color secondary button idle state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:154"
+              }
+            }
           },
           "hover": {
             "$value": "{button.color.border.secondary.idle}",
             "$type": "color",
-            "$description": "Border color secondary button hover state"
+            "$description": "Border color secondary button hover state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:155"
+              }
+            }
           },
           "pressed": {
             "$value": "{button.color.border.secondary.idle}",
             "$type": "color",
-            "$description": "Border color secondary button active state"
+            "$description": "Border color secondary button active state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:156"
+              }
+            }
           }
         },
         "danger": {
           "idle": {
             "$value": "{button.color.background.danger.idle}",
             "$type": "color",
-            "$description": "Border color danger button idle state"
+            "$description": "Border color danger button idle state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:157"
+              }
+            }
           },
           "hover": {
             "$value": "{button.color.background.danger.hover}",
             "$type": "color",
-            "$description": "Border color danger button hover state"
+            "$description": "Border color danger button hover state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:158"
+              }
+            }
           },
           "pressed": {
             "$value": "{button.color.background.danger.pressed}",
             "$type": "color",
-            "$description": "Border color danger button active state"
+            "$description": "Border color danger button active state",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:159"
+              }
+            }
           }
         },
         "transparent": {
           "$value": "rgba(0, 0, 0, 0)",
-          "$type": "color"
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:160"
+            }
+          }
         },
         "disabled": {
           "$value": "{button.color.background.disabled}",
-          "$type": "color"
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:161"
+            }
+          }
         }
       },
       "text": {
@@ -263,38 +493,68 @@
             "default": {
               "$value": "{color.neutral.olaf}",
               "$type": "color",
-              "$description": "Text color on background primary"
+              "$description": "Text color on background primary",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:162"
+                }
+              }
             }
           },
           "neutral": {
             "default": {
               "$value": "#506e91",
               "$type": "color",
-              "$description": "Text color on background neutral default"
+              "$description": "Text color on background neutral default",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:163"
+                }
+              }
             },
             "dark": {
               "$value": "{color.neutral.olaf}",
               "$type": "color",
-              "$description": "Text color on background neutral dark"
+              "$description": "Text color on background neutral dark",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:164"
+                }
+              }
             },
             "light": {
               "$value": "{button.color.text.onBackground.neutral.default}",
               "$type": "color",
-              "$description": "Text color on background neutral light"
+              "$description": "Text color on background neutral light",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:165"
+                }
+              }
             }
           },
           "secondary": {
             "default": {
               "$value": "#ff7a59",
               "$type": "color",
-              "$description": "Text color on background secondary"
+              "$description": "Text color on background secondary",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:166"
+                }
+              }
             }
           },
           "danger": {
             "default": {
               "$value": "{color.neutral.olaf}",
               "$type": "color",
-              "$description": "Text color on background danger"
+              "$description": "Text color on background danger",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:167"
+                }
+              }
             }
           },
           "transparent": {
@@ -314,18 +574,33 @@
           "white": {
             "default": {
               "$value": "{color.text.default}",
-              "$type": "color"
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:168"
+                }
+              }
             }
           },
           "ghost": {
             "default": {
               "$value": "{color.text.inverse}",
-              "$type": "color"
+              "$type": "color",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:169"
+                }
+              }
             }
           },
           "disabled": {
             "$value": "{color.text.disabled}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:170"
+              }
+            }
           }
         }
       },
@@ -334,14 +609,24 @@
           "default": {
             "$value": "#ff7a59",
             "$type": "color",
-            "$description": "Text color on background secondary"
+            "$description": "Text color on background secondary",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:171"
+              }
+            }
           }
         },
         "danger": {
           "default": {
             "$value": "{button.color.text.onBackground.danger.default}",
             "$type": "color",
-            "$description": "Text color on background danger"
+            "$description": "Text color on background danger",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:172"
+              }
+            }
           }
         },
         "transparent": {
@@ -353,38 +638,73 @@
         "white": {
           "default": {
             "$value": "{button.color.text.onBackground.white.default}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:173"
+              }
+            }
           }
         },
         "ghost": {
           "default": {
             "$value": "{button.color.text.onBackground.ghost.default}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:174"
+              }
+            }
           }
         },
         "primary": {
           "default": {
             "$value": "{button.color.text.onBackground.primary.default}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:175"
+              }
+            }
           }
         },
         "neutral": {
           "default": {
             "$value": "{button.color.text.onBackground.neutral.default}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:176"
+              }
+            }
           },
           "dark": {
             "$value": "{button.color.text.onBackground.neutral.dark}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:177"
+              }
+            }
           },
           "light": {
             "$value": "{button.color.text.onBackground.neutral.light}",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:178"
+              }
+            }
           }
         },
         "disabled": {
           "$value": "{button.color.text.onBackground.disabled}",
-          "$type": "color"
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:179"
+            }
+          }
         }
       }
     },
@@ -449,12 +769,22 @@
     "radius": {
       "default": {
         "$value": "{radius.border.default}",
-        "$type": "borderRadius"
+        "$type": "borderRadius",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:198"
+          }
+        }
       },
       "circle": {
         "$value": "{radius.border.circle}",
         "$type": "borderRadius",
-        "$description": "Border radius for circle icon buttons"
+        "$description": "Border radius for circle icon buttons",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:199"
+          }
+        }
       }
     },
     "space": {
@@ -463,30 +793,60 @@
           "default": {
             "$value": "{space.600}",
             "$type": "spacing",
-            "$description": "Internal space (padding) for default (medium) button"
+            "$description": "Internal space (padding) for default (medium) button",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:186"
+              }
+            }
           },
           "small": {
             "$value": "{space.400}",
             "$type": "spacing",
-            "$description": "Internal space (padding) for small button"
+            "$description": "Internal space (padding) for small button",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:187"
+              }
+            }
           },
           "extraSmall": {
             "$value": "{space.300}",
             "$type": "spacing",
-            "$description": "Internal space (padding) for extra-small button"
+            "$description": "Internal space (padding) for extra-small button",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:188"
+              }
+            }
           },
           "transparent": {
             "default": {
               "$value": "{space.300}",
-              "$type": "spacing"
+              "$type": "spacing",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:189"
+                }
+              }
             },
             "small": {
               "$value": "{space.200}",
-              "$type": "spacing"
+              "$type": "spacing",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:190"
+                }
+              }
             },
             "extraSmall": {
               "$value": "{space.150}",
-              "$type": "spacing"
+              "$type": "spacing",
+              "$extensions": {
+                "com.figma": {
+                  "variableId": "VariableID:35:191"
+                }
+              }
             }
           }
         },
@@ -494,17 +854,32 @@
           "default": {
             "$value": "11px",
             "$type": "spacing",
-            "$description": "Internal space (aka padding) for default (medium) button "
+            "$description": "Internal space (aka padding) for default (medium) button ",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:192"
+              }
+            }
           },
           "small": {
             "$value": "{space.200}",
             "$type": "spacing",
-            "$description": "Internal space (padding) for small button"
+            "$description": "Internal space (padding) for small button",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:193"
+              }
+            }
           },
           "extraSmall": {
             "$value": "5px",
             "$type": "spacing",
-            "$description": "Internal space (padding) for extra-small button"
+            "$description": "Internal space (padding) for extra-small button",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:194"
+              }
+            }
           }
         }
       },
@@ -512,17 +887,32 @@
         "default": {
           "$value": "7px",
           "$type": "spacing",
-          "$description": "Space between elements in default size button"
+          "$description": "Space between elements in default size button",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:195"
+            }
+          }
         },
         "small": {
           "$value": "{space.150}",
           "$type": "spacing",
-          "$description": "Space between elements in small size button"
+          "$description": "Space between elements in small size button",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:196"
+            }
+          }
         },
         "extraSmall": {
           "$value": "{space.150}",
           "$type": "spacing",
-          "$description": "Space between elements in extra small-size button"
+          "$description": "Space between elements in extra small-size button",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:197"
+            }
+          }
         }
       }
     },
@@ -530,39 +920,74 @@
       "border": {
         "default": {
           "$value": "{width.border.default}",
-          "$type": "borderWidth"
+          "$type": "borderWidth",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:203"
+            }
+          }
         }
       }
     },
     "lineHeight": {
       "default": {
         "$value": "16px",
-        "$type": "lineHeights"
+        "$type": "lineHeights",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:180"
+          }
+        }
       },
       "small": {
         "$value": "14px",
-        "$type": "lineHeights"
+        "$type": "lineHeights",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:181"
+          }
+        }
       },
       "extraSmall": {
         "$value": "{button.lineHeight.small}",
-        "$type": "lineHeights"
+        "$type": "lineHeights",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:182"
+          }
+        }
       }
     },
     "fontSize": {
       "default": {
         "$value": "{fontSize.14}",
         "$type": "fontSizes",
-        "$description": "Font size of default (medium) buttons"
+        "$description": "Font size of default (medium) buttons",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:183"
+          }
+        }
       },
       "small": {
         "$value": "{fontSize.12}",
         "$type": "fontSizes",
-        "$description": "Font size for small buttons"
+        "$description": "Font size for small buttons",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:184"
+          }
+        }
       },
       "extraSmall": {
         "$value": "{button.fontSize.small}",
         "$type": "fontSizes",
-        "$description": "Font size for extra small buttons"
+        "$description": "Font size for extra small buttons",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:185"
+          }
+        }
       }
     },
     "size": {
@@ -570,17 +995,32 @@
         "default": {
           "$value": "14px",
           "$type": "sizing",
-          "$description": "(FIGMA) Icon size for buttons "
+          "$description": "(FIGMA) Icon size for buttons ",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:200"
+            }
+          }
         },
         "small": {
           "$value": "12px",
           "$type": "sizing",
-          "$description": "(FIGMA) Icon size for buttons "
+          "$description": "(FIGMA) Icon size for buttons ",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:201"
+            }
+          }
         },
         "extraSmall": {
           "$value": "12px",
           "$type": "sizing",
-          "$description": "(FIGMA) Icon size for buttons "
+          "$description": "(FIGMA) Icon size for buttons ",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:202"
+            }
+          }
         }
       }
     }
@@ -590,34 +1030,64 @@
       "default": {
         "$value": "40px",
         "$type": "sizing",
-        "$description": "Width of a default size Icon Button"
+        "$description": "Width of a default size Icon Button",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:204"
+          }
+        }
       },
       "small": {
         "$value": "32px",
         "$type": "sizing",
-        "$description": "Width of a small size Icon Button"
+        "$description": "Width of a small size Icon Button",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:205"
+          }
+        }
       },
       "extraSmall": {
         "$value": "26px",
         "$type": "sizing",
-        "$description": "Width of a extra-small size Icon Button"
+        "$description": "Width of a extra-small size Icon Button",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:206"
+          }
+        }
       }
     },
     "fontSize": {
       "default": {
         "$value": "18px",
         "$type": "fontSizes",
-        "$description": "Font size of a default size Icon Button (controls size of Icon)"
+        "$description": "Font size of a default size Icon Button (controls size of Icon)",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:207"
+          }
+        }
       },
       "small": {
         "$value": "{fontSize.16}",
         "$type": "fontSizes",
-        "$description": "Font size of a small size Icon Button (controls size of Icon)"
+        "$description": "Font size of a small size Icon Button (controls size of Icon)",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:208"
+          }
+        }
       },
       "extraSmall": {
         "$value": "{fontSize.12}",
         "$type": "fontSizes",
-        "$description": "Font size of a extra-small size Icon Button (controls size of Icon)"
+        "$description": "Font size of a extra-small size Icon Button (controls size of Icon)",
+        "$extensions": {
+          "com.figma": {
+            "variableId": "VariableID:35:209"
+          }
+        }
       }
     }
   },
@@ -626,19 +1096,39 @@
       "icon": {
         "small": {
           "$value": "{iconSize.8}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:219"
+            }
+          }
         },
         "medium": {
           "$value": "{iconSize.12}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:220"
+            }
+          }
         },
         "large": {
           "$value": "{iconSize.16}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:221"
+            }
+          }
         },
         "extraLarge": {
           "$value": "{iconSize.36}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:222"
+            }
+          }
         }
       }
     },
@@ -647,48 +1137,93 @@
         "idle": {
           "$value": "rgba(255, 255, 255, 0)",
           "$type": "color",
-          "$description": "Idle state for closeButton affordance"
+          "$description": "Idle state for closeButton affordance",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:210"
+            }
+          }
         },
         "hover": {
-          "$value": "rgba(255, 255, 255, .1)",
+          "$value": "rgba(255, 255, 255, 0.1)",
           "$type": "color",
-          "$description": "Hover state for closeButton affordance"
+          "$description": "Hover state for closeButton affordance",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:211"
+            }
+          }
         },
         "pressed": {
           "$value": "{closeButton.color.background.hover}",
           "$type": "color",
-          "$description": "Pressed state for closeButton affordance"
+          "$description": "Pressed state for closeButton affordance",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:212"
+            }
+          }
         },
         "focus": {
           "$value": "{closeButton.color.background.hover}",
           "$type": "color",
-          "$description": "Focus state for closeButton affordance"
+          "$description": "Focus state for closeButton affordance",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:213"
+            }
+          }
         },
         "disabled": {
           "$value": "{closeButton.color.background.idle}",
           "$type": "color",
-          "$description": "Disabled state for closeButton affordance"
+          "$description": "Disabled state for closeButton affordance",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:214"
+            }
+          }
         }
       },
       "icon": {
         "default": {
           "idle": {
-            "$value": "{action.color.icon.default}",
-            "$type": "color"
+            "$value": "#ffffff",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:215"
+              }
+            }
           },
           "disabled": {
             "$value": "rgba(124, 152, 182, 0.6)",
-            "$type": "color"
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:216"
+              }
+            }
           }
         },
         "inverse": {
           "idle": {
-            "$value": "{action.color.icon.inverse}",
-            "$type": "color"
+            "$value": "#ffffff",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:217"
+              }
+            }
           },
           "disabled": {
-            "$value": "rgba(255,255,255, 0.6)",
-            "$type": "color"
+            "$value": "rgba(255, 255, 255, 0.6)",
+            "$type": "color",
+            "$extensions": {
+              "com.figma": {
+                "variableId": "VariableID:35:218"
+              }
+            }
           }
         }
       }
@@ -697,19 +1232,39 @@
       "padding": {
         "small": {
           "$value": "{space.100}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:223"
+            }
+          }
         },
         "medium": {
           "$value": "{space.150}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:224"
+            }
+          }
         },
         "large": {
           "$value": "{space.200}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:225"
+            }
+          }
         },
         "extraLarge": {
           "$value": "{space.450}",
-          "$type": "dimension"
+          "$type": "dimension",
+          "$extensions": {
+            "com.figma": {
+              "variableId": "VariableID:35:226"
+            }
+          }
         }
       }
     }
